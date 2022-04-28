@@ -46,7 +46,7 @@ antlch()
 var ldc = ''
 if (Config.LANG == 'AZ') ldc = '*Bağlantı Aşkarlandı!*'
 if (Config.LANG == 'TR') ldc = '*‎Link Tespit Edildi!*'
-if (Config.LANG == 'EN') ldc = '*LINK NOT ALLOWED HERE!*'
+if (Config.LANG == 'EN') ldc = '*𝐁𝐑𝐎 𝐓𝐇𝐈𝐒 𝐆𝐑𝐎𝐔𝐏 𝐍𝐎𝐓 𝐀𝐋𝐋𝐎𝐖𝐄𝐃 𝐀𝐍𝐓𝐇𝐎𝐑 𝐆𝐑𝐎𝐔𝐏 𝐋𝐈𝐍𝐊 *𝐓𝐇𝐄𝐍 𝐈𝐀𝐌 𝐑𝐄𝐌𝐎𝐕𝐈𝐍𝐆!*'
 if (Config.LANG == 'ML') ldc = '*ലിങ്ക് കണ്ടെത്തി!*'
 if (Config.LANG == 'ID') ldc = '*Tautan Terdeteksi!*'
 if (Config.LANG == 'PT') ldc = '*Link Detectado!*'

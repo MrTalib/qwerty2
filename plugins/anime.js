@@ -1,20 +1,12 @@
-/* Copyright (C) 2020 Yusuf Usta.
-recoded by farhan-dqz
-Licensed under the  GPL-3.0 License;
-you may not use this file except in compliance with the License.
 
-WhatsAsena - Yusuf Usta
-*/
-
-
-const Julie = require('../events');
+const Asena = require('../events'); 
 const {MessageType, MessageOptions, Mimetype} = require('@adiwajshing/baileys');
 const axios = require('axios');
 const Config = require('../config');
 
 if (Config.WORKTYPE == 'private') {
 
-    Julie.addCommand({pattern: 'anime', fromMe: true, desc: 'random anime image'}, (async (message, match) => {
+    Asena.addCommand({pattern: 'anime', fromMe: true, desc: 'random anime image'}, (async (message, match) => {
 
     var r_text = new Array ();
 
@@ -108,7 +100,7 @@ if (Config.WORKTYPE == 'private') {
 }
 else if (Config.WORKTYPE == 'public') {
 
-    Julie.addCommand({pattern: 'anime', fromMe: false, desc:'random anime image '}, (async (message, match) => {
+    Asena.addCommand({pattern: 'anime', fromMe: false, desc:'random anime image '}, (async (message, match) => {
 
     var r_text = new Array ();
 
@@ -200,4 +192,3 @@ else if (Config.WORKTYPE == 'public') {
 
     }));
 }
-

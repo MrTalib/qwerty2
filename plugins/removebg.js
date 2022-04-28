@@ -49,10 +49,10 @@ if (Config.WORKTYPE == 'private') {
     
         await pipeline(
 		    rbg,
-		    fs.createWriteStream('rbg.png')
+		    fs.createWriteStream('logo.jpg')
         );
     
-        await message.client.sendMessage(message.jid,fs.readFileSync('rbg.png'), MessageType.document, {filename: 'Liza Mwol.png', mimetype: Mimetype.png});
+        await message.client.sendMessage(message.jid,fs.readFileSync('logo.jpg'), MessageType.document, {filename: 'Liza Mwol.png', mimetype: Mimetype.png});
         await load.delete();
     }));
 }
@@ -85,10 +85,10 @@ else if (Config.WORKTYPE == 'public') {
     
         await pipeline(
 		    rbg,
-		    fs.createWriteStream('rbg.png')
+		    fs.createWriteStream('logo.jpg')
         );
     
-        await message.client.sendMessage(message.jid,fs.readFileSync('rbg.png'), MessageType.document, {filename: 'Liza Mwol.png', mimetype: Mimetype.png});
+        await message.client.sendMessage(message.jid,fs.readFileSync('logo.jpg'), MessageType.document, {filename: 'Liza Mwol.png', mimetype: Mimetype.png});
         await load.delete();
     }));
     

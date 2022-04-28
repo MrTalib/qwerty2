@@ -5,7 +5,7 @@ you may not use this file except in compliance with the License.
 
 
 const {MessageType, GroupSettingChange, ChatModification, WAConnectionTest} = require('@adiwajshing/baileys');
-const Asena = require('../events');
+const Abu = require('../events');
 const Config = require('../config');
 
 const Language = require('../language');
@@ -21,16 +21,16 @@ async function checkImAdmin(message, user = message.client.user.jid) {
     return sonuc.includes(true);
 }
 
-Asena.addCommand({pattern: 'clear', fromMe: true, desc: END, dontAddCommandList: true}, (async (message, match) => {
+Abu.addCommand({pattern: 'clear', fromMe: true, desc: END, dontAddCommandList: true}, (async (message, match) => {
 
-    await message.sendMessage('```cleaning chat...```');
+    await message.sendMessage('```𝙲𝙷𝙰𝚃 𝙲𝙻𝙴𝙰𝙽𝙸𝙽𝙶....```');
     await message.client.modifyChat (message.jid, ChatModification.delete);
-    await message.sendMessage('```🏳 Chat cleared 🏳```');
+    await message.sendMessage('```𝙲𝙷𝙰𝚃 𝙲𝙻𝙴𝙰𝙽𝙴𝙳✅️```');
 }));
 
-Asena.addCommand({pattern: 'clean ?(.*)', fromMe: true, desc: END, dontAddCommandList: true}, (async (message, match) => {
+Abu.addCommand({pattern: 'clean ?(.*)', fromMe: true, desc: END, dontAddCommandList: true}, (async (message, match) => {
 
-    await message.sendMessage('Chat clearing...');   
+    await message.sendMessage('𝙲𝙷𝙰𝚃 𝙲𝙻𝙴𝙰𝚁𝙸𝙽𝙶...');   
     await message.client.modifyChat (match[1] == '' ? message.jid : match [1], ChatModification.delete);
-    await message.sendMessage('🚮 Chat cleared');
+    await message.sendMessage('🚮 𝙲𝙷𝙰𝚃 𝙲𝙻𝙴𝙰𝚁𝙴𝙳.....');
 }));
