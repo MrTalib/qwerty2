@@ -1,0 +1,5 @@
+build:
+  docker:
+      worker: /Luzi/Dockerfile
+run:
+   worker: npm start
