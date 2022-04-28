@@ -1,94 +1,105 @@
-/* Copyright (C) 2020 Yusuf Usta.
+// Bismillahirrahmanirrahim
+// thank you to ALLAH Swt
+// thank you to Nurutomo as wabot-aq
+// thank you to ariffb as stikerinbot
+// thank you to botstylee
+// thank you to bochilgaming as games-wabot
+// thank you to benni ismael
+// thank you to zerochanBot
+// thank you to fernazer
+// thank you to MikeBot Dev Team
+// thank you to ALL Bot creator
+// and thanks you to who support my Bot
+let fs = require('fs')
+let chalk = require('chalk')
 
-WhatsAsena - Yusuf Usta
-*/
-
-const { Sequelize } = require('sequelize');
-const fs = require('fs');
-if (fs.existsSync('config.env')) require('dotenv').config({ path: './config.env' });
-
-// Özel Fonksiyonlarımız
-function convertToBool(text, fault = 'true') {
-    return text === fault ? true : false;
+global.linkGC = ['https://chat.whatsapp.com/EVCGfzxLWfp81n0WhmVklH', 'https://chat.whatsapp.com/FnNAbem8o6r4pgLhSdO8Q9', 'https://chat.whatsapp.com/HBhy7rVae3o0PkIfkhvs2N'] // ganti jadi group lu
+global.owner = ['6289505165400', '6282221792667', '6285730903853'] // Masukan nomot kalian
+global.mods = ['6289505165400', '6282221792667'] // Moderator
+global.prems = JSON.parse(fs.readFileSync('./src/premium.json')) // Pengguna premium tidak memerlukan limit
+global.APIs = { // API Prefix
+  // name: 'https://website'
+  bx: 'https://bx-hunter.herokuapp.com',
+  rey: 'https://server-api-rey.herokuapp.com',
+  hardianto: 'https://hardianto.xyz',
+  neoxr: 'https://neoxr-api.herokuapp.com',
+  nrtm: 'https://nurutomo.herokuapp.com',
+  xteam: 'https://api.xteam.xyz',
+  zahir: 'https://zahirr-web.herokuapp.com',
+  lol: 'https://api.lolhuman.xyz',
+  caliph: 'https://caliphapi.com',
+  dhnjing: 'https://dhnjing.xyz',
+  zeks: 'https://api.zeks.me',
+  pencarikode: 'https://pencarikode.xyz',
+  fxc7: 'https://fxc7-api.herokuapp.com',
+  LeysCoder: 'https://leyscoders-api.herokuapp.com'
+}
+global.APIKeys = { // APIKey Here
+  // 'https://website': 'apikey' (apikey kalian^_^)
+  'https://server-api-rey.herokuapp.com': 'apirey',
+  'https://bx-hunter.herokuapp.com': 'Ikyy69',
+  'https://hardianto.xyz': 'hardianto',
+  'https://neoxr-api.herokuapp.com': 'yntkts',
+  'https://api.xteam.xyz': 'cristian9407',
+  'https://api.lolhuman.xyz': 'Dawnfrostkey',
+  'https://caliphapi.com': 'ELYASXD',
+  'https://zahirr-web.herokuapp.com': 'zahirgans',
+  'https://api.zeks.me': 'apivinz',
+  'https://pencarikode.xyz': 'pais',
+  'https://fxc7-api.herokuapp.com': 'fxc7COOL',
+  'https://leyscoders-api.herokuapp.com': 'dappakntlll'
 }
 
-DATABASE_URL = process.env.DATABASE_URL === undefined ? './whatsasena.db' : process.env.DATABASE_URL;
-DEBUG = process.env.DEBUG === undefined ? false : convertToBool(process.env.DEBUG);
+// Sticker WM
+const spack = fs.readFileSync("lib/exif.json")
+const stickerpack = JSON.parse(spack)
+if (stickerpack.spackname == '') {
+  var sticker_name = 'Alyaa#'
+  var sticker_author = '©AlyaaXzy'
+} else {
+  var sticker_name = stickerpack.spackname
+  var sticker_author = stickerpack.sauthor
+}
 
-module.exports = {
-    VERSION: 'v8.0.0',
-    CHANNEL: 'https://t.me/remasterplugin',
-    SESSION: process.env.ABU_QR_SESSION === undefined ? '' : process.env.ABU_QR_SESSION,
-    ANTİLİNK: process.env.ANTİ_LİNK === undefined ? 'false' : process.env.ANTİ_LİNK,
-    AUTOBİO: process.env.AUTO_BİO === undefined ? 'false' : process.env.AUTO_BİO,
-    GANSTYLE: process.env.GAN_IMAGE === undefined ? 'https://i.hizliresim.com/loUtAb.jpg' : process.env.GAN_IMAGE,
+const file_exif = "lib/exif.json"
+fs.watchFile(file_exif, () => {
+  fs.unwatchFile(file_exif)
+  console.log(chalk.redBright("Update 'exif.json'"))
+  delete require.cache[file_exif]
+  require('./lib/exif.json')
+})
 
-    PM_BLOCK: process.env.PM_BLOCK === undefined ? 'false' : process.env.PM_BLOCK,
-    LANG: process.env.LANGUAGE === undefined ? 'TR' : process.env.LANGUAGE.toUpperCase(),
-    ALIVEMSG: process.env.ALIVE_MESSAGE === undefined ? 'default' : process.env.ALIVE_MESSAGE,
-    KICKMEMSG: process.env.KICKME_MESSAGE === undefined ? 'default' : process.env.KICKME_MESSAGE,
-    BLOCKCHAT: process.env.BLOCK_CHAT === undefined ? false : process.env.BLOCK_CHAT,
-    WELCOME: process.env.WELCOME === undefined ? 'pp' : process.env.WELCOME,
-    OWNER: process.env.OWNER_NAME === undefined ? 'default' : process.env.OWNER_NAME,
-    ALL: process.env.ALL_CAPTION === undefined ? 'MADE BY ABU SER' : process.env.ALL_CAPTION,
-    MENTION: process.env.TAG_REPLY === undefined ? '917025994178@s.whatsapp.net' : process.env.TAG_REPLY,
-    ABU: process.env.NAME_STYLE === undefined ? '𝙰𝙱𝚄 𝚂𝙴𝚁' : process.env.NAME_STYLE,
-    ADDMSG: process.env.ADD_MESSAGE === undefined ? 'default' : process.env.ADD_MESSAGE,
-    PLKS: process.env.THERI_LIST === undefined ? false : process.env.THERI_LIST,
-    MUTEMSG: process.env.MUTE_MESSAGE === undefined ? 'default' : process.env.MUTE_MESSAGE,
-    BGMFILTER: process.env.BGM_FILTER === undefined ? false : convertToBool(process.env.BGM_FILTER),
-    DISBGM: process.env.DISABLE_JID_BGM_FILTER === undefined ? false : process.env.DISABLE_JID_BGM_FILTER,
-    STICKERP: process.env.AUTO_STICKER === undefined ? true : convertToBool(process.env.AUTO_STICKER),
-    DISSTICKER: process.env.DISABLE_STICKER === undefined ? false : process.env.DISABLE_STICKER,
-    BOTABU: process.env.BOTV2_NAME === undefined ? '  𝐀𝐁𝐔 𝐒𝐄𝐑࿐  \n\n   *ωнαтsαρρ вσт™*   \n' : process.env.BOTV2_NAME,
-    NOLOG: process.env.NO_LOG === undefined ? 'false' : process.env.NO_LOG,
-    THERI_KICK: process.env.THERI_KICK === undefined ? 'false' : process.env.THERI_KICK,
-    SONGD: process.env.SONGD === undefined ? '✮⃝🕊️𝕯𝖔𝖜𝖓𝖑𝖔𝖆𝖉𝖎𝖓𝖌 𝖄𝖔𝖚𝖗 𝕾𝖔𝖓𝖌✮⃝🕊️' : process.env.SONGD,
-    SONGU: process.env.SONGU === undefined ? '✮⃝🕊️✿𝖀𝖕𝖑𝖔𝖆𝖉𝖎𝖓𝖌 𝖄𝖔𝖚𝖗 𝕾𝖔𝖓𝖌✿✮⃝🕊️' : process.env.SONGU,
-    FULLEVA: process.env.FULL_EVA === undefined ? 'false' : process.env.FULL_EVA,
-    BLOCKMSG: process.env.BLOCK_MESSAGE === undefined ? 'default' : process.env.BLOCK_MESSAGE,
-    UNBLOCKMSG: process.env.UNBLOCK_MESSAGE === undefined ? 'default' : process.env.UNBLOCK_MESSAGE,
-    UNMUTEMSG: process.env.UNMUTE_MESSAGE === undefined ? 'default' : process.env.UNMUTE_MESSAGE,
-    GEAR: process.env.CHANGE_BGM_TO === undefined ? 'one' : process.env.CHANGE_BGM_TO,
-    WORKTYPE: process.env.WORK_TYPE === undefined ? 'private' : process.env.WORK_TYPE,
-    PROMOTEMSG: process.env.PROMOTE_MESSAGE === undefined ? 'default' : process.env.PROMOTE_MESSAGE,
-    DEMOTEMSG: process.env.DEMOTE_MESSAGE === undefined ? 'default' : process.env.DEMOTE_MESSAGE,
-    BANMSG: process.env.BAN_MESSAGE === undefined ? 'default' : process.env.BAN_MESSAGE,
-    AFKMSG: process.env.AFK_MESSAGE === undefined ? 'default' : process.env.AFK_MESSAGE,
-    WEL_GIF: process.env.WEL_GIF === undefined ? 'https://i.imgur.com/nErXUGj.mp4' : process.env.WEL_GIF,
-    GIF_BYE: process.env.GIF_BYE === undefined ? 'https://i.imgur.com/Z1jCYGN.mp4' : process.env.GIF_BYE,
-    HANDLERS: process.env.HANDLERS === undefined ? '^[.!;]' : process.env.HANDLERS,
-    TAGPLK: process.env.TAG_HEADER === undefined ? 'Note this' : process.env.TAG_HEADER,
-    SEND_READ: process.env.SEND_READ === undefined ? false : convertToBool(process.env.SEND_READ),
-    INSTA: process.env.INSTA_LINK === undefined ? 'https://instagram.com/jasil_xo' : process.env.INSTA_LINK,
-    GROUP: process.env.GROUP_LINK === undefined ? 'https://chat.whatsapp.com/Bq0eHs3UpGJ2BKIHOmy7mk' : process.env.GROUP_LINK,
-    LOGO: process.env.ALL_IMG === undefined ? 'https://telegra.ph/file/8c5bc9987927f02d18a42.jpg' : process.env.ALL_IMG,
-    YAK: process.env.YAK === undefined ? '917025994178,0' : process.env.YAK,
-    OA_NAME: process.env.DEPLOYER === undefined ? 'Afx-Abu' : process.env.DEPLOYER,
-    OWNERSHIP: process.env.OWNER_SHIP === undefined ? 'ABU SER' : process.env.OWNER_SHIP,
-    MWOL: process.env.BGM_DURATION === undefined ? '7280542' : process.env.BGM_DURATION,
-    BOT: process.env.BOT_NAME === undefined ? 'ꪶ͢ɪͥᴛͭsᷤ ͢ᴍͫᴇͤᡃ⃝ᴀʙᴜ sᴇʀ࿐' : process.env.BOT_NAME,
-    ABU_AI: process.env.ABU_AI === undefined ? 'false' : process.env.ABU_AI,
-    ALIVEBUTTON: process.env.ALIVEBUTTON === undefined ? 'ʜᴇʟʟᴏ ʙʀᴏ' : process.env.ALIVEBUTTON,
-    ALIVE_BUTTON: process.env.ALIVE_BUTTON === undefined ? 'ʜɪ ᴅᴜᴅᴇ' : process.env.ALIVE_BUTTON,
-    LG_LOGO: process.env.ALL_IMG === undefined ? 'https://i.imgur.com/OseHc3b.jpg' : process.env.ALL_IMG,
-    LOGO_NAME: process.env.ALL_NAME === undefined ? 'ꪶ͢ɪͥᴛͭsᷤ ͢ᴍͫᴇͤᡃ⃝ᴀʙᴜ sᴇʀ࿐' : process.env.ALL_NAME,
-    NOLOG: process.env.NO_LOG === undefined ? 'true' : process.env.NO_LOG,
-    PHONE: process.env.NUMBER === undefined ? false : process.env.NUMBER,
-    BRANCH: 'master',
-    HEROKU: {
-        HEROKU: process.env.HEROKU === undefined ? false : convertToBool(process.env.HEROKU),
-        API_KEY: process.env.HEROKU_API_KEY === undefined ? '' : process.env.HEROKU_API_KEY,
-        APP_NAME: process.env.HEROKU_APP_NAME === undefined ? '' : process.env.HEROKU_APP_NAME
-    },
-    DATABASE_URL: DATABASE_URL,
-    DATABASE: DATABASE_URL === './whatsasena.db' ? new Sequelize({ dialect: "sqlite", storage: DATABASE_URL, logging: DEBUG }) : new Sequelize(DATABASE_URL, { dialectOptions: { ssl: { require: true, rejectUnauthorized: false } }, logging: DEBUG }),
-    RBG_API_KEY: process.env.REMOVE_BG_API_KEY === undefined ? false : process.env.REMOVE_BG_API_KEY,
-    NO_ONLINE: process.env.NO_ONLINE === undefined ? true : convertToBool(process.env.NO_ONLINE),
-    SUDO: process.env.SUDO === undefined ? '917025994178' : process.env.SUDO,
-    DEBUG: DEBUG,
-    WITAI_API: "TEYMELA6DMC4XB5YM3SPTTQWUUIBKURG",
-    SUPPORT: "918075379950-1634134075",
-    SUPPORT2: "905511384572-1617736751",
-    SUPPORT3: "905511384572-1621015274"
-};
+global.packname = sticker_name
+global.author = sticker_author
+
+// silakan di ganti klo mau
+global.wait = '_Wait.._'
+global.rpg = 'Fitur Rpg Dimatikan\nKetik *!enable* *rpg* untuk menggunakan fitur ini!\nKalo Mau main Disini aja\nhttps://chat.whatsapp.com/FnNAbem8o6r4pgLhSdO8Q9'
+global.nsfw = 'Fitur NSFW Dimatikan\nKetik *!enable* *nsfw* untuk menggunakan fitur ini!\n“Katakanlah kepada orang laki-laki yang beriman: Hendaklah mereka menahan pandanganya, dan memelihara kemaluannya; … Katakanlah kepada wanita yang beriman: Hendaklah mereka menahan pandangannya, dan kemaluannya, dan janganlah mereka Menampakkan perhiasannya, kecuali yang (biasa) nampak dari padany,” \n(TQS. Al-Nur [24]: 30-31).'
+global.eror = '_*Error*_'
+
+global.fla = 'https://www6.flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&script=sketch-name&doScale=true&scaleWidth=800&scaleHeight=500&fontsize=100&fillTextType=1&fillTextPattern=Warning!&text='
+global.watermark = '© R-Txzy' //change the watermark 
+global.image = 'https://telegra.ph/file/0bdd84bd5a8099a789828.jpg' //change the image
+global.thumbfoto = 'https://telegra.ph/file/0bdd84bd5a8099a789828.jpg'
+
+// Ubah saja
+global.image = 'https://telegra.ph/file/0bdd84bd5a8099a789828.jpg'//thumbnail
+global.bank = 'https://telegra.ph/file/d5ddf4cc627bb0e6bc420.jpg'
+global.kandang = 'https://telegra.ph/file/67a6ee607d03a4e52757d.jpg'
+global.kolam = 'https://telegra.ph/file/5aa5dfa3394477e11fb18.jpg'
+global.thanks = 'https://telegra.ph/file/01917f7782b70de8f418d.jpg'
+
+// tingkat kesulitan, semakin tinggi semakin susah
+global.multiplier = 500 // The higher, The harder levelup
+
+//*****************PEMBATAS*********************
+// JANGAN DI GANTI NTAR KLO GABISA JAN TANYA GW
+
+let file = require.resolve(__filename)
+fs.watchFile(file, () => {
+  fs.unwatchFile(file)
+  console.log(chalk.redBright("Update 'config.js'"))
+  delete require.cache[file]
+  require(file)
+})

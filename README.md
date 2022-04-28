@@ -1,68 +1,184 @@
 <div align="center">
-<div align="center">
-  <p align="center">
-<img src=https://i.ibb.co/nPSmv7d/dd75acba3c0361cca99b05b1e5b6d5c6.png>
+<img src="https://telegra.ph/file/4637101da58e21976363b.jpg" alt="AlyaaXzy X BOTCAHï¿½" width="300" />
+
 </p>
- </a>
-</p>
+<h1 align="center">AlyaaXzy X BOTCAHX</h1>
 
+<h1 align="center">Jangan lupa kasih stars & follow :)</h1>
 
-#### TOTAL REPO VIEWS📍
-![Visitor Count](https://profile-counter.glitch.me/terror-boy/count.svg)
-  
-### TOTAL WEBSITE VISIT
-  [![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fwhitedevil-bot.yolasite.com&count_bg=%2379C83D&title_bg=%23030303&icon=webauthn.svg&icon_color=%23FFFAFA&title=WEBSITE+VISITORS&edge_flat=false)](https://abuser1.yolasite.com)
-
-
-## [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Rockstar-ExtraBold&color=F33A6A&lines=𝐖𝐄𝐋𝐂𝐎𝐌𝐄+𝐓𝐎+𝐀𝐁𝐔+𝐒𝐄𝐑+𝐖𝐀+𝐁𝐎𝐓+𝐑𝐄𝐏𝐎.;𝘾𝙍𝙀𝘼𝙏𝙀𝘿+𝘽𝙔+𝐀𝐁𝐔+𝘼𝙉𝘿+𝐉𝐀𝐒𝐈𝐋;𝙏𝙃𝙄𝙎+𝙄𝙎+𝘼+𝘽𝙂𝙈+𝙎𝙏𝙄𝘾𝙆𝙀𝙍+𝘽𝙊𝙏;𝙒𝙄𝙏𝙃+𝙈𝙊𝙍𝙀+𝙁𝙀𝘼𝙏𝙐𝙍𝙀𝙎;𝙏𝙃𝘼𝙉𝙆𝙎+𝙁𝙊𝙍+𝙑𝙄𝙎𝙄𝙏𝙄𝙉𝙂+𝙊𝙐𝙍+𝙂𝙄𝙏)](https://git.io/typing-svg)
-
- </a>
-</p>
-<div align="center">
-  <p align="center">
-<img src="https://i.imgur.com/bjlbGCZ.jpg" alt="GIF" width="300" height="270"/>
-</p>
-
-  <p align="center">
-<a href="#"><img title="AbuSer" src="https://img.shields.io/badge/BOT-ABU_SER-green?colorA=%23ff0000&colorB=%23017e40&style=for-the-badge"></a>
-</p>
+>
+>
+>
 </div>
 <p align="center">
-𝐏𝐫𝐨𝐣𝐞𝐜𝐭 𝐂𝐫𝐞𝐚𝐭𝐞𝐝 𝐁𝐲 𝐀𝐛𝐮 𝐒𝐞𝐫
-    <br>
-       | © |
-        Reserved |
-    <br> 
+  <a href="https://github.com/AlyaaXd"><img title="Author" src="https://img.shields.io/badge/Author-AlyaaXzy.svg?style=for-the-badge&logo=github" /></a>
+  <h4 align="center">
+  <a href="https://github.com/BOTCAHX"><img title="Author" src="https://img.shields.io/badge/Author-BOTCAHX.svg?style=for-the-badge&logo=github" /></a>
+  <h4 align="center">
+  <a
+  <a href="https://wa.me/6289505165400">SC FREE API KOK GAN >//< </a>
+</h4>
 </p>
 
-
-<a href="https://github.com/Afx-Abu/Abu_ser/fork"><img align="center" src="https://i.imgur.com/vUIRd80.png" alt="Fork and deploy" height="112" width="300" /></a>
-<br>
-<div>
-<a href="https://replit.com/@Afx-Abu/Abu-Ser-Qr?v=1"><img align="center" src="https://i.imgur.com/SYoMXG2.png" alt="Scan QR" height="112" width="300" /></a>
-<br>
-
-
-1. Click [SCAN](https://replit.com/@Afx-Abu/ABU-SER-QR?v=1) and scan QR through Whatsapp Linked Devices Option in Your whatsapp App.
-2. You will get a long text that needs after 4th step (ABU_QR_CODE).
-3. If You don't have a account in [Heroku](https://signup.heroku.com/), Create a account.
-4. Click [FORK](https://github.com/Afx-Abu/Abu_ser/fork)
-5. Click the url showing below to copy deploy template
+## CARA INSTALL DI TERMUX
+```bash
+> termux-setup-storage
+> pkg update && pkg upgrade
+> pkg install git
+> pkg install nodejs
+> pkg install bash
+> pkg install ffmpeg
+> pkg install libwebp
+> git clone https://github.com/AlyaaXd/R-Txyz-Botz
+> cd R-Txyz-Botz
+> npm i
+> node run.js
+# Untuk Sdcard (File Sudah Di Download)
+> cd /sdcard
+> cp -r R-Txyz-Botz $HOME
+> cd R-Txyz-Botz
+> npm i
+> node run.js
 ```
-https://heroku.com/deploy?template=https://github.com/Afx-Abu/Abu_ser
-``` 
-6. Now change Afx-Abu with your github username and click ENJOY<br>
-   <br>
-# Contact for help:
-   * Click [Contact](https://wa.me/7025994178?text=Need+Help🙂) Here For Contact Afx-Abu
-# Contact for help:
-   * Click [Contact](https://wa.me/9567489404?text=Need+Help🙂) Here For Contact Shefin 
-  
-  
-  ## Developers
-  <div align="center">
-    
-  [![Afx-Abu](https://github.com/Afx-Abu.png?size=100)](https://github.com/Afx-Abu)
 
-[Afx-Abu](https://github.com/Afx-Abu)        
-Developer, Base, Bug Fixes, Modules
+# Run On Heroku
+
+Simple WhatsApp Bot
+
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/AlyaaXd/Haruno-Botz)
+
+
+
+# Ambil [seesion.data.json] 
+
+[![Run on Repl.it](https://repl.it/badge/github/quiec/whatsAlfa)](https://replit.com/@tioclkp02/ScanQr-botwea-6#index.js?lite=1&outputonly=1#.replit)
+
+
+
+# Heroku Buildpack
+
+| BuildPack | LINK |
+|--------|--------|
+| **FFMPEG** |[here](https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest) |
+| **IMAGEMAGICK** | [here](https://github.com/DuckyTeam/heroku-buildpack-imagemagick) |
+| **Node.js [salin]**     | heroku/nodejs|
+
+
+# THANKS TO 
+ [`Baileys`](https://github.com/adiwajshing/Baileys)
+
+ [`AlyaXzy`](https://wa.me/6289505165400)
+
+ [`BOTCAHX`](https://wa.me/6282221792667)
+
+# Hargai Kami Dengan Menambahkan Kredit ( Wm ) 
+
+~ Selamat Memakai~
+
+
+### AlyaaXd stat
+![Ra Github stat](https://github-readme-stats.vercel.app/api?username=AlyaaXd&theme=midnight-purple&show_icons=true) 
+
+![Ra Github troppy](https://github-profile-trophy.vercel.app/?username=AlyaaXd&theme=monokai)
+
+![Ra Github languages](https://github-readme-stats.vercel.app/api/top-langs/?username=AlyaaXd&theme=tokyonight)
+
+
+### BOTCAHX stat
+![Ra Github stat](https://github-readme-stats.vercel.app/api?username=BOTCAHX&theme=midnight-purple&show_icons=true) 
+
+![Ra Github troppy](https://github-profile-trophy.vercel.app/?username=BOTCAHX&theme=monokai)
+
+![Ra Github languages](https://github-readme-stats.vercel.app/api/top-langs/?username=BOTCAHX&theme=tokyonight)
+
+
+## Arguments `node . [--options] [<session name>]`
+
+#### Contoh: `node . --self --restrict --autoread`
+
+### `--self`
+
+Aktifkan mode self (Mengabaikan yang lain)
+
+### `--prefix <prefixes>`
+
+* `prefixes` dipisahkan oleh masing-masing karakter
+Setel awalan
+
+### `--server`
+
+Digunakan untuk [heroku](https://heroku.com/) atau pindai melalui situs web
+
+### `--db <json-server-url>`
+
+Gunakan db eksternal alih-alih db lokal, 
+Contoh Server `https://json-server.tioclkp.repl.co/`
+Code: `https://repl.it/@addserver/json-server`
+
+`node . --db 'https://json-server.tioclkp.repl.co/'`
+
+Server harus memiliki spesifikasi seperti ini
+
+#### GET
+
+```http
+GET /
+Accept: application/json
+```
+
+#### POST
+
+```http
+POST /
+Content-Type: application/json
+
+{
+ data: {}
+}
+```
+
+### `--big-qr`
+
+Jika qr unicode kecil tidak mendukung
+
+### `--restrict`
+
+Mengaktifkan plugin terbatas (yang dapat menyebabkan nomor Anda **diblokir** jika digunakan terlalu sering)
+
+* Administrasi Grup `add, kick, promote, demote`
+
+### `--img`
+
+Aktifkan pemeriksa gambar melalui terminal
+
+### `--autoread`
+
+Jika diaktifkan, semua pesan masuk akan ditandai sebagai telah dibaca
+
+### `--nyimak`
+
+Tidak ada bot, cukup cetak pesan yang diterima dan tambahkan pengguna ke database
+
+### `--test`
+
+**Development** Testing Mode
+
+### `--trace`
+
+```js
+conn.logger.level = 'trace'
+```
+
+### `--debug`
+
+```js
+conn.logger.level = 'debug'
+```
+
+---------
+
+ [![AlyaXd](https://github.com/AlyaaXd.png?size=100)](https://github.com/AlyaaXd) | [![BOTCAHX](https://github.com/BOTCAHX.png?size=100)](https://github.com/BOTCAHX)
+----|----
+[AlyaXd](https://github.com/AlyaaXd) | [BOTCAHX](https://github.com/BOTCAHX)
+ Creator | Creator
+
