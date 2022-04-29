@@ -1,6 +1,5 @@
-let fetch = require('node-fetch')
-let handler  = async (m, { conn }) => {
-  conn.sendButtonLoc(m.chat, await (await fetch(fla + 'Bucin')).buffer(), `*────── 「 Quotes 」 ──────*\n\n${pickRandom(global.bucin)}`, '_*Quotes*_', 'Bucin', `.bucin`, m)
+let handler = async (m, { conn, usedPrefix, command }) => {
+  await conn.sendButton(m.chat, `“${pickRandom(global.bucin)}”`, watermark, 'Bucin', `${usedPrefix + command}`)
 }
 handler.help = ['bucin']
 handler.tags = ['quotes']

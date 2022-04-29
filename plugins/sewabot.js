@@ -6,13 +6,13 @@ let handler = async(m, { conn }) => {
 ├ 2 Bulan
 ├ 1 Bulan
 ├ 1 Minggu
-├ Trial 4 jam
+├ Trial 3 Hari
 └────
 Silahkan klik pada "List Harga" untuk melihat list.
 
 Pembayaran:
-Pulsa (ISAT): 6285730903853 (+5.000)
-Gopay: 6285730903853
+Pulsa : 085730903853
+GoPay: 085730903853
 `.trim()
     const button = {
         buttonText: 'List Harga',
@@ -23,7 +23,7 @@ Gopay: 6285730903853
         {title: '1 Minggu', description: "Rp7.000\nSewa bot selama 1 minggu.", rowId:".masuk"},
         {title: 'Trial', description: "GRATIS\nBot gratis 3 Hari.", rowId:".join"},
         {title: 'Owner', description: "Chat owner nya jika ada perlu.", rowId:".owner"},
-        {title: 'Rules', description: "Kebijakan Privasi, Syarat Ketentuan dan Peraturan.", rowId:".rules"},
+        {title: 'Rules', description: "Kebijakan Privasi, Syarat Ketentuan dan Peraturan.", rowId:".snk"},
        ] }],
         listType: 1
        }
@@ -33,4 +33,4 @@ handler.tags = ['main']
 handler.command = /^(sewa)$/i
 handler.help = ['sewa']
 module.exports = handler
-//Haruno Bot
+//R-Txzy

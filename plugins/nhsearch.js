@@ -8,7 +8,7 @@ let handler = async(m, { conn, text }) => {
     else throw json
 }
 handler.help = ['nhsearch <query>']
-handler.tags = ['hentai', 'internet']
+handler.tags = ['internet']
 handler.nsfw = true
 handler.command = /^(nhs|nhsearch)$/i
 

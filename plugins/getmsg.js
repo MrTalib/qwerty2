@@ -1,8 +1,12 @@
-let handler = async (m, { conn, command, usedPrefix, text }) => {
+let handler = async (m, { conn, command, usedPrefix, text, isROwner }) => {
     let which = command.replace(/get/i, '')
-    if (!text) throw `Gunakan *${usedPrefix}list${which}* untuk melihat list nya`
+    if (!text) throw `Harap masukkan query sebagai parameter!\n\nContoh: ${usedPrefix + command} tiananmen`
     let msgs = global.db.data.msgs
-    if (!(text in msgs)) throw `'${text}' tidak terdaftar di list pesan`
+    if (!(text in msgs)) return await conn.sendButton(m.chat, `'${text}' tidak terdaftar!`, watermark, 'daftar semua pesan', '.listall', m)
+    if (msgs[text].locked) if (!isROwner) {
+        m.reply('Dikunci!')
+        throw 0
+    }
     let _m = conn.serializeM(JSON.parse(JSON.stringify(msgs[text]), (_, v) => {
         if (
             v !== null &&
@@ -15,11 +19,10 @@ let handler = async (m, { conn, command, usedPrefix, text }) => {
         }
         return v
     }))
-    // m.reply(`[debug]\n${require('util').format(_m)}`)
-    await _m.copyNForward(m.chat, true)
+    await _m.copyNForward(m.chat, false)
 }
-handler.help = ['vn', 'msg', 'video', 'gif', 'audio', 'img', 'sticker'].map(v => 'get' + v + ' <text>')
+handler.help = ['vn', 'msg', 'video', 'gif', 'audio', 'img', 'sticker'].map(v => 'get' + v + ' <teks>')
 handler.tags = ['database']
-handler.command = /^get(vn|msg|video|audio|img|sticker|gif)$/
+handler.command = /^get(all|vn|msg|video|audio|img|stic?ker|gif)$/
 
 module.exports = handler

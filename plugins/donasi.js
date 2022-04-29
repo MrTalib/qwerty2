@@ -1,14 +1,13 @@
-let fetch = require('node-fetch')
-let handler = async (m, { conn }) => conn.sendButtonLoc(m.chat, await (await fetch(bank)).buffer(), `
-*────────「 DONATE 」 ────────*
+//Jangan Di Hapus Tapi kalo Di tambah Boleh
 
-Hai 👋
-Kalian bisa mendukung saya agar bot ini tetap up to date dengan:
+let fetch = require('node-fetch')
+let handler = async (m, { conn }) => await conn.sendButtonLoc(m.chat, await (await fetch(thumbfoto)).buffer(), `
 ┌〔 Donasi • Emoney 〕
-├ PULSA : 6285730903853
-├ DANA : 6285730903853
+├ GoPay: 085730903853 [AlyaXd]
+├ Dana: 082221792667 [BOTCAHX]
+├ Pulsa: 081395861695 [BOTCAHX]
 └────
-`.trim(), 'Donasi bg Biar Bot Nya on 24Jam', 'SEWA', '.sewa')
+`.trim(), watermark, 'Menu', '.menu', m)
 handler.help = ['donasi']
 handler.tags = ['info']
 handler.command = /^dona(te|si)$/i

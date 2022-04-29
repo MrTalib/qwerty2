@@ -1,13 +1,13 @@
 let handler = async (m, { command, usedPrefix, text }) => {
     let which = command.replace(/get/i, '')
-    if (!text) throw `Gunakan *${usedPrefix}list${which}* untuk melihat list nya`
+    if (!text) throw `Harap masukkan query sebagai parameter!\n\nContoh: ${usedPrefix + command} tiananmen`
     let msgs = global.db.data.msgs
-    if (!text in msgs) throw `'${text}' tidak terdaftar di list pesan`
+    if (!text in msgs) throw `'${text}' tidak terdaftar!`
     delete msgs[text]
-    m.reply(`Berhasil menghapus pesan di list pesan dengan nama '${text}'`)
+    m.reply(`berhasil menghapus pesan dengan nama '${text}'`)
 }
-handler.help = ['vn', 'msg', 'video', 'gif', 'audio', 'img', 'sticker'].map(v => 'del' + v + ' <text>')
+handler.help = ['msg'].map(v => 'del' + v + ' <teks>')
 handler.tags = ['database']
-handler.command = /^del(vn|msg|video|audio|img|sticker|gif)$/
+handler.command = /^(-|del)(all|vn|msg|video|audio|img|stic?ker|gif)$/
 
 module.exports = handler

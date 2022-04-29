@@ -1,6 +1,7 @@
-const { igdl, tiktok, twitter, pin } = require('../lib/scrape')
+const { igdl, twitter, pin } = require('../lib/scrape')
 const { facebook } = require('../lib/facebook')
-const { servers, yta, ytv } = require('../lib/y2mate')
+const { ytIdRegex, servers, yta, ytv } = require('../lib/y2mate')
+const xa = require('xfarr-api')
 const fetch = require('node-fetch')
 let yts = require('yt-search')
 let util = require('util')
@@ -13,6 +14,14 @@ handler.all = async function (m, { isPrems }) {
     if (db.data.chats[m.chat].isBanned) return
 
     let url = m.text.split(/\n| /i)[0]
+
+    if (/^.*vt.tiktok.com/i.test(m.text)) {
+        xa.Tiktok(url)
+        .then(async data => { 
+            await conn.sendFile(m.chat, data.medias[2].url, 'tiktok.mp3', null, m)
+            await conn.sendFile(m.chat, data.medias[1].url, 'tiktok.mp4', watermark, m) 
+        })
+    }
 
     if (/^.*cocofun/i.test(m.text)) {
         let res = await fetch(API('jojo', '/api/cocofun-no-wm', { url }))
@@ -29,7 +38,7 @@ handler.all = async function (m, { isPrems }) {
         let json = await res.json()
         if (!json.status) return m.reply(util.format(json))
         await m.reply(wait)
-        await conn.sendFile(m.chat, json.data.sd.url, '', `HD: ${json.data.hd.url}\nUkuran: ${json.data.hd.size}`, m)
+        await conn.sendFile(m.chat, json.data.sd.url, '', `HD: ${json.data.hd.url}\nUkuran: ${json.data.hd.size}\n\n© Haruno`, m)
     }
 
     if (/^.*instagram.com\/(p|reel|tv)/i.test(m.text)) {
@@ -66,7 +75,7 @@ handler.all = async function (m, { isPrems }) {
         }).catch(_ => _)
     }
 
-    if (/^https?:\/\/.*youtu/i.test(m.text)) {
+    if (/^https?:\/\/.*youtu.be/i.test(m.text)) {
         let results = await yts(url)
         let vid = results.all.find(video => video.seconds < 3600)
         if (!vid) return m.reply('Video/Audio Tidak ditemukan')
@@ -87,14 +96,16 @@ handler.all = async function (m, { isPrems }) {
         if (yt2 === false) return m.reply(eror)
         let { dl_link, thumb, title, filesize, filesizeF } = yt
         await this.send2ButtonLoc(m.chat, await (await fetch(thumb)).buffer(), `
-*Judul:* ${title}
+Youtube Downloader
+
+*Title:* ${title}
 *Ukuran File Audio:* ${filesizeF}
 *Ukuran File Video:* ${yt2.filesizeF}
 *Server y2mate:* ${usedServer}
-`.trim(), watermark, '🎵Audio', `.yta ${vid.url}`, '🎥Video', `.yt ${vid.url}`)
+`.trim(), watermark, 'Audio', `.yta ${vid.url}`, 'Video', `.yt ${vid.url}`)
     }
 
 }
 
-handler.limit = true
+handler.limit = false
 module.exports = handler

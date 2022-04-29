@@ -1,3 +1,5 @@
+// BOTCAHX RECODE
+
 let fetch = require('node-fetch')
 let handler = async (m, { text, command, usedPrefix }) => {
     if (!text) throw `uhm.. teksnya mana?\n\ncontoh:\n${usedPrefix + command} kapan indonesia merdeka`
@@ -8,7 +10,7 @@ let handler = async (m, { text, command, usedPrefix }) => {
     m.reply(json.jawaban)
 }
 handler.help = ['brainly <teks>']
-handler.tags = ['edukasi']
+handler.tags = ['internet']
 handler.command = /^brainly$/i
 handler.register = true
 

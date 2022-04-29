@@ -4,32 +4,17 @@ let fs = require('fs')
 let path = require('path')
 let fetch = require('node-fetch')
 let moment = require('moment-timezone')
-const chats = conn.chats.all()
-const groups = chats.filter(v => v.jid.endsWith('g.us'))
 const defaultMenu = {
   before: `
-*┌─〔 %me 〕──➤*
-*│*⦁ Hai, %name!
-*│*⦁ Tersisa *%limit Limit*
-*│*⦁ Role *%role*
-*│*⦁ Level *%level (%exp / %maxexp)* [%xp4levelup]
-*│*⦁ %totalexp XP secara Total
-*│* 
-*│*⦁ Tanggal: *%week %weton, %date*
-*│*⦁ Tanggal Islam: *%dateIslamic*
-*│*⦁ Waktu: *%time*
-*│*
-*│*⦁ Uptime: *%uptime (%muptime)*
-*│*⦁ Database: %rtotalreg dari %totalreg
-*│*⦁ GitHub: https://github.com/AlyaaXd
-*└─────────────➤*
+┌─〔 R-Txzy 〕
+├ Hai, *%name!*
+├ Memory Used : *${(process.memoryUsage().heapUsed / 1024 / 1024).toFixed(2)}MB / ${Math.round(require('os').totalmem / 1024 / 1024)}MB*
+└────
 %readmore`.trimStart(),
-  header: '*┌─〔 %category 〕*',
-  body: '*│▸* %cmd %islimit %isPremium',
-  footer: '*└────➤*\n',
+  header: '┌─〔 %category 〕',
+  body: '├ %cmd %islimit %isPremium',
+  footer: '└────\n',
   after: `
-*%npmname@^%version*
-${'```%npmdesc```'}
 `,
 }
 let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
@@ -248,7 +233,7 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
                                     "description": "Menu Tentang Islam",
                                     "rowId": ".? quran"
                                 }, {
-                                    "title": "|⛪| Cristian",
+                                	"title": "|⛪| Cristian",
                                     "description": "Menu Tentang Kristen",
                                     "rowId": ".? cristian"
                                 }, {

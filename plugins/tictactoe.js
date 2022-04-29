@@ -6,7 +6,7 @@ let handler = async (m, { conn, usedPrefix, command, text }) => {
         delete conn.game[Object.values(conn.game).find(room => room.state === 'WAITING').id]
         throw '_Berhasil keluar dari permainan_'
     } else {
-        if (Object.values(conn.game).find(room => room.id.startsWith('tictactoe') && [room.game.playerX, room.game.playerO].includes(m.sender))) return conn.sendButton(m.chat, '_Kamu masih didalam game_', '', 'Keluar', '.tttexit', m)
+        if (Object.values(conn.game).find(room => room.id.startsWith('tictactoe') && [room.game.playerX, room.game.playerO].includes(m.sender))) return conn.sendButton(m.chat, '_Kamu masih didalam game_', '', 'Keluar', ',tttexit', m)
         let room = Object.values(conn.game).find(room => room.state === 'WAITING' && (text ? room.name === text : true))
         // m.reply('[WIP Feature]')
         if (room) {
@@ -38,12 +38,12 @@ ${arr.slice(6).join('')}
 Menunggu @${room.game.currentTurn.split('@')[0]}
 Ketik *nyerah* untuk nyerah
 `.trim()
-            if (room.x !== room.o) await conn.sendButton(room.x, str, '© stikerin', 'Nyerah', 'nyerah', m, {
+            if (room.x !== room.o) await conn.sendButton(room.x, str, watermark, 'Nyerah', 'nyerah', m, {
                 contextInfo: {
                     mentionedJid: conn.parseMention(str)
                 }
             })
-            await conn.sendButton(room.o, str, '© stikerin', 'Nyerah', 'nyerah', m, {
+            await conn.sendButton(room.o, str, watermark, 'Nyerah', 'nyerah', m, {
                 contextInfo: {
                     mentionedJid: conn.parseMention(str)
                 }
