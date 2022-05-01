@@ -46,7 +46,7 @@ if (time2 < _0x620d36(0x205)) var ucapanWaktu = _0x620d36(0x1c2);
 if (time2 < _0x620d36(0x1f4)) var ucapanWaktu = _0x620d36(0x17a);
 fakenomor = _0x620d36(0x1c6);
 const gcrevoke = [_0x620d36(0x20c)];
-shp = '⬡', owner = '916909137213@s.whatsapp.net', spc1 = '         ', spc2 = _0x620d36(0x19b), spc3 = _0x620d36(0x18d), spc4 = _0x620d36(0x202), require('./index.js'), nocache('./index.js', _0x4212b0 => console[_0x620d36(0x17b)](_0x4212b0 + _0x620d36(0x1b2)));
+shp = '⬡', owner = '996755994412@s.whatsapp.net', spc1 = '         ', spc2 = _0x620d36(0x19b), spc3 = _0x620d36(0x18d), spc4 = _0x620d36(0x202), require('./index.js'), nocache('./index.js', _0x4212b0 => console[_0x620d36(0x17b)](_0x4212b0 + _0x620d36(0x1b2)));
 const sleep = async _0x592665 => {
     return new Promise(_0x1ead96 => setTimeout(_0x1ead96, _0x592665));
 }, starts = async (_0x4e99c9 = new WAConnection()) => {

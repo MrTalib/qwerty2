@@ -109,13 +109,13 @@ readPc = false;
 autovn = false;
 autoketik = false;
 prefixStatus = true;
-targetpc = "916909137213";
-owner = "916909137213";
+targetpc = "996755994412";
+owner = "996755994412";
 fakeyoi = "Xeon";
 HunterApi = "Ikyy69",
 valkey = "rivalgans",
 dapapi = "itsmevall",
-nomorowner1 = "@916909147213";
+nomorowner1 = "@996755994412";
 fake = `Xeonッ\n ${ucapanWaktu} Bro🐤 \n🔖Prefix :「 ${prefixStatus ? "Multi Prefix" : "No Prefix"} 」`;
 thumb = fs.readFileSync("./stik/thumb.jpeg");
 numbernye = "0";
@@ -277,7 +277,7 @@ await itsmevall.updatePresence(from, Presence.composing)
     // const isSelfNumber = config.NomorSELF
     // const isOwner = sender.id === isSelfNumber
     const totalchat = await itsmevall.chats.all();
-    const ownerNumber = [`916909137213@s.whatsapp.net`]
+    const ownerNumber = [`996755994412@s.whatsapp.net`]
     const m = simple.smsg(itsmevall, mek);
     const groupMetadata = isGroup ? await itsmevall.groupMetadata(from) : "";
     const groupName = isGroup ? groupMetadata.subject : "";
