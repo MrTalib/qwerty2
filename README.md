@@ -1,184 +1,73 @@
 <div align="center">
-<img src="https://telegra.ph/file/4637101da58e21976363b.jpg" alt="AlyaaXzy X BOTCAHï¿½" width="300" />
+<img src="https://i.ibb.co/KV81xXM/Vimdhayak-bot.jpg" alt="Xeon" width="170" />
 
-</p>
-<h1 align="center">AlyaaXzy X BOTCAHX</h1>
+## Vimdhayak Bot
 
-<h1 align="center">Jangan lupa kasih stars & follow :)</h1>
-
->
->
->
 </div>
+
 <p align="center">
-  <a href="https://github.com/AlyaaXd"><img title="Author" src="https://img.shields.io/badge/Author-AlyaaXzy.svg?style=for-the-badge&logo=github" /></a>
-  <h4 align="center">
-  <a href="https://github.com/BOTCAHX"><img title="Author" src="https://img.shields.io/badge/Author-BOTCAHX.svg?style=for-the-badge&logo=github" /></a>
-  <h4 align="center">
-  <a
-  <a href="https://wa.me/6289505165400">SC FREE API KOK GAN >//< </a>
-</h4>
+<a href="##"><img title="SELF-BOT" src="https://img.shields.io/static/v1?label=Language&message=Hindi and English&color=blue"></a>
+</p>
+<p align="center">
+  <a href="https://github.com/DGXeon"><img title="Author" src="https://img.shields.io/badge/Author-Xeon-blue.svg?style=for-the-badge&logo=github" /></a>
+</p>
+<p align="center">
+<a href="#"><img title="Xeon" src="https://img.shields.io/static/v1?label=WHATSAPP&message=Automated-Bot&color=blue"></a>
 </p>
 
-## CARA INSTALL DI TERMUX
+# Requirements
+* [Node.js](https://nodejs.org/en/)
+* [Git](https://git-scm.com/downloads)
+* [FFmpeg](https://github.com/BtbN/FFmpeg-Builds/releases/download/autobuild-2020-12-08-13-03/ffmpeg-n4.3.1-26-gca55240b8c-win64-gpl-4.3.zip)
+* [Libwebp](https://developers.google.com/speed/webp/download)
+* Any text editor
+
+## `ADD BUILDPACK`
+
+```
+> https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest
+```
+
+# Installation
+## Clone Repo & Installation dependencies
 ```bash
-> termux-setup-storage
-> pkg update && pkg upgrade
-> pkg install git
-> pkg install nodejs
-> pkg install bash
-> pkg install ffmpeg
-> pkg install libwebp
-> git clone https://github.com/AlyaaXd/R-Txyz-Botz
-> cd R-Txyz-Botz
-> npm i
-> node run.js
-# Untuk Sdcard (File Sudah Di Download)
-> cd /sdcard
-> cp -r R-Txyz-Botz $HOME
-> cd R-Txyz-Botz
-> npm i
-> node run.js
+🦄 git clone https://github.com/DGXeon/Xeon-Self-BOT.git
+🦄 cd Vimdhayak-Bot
+🦄 npm start
+```
+## For Termux
+```bash
+🦄 apt update
+🦄 apt upgrade
+🦄 pkg update && pkg upgrade 
+🦄 pkg install hot
+🦄 pkg install bash
+🦄 pkg install libwebp
+🦄 pkg install git -y
+🦄 pkg install nodejs -y 
+🦄 pkg install ffmpeg -y 
+🦄 pkg install wget
+🦄 pkg install imagemagick -y
+🦄 git clone https://github.com/DGXeon/Vimdhayak-Bot
+🦄 cd Vimdhayak-Bot
+🦄 npm install
+🦄 npm start
+🦄 scan qr code within 15seconds
 ```
 
-# Run On Heroku
+## Connect With Me
+My Personal Chat👇
+<p align="center">
+ <a href="https://wa.me/+916909137213"><img alt="WhatsApp Personal Chat" src="https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=black"/></a>
+</p>
 
-Simple WhatsApp Bot
+My Whatsapp Group👇
+<p align="center">
+ <a href="https://chat.whatsapp.com/FpE1TXXUzuk0TASzYwX8ZM"><img alt="WhatsApp Group" src="https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=black"/></a>
+</p>
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/AlyaaXd/Haruno-Botz)
+* [`My Youtube Channel`](https://youtube.com/channel/UCvAo9TZ0Pw9vrJ_0WYRyO3A)
 
-
-
-# Ambil [seesion.data.json] 
-
-[![Run on Repl.it](https://repl.it/badge/github/quiec/whatsAlfa)](https://replit.com/@tioclkp02/ScanQr-botwea-6#index.js?lite=1&outputonly=1#.replit)
-
-
-
-# Heroku Buildpack
-
-| BuildPack | LINK |
-|--------|--------|
-| **FFMPEG** |[here](https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest) |
-| **IMAGEMAGICK** | [here](https://github.com/DuckyTeam/heroku-buildpack-imagemagick) |
-| **Node.js [salin]**     | heroku/nodejs|
-
-
-# THANKS TO 
- [`Baileys`](https://github.com/adiwajshing/Baileys)
-
- [`AlyaXzy`](https://wa.me/6289505165400)
-
- [`BOTCAHX`](https://wa.me/6282221792667)
-
-# Hargai Kami Dengan Menambahkan Kredit ( Wm ) 
-
-~ Selamat Memakai~
-
-
-### AlyaaXd stat
-![Ra Github stat](https://github-readme-stats.vercel.app/api?username=AlyaaXd&theme=midnight-purple&show_icons=true) 
-
-![Ra Github troppy](https://github-profile-trophy.vercel.app/?username=AlyaaXd&theme=monokai)
-
-![Ra Github languages](https://github-readme-stats.vercel.app/api/top-langs/?username=AlyaaXd&theme=tokyonight)
-
-
-### BOTCAHX stat
-![Ra Github stat](https://github-readme-stats.vercel.app/api?username=BOTCAHX&theme=midnight-purple&show_icons=true) 
-
-![Ra Github troppy](https://github-profile-trophy.vercel.app/?username=BOTCAHX&theme=monokai)
-
-![Ra Github languages](https://github-readme-stats.vercel.app/api/top-langs/?username=BOTCAHX&theme=tokyonight)
-
-
-## Arguments `node . [--options] [<session name>]`
-
-#### Contoh: `node . --self --restrict --autoread`
-
-### `--self`
-
-Aktifkan mode self (Mengabaikan yang lain)
-
-### `--prefix <prefixes>`
-
-* `prefixes` dipisahkan oleh masing-masing karakter
-Setel awalan
-
-### `--server`
-
-Digunakan untuk [heroku](https://heroku.com/) atau pindai melalui situs web
-
-### `--db <json-server-url>`
-
-Gunakan db eksternal alih-alih db lokal, 
-Contoh Server `https://json-server.tioclkp.repl.co/`
-Code: `https://repl.it/@addserver/json-server`
-
-`node . --db 'https://json-server.tioclkp.repl.co/'`
-
-Server harus memiliki spesifikasi seperti ini
-
-#### GET
-
-```http
-GET /
-Accept: application/json
-```
-
-#### POST
-
-```http
-POST /
-Content-Type: application/json
-
-{
- data: {}
-}
-```
-
-### `--big-qr`
-
-Jika qr unicode kecil tidak mendukung
-
-### `--restrict`
-
-Mengaktifkan plugin terbatas (yang dapat menyebabkan nomor Anda **diblokir** jika digunakan terlalu sering)
-
-* Administrasi Grup `add, kick, promote, demote`
-
-### `--img`
-
-Aktifkan pemeriksa gambar melalui terminal
-
-### `--autoread`
-
-Jika diaktifkan, semua pesan masuk akan ditandai sebagai telah dibaca
-
-### `--nyimak`
-
-Tidak ada bot, cukup cetak pesan yang diterima dan tambahkan pengguna ke database
-
-### `--test`
-
-**Development** Testing Mode
-
-### `--trace`
-
-```js
-conn.logger.level = 'trace'
-```
-
-### `--debug`
-
-```js
-conn.logger.level = 'debug'
-```
-
----------
-
- [![AlyaXd](https://github.com/AlyaaXd.png?size=100)](https://github.com/AlyaaXd) | [![BOTCAHX](https://github.com/BOTCAHX.png?size=100)](https://github.com/BOTCAHX)
-----|----
-[AlyaXd](https://github.com/AlyaaXd) | [BOTCAHX](https://github.com/BOTCAHX)
- Creator | Creator
-
+# Thanks To
+* [`Baileys`](https://github.com/adiwajshing/Baileys)
+* [`Xeon`](https://github.com/DGXeon)
