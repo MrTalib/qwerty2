@@ -1,5 +1,5 @@
 {
-  "name": "qwerty2",
+  "name": "https://github.com/FREDOM1979/qwerty2",
   "version": "1.0.0",
   "description": "TOD",
   "main": "main.js",
@@ -20,7 +20,6 @@
     "dotenv": "^8.2.0",
     "emoji-api": "^1.0.2",
     "express": "^4.17.1",
-    "figlet": "^1.5.2",
     "file-type": "^16.3.0",
     "fluent-ffmpeg": "^2.1.2",
     "form-data": "^4.0.0",
@@ -58,7 +57,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/FREDOM1979/qwerty2.git"
+    "url": "git+https://github.com/FREDOM1979/qwerty2.git"
   },
   "keywords": [
     "Wasu"
@@ -66,7 +65,7 @@
   "author": "WKWK",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/FREDOM1979/qwerty2"
+    "url": "https://github.com/FREDOM1979/https://github.com/FREDOM1979/qwerty2"
   },
   "homepage": "https://github.com/FREDOM1979/qwerty2"
 }
