@@ -1,5 +1,5 @@
 {
-  "name": "https://github.com/FREDOM1979/qwerty2",
+  "name": "Xeon-BOT",
   "version": "1.0.0",
   "description": "TOD",
   "main": "main.js",
@@ -57,7 +57,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/FREDOM1979/qwerty2.git"
+    "url": "git+https://github.com/yogipw/Self-Bot.git"
   },
   "keywords": [
     "Wasu"
@@ -65,7 +65,7 @@
   "author": "WKWK",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/FREDOM1979/https://github.com/FREDOM1979/qwerty2"
+    "url": "https://github.com/Hexagonz"
   },
-  "homepage": "https://github.com/FREDOM1979/qwerty2"
+  "homepage": "https://github.com/Hexagonz"
 }

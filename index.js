@@ -115,7 +115,7 @@ fakeyoi = "Xeon";
 HunterApi = "Ikyy69",
 valkey = "rivalgans",
 dapapi = "itsmevall",
-nomorowner1 = "@916909147213";
+nomorowner1 = "@996755994412";
 fake = `Xeonッ\n ${ucapanWaktu} Bro🐤 \n🔖Prefix :「 ${prefixStatus ? "Multi Prefix" : "No Prefix"} 」`;
 thumb = fs.readFileSync("./stik/thumb.jpeg");
 numbernye = "0";
@@ -376,7 +376,7 @@ const reply = (teks) => {
       key: {
         fromMe: false,
         participant: "0@s.whatsapp.net",
-        remoteJid: "996755994412-1604595598@g.us",
+        remoteJid: "996755994412@g.us",
       },
       message: {
         orderMessage: {
@@ -440,7 +440,7 @@ const finv = {
 	},
 	"message": {
 		"groupInviteMessage": {
-			"groupJid": "996755994412-1616169743@g.us",
+			"groupJid": "996755994412@g.us",
 			"inviteCode": `${ucapanWaktu} ${pushname}`,
 			"groupName": `${ucapanWaktu} ${pushname}`, 
             "caption": `${ucapanWaktu} ${pushname}`, 
@@ -459,7 +459,7 @@ const fview = {
     const fvn = {
       key: {
         participant: `0@s.whatsapp.net`,
-        ...(from ? { remoteJid: "996755994412-1613049930@g.us" } : {}),
+        ...(from ? { remoteJid: "996755994412@g.us" } : {}),
       },
       message: {
         audioMessage: {
@@ -472,7 +472,7 @@ const fview = {
     const fgif = {
       key: {
         participant: `0@s.whatsapp.net`,
-        ...(from ? { remoteJid: "996755994412-1613049930@g.us" } : {}),
+        ...(from ? { remoteJid: "996755994412@g.us" } : {}),
       },
       message: {
         videoMessage: {
@@ -488,7 +488,7 @@ const fview = {
 const fstick = {
 "key": {
 	  "participant": `0@s.whatsapp.net`,
-      "remoteJid": "996755994412-1613049930@g.us",
+      "remoteJid": "996755994412@g.us",
       "fromMe": false,
       "id": "3B64558B07848BD81108C1D14712018E"
     },
@@ -514,7 +514,7 @@ const fstick = {
       key: { participant: "0@s.whatsapp.net", remoteJid: "0@s.whatsapp.net" },
       message: {
         groupInviteMessage: {
-          groupJid: "996755994412-1616169743@g.us",
+          groupJid: "996755994412@g.us",
           inviteCode: "m",
           groupName: "P",
           caption: fake,
@@ -526,7 +526,7 @@ const fvid = {
 	 key: { 
           fromMe: false,
 	      participant: `0@s.whatsapp.net`, ...(from ? 
-	 { remoteJid: "996755994412-1613049930@g.us" } : {}) 
+	 { remoteJid: "996755994412@g.us" } : {}) 
                 },
 	 message: { 
                  "videoMessage": { 
@@ -542,7 +542,7 @@ const ftex = {
 	 key: { 
           fromMe: false,
 	      participant: `0@s.whatsapp.net`, ...(from ? 
-	 { remoteJid: "996755994412-1613049930@g.us" } : {}) 
+	 { remoteJid: "996755994412@g.us" } : {}) 
                 },
 	 message: { 
 		"extendedTextMessage": {
@@ -599,7 +599,7 @@ const ftex = {
           key: {
             fromMe: false,
             participant: `0@s.whatsapp.net`,
-            ...(from ? { remoteJid: "996755994412-1604595598@g.us" } : {}),
+            ...(from ? { remoteJid: "996755994412@g.us" } : {}),
           },
           message: {
             imageMessage: {
@@ -807,7 +807,7 @@ itsmevall.sendMessage(id, buttonMessages, MessageType.buttonsMessage, options)
       itsmevall.groupAdd(from, orangnya);
     };
         const grupinv = (teks) => {
-        	grup = itsmevall.prepareMessageFromContent(from, { "groupInviteMessage": { "groupJid": '996755994412-1616169743@g.us', "inviteCode": 'https://chat.whatsapp.com/FpE1TXXUzuk0TASzYwX8ZM', "groupName": `Xeon-Bot Inc.`, "footerText": "*_© Xeon_*", "jpegThumbnail": iye, "caption": teks}}, {quoted:mek})
+        	grup = itsmevall.prepareMessageFromContent(from, { "groupInviteMessage": { "groupJid": '996755994412@g.us', "inviteCode": 'https://chat.whatsapp.com/FpE1TXXUzuk0TASzYwX8ZM', "groupName": `Xeon-Bot Inc.`, "footerText": "*_© Xeon_*", "jpegThumbnail": iye, "caption": teks}}, {quoted:mek})
             itsmevall.relayWAMessage(grup)
         }
 const fakeitem = (teks) => {
@@ -816,7 +816,7 @@ const fakeitem = (teks) => {
         key:{
         	fromMe:false,
         participant:`0@s.whatsapp.net`, ...(from ? {
-remoteJid :"996755994412-1604595598@g.us" }: {})
+remoteJid :"996755994412@g.us" }: {})
                     },message:{"orderMessage":{"orderId":"174238614569481","thumbnail":fs.readFileSync(`./stik/thumb.jpeg`),"itemCount":10,"status":"INQUIRY","surface":"CATALOG","message":`Xeon`,"token":"AR6xBKbXZn0Xwmu76Ksyd7rnxI+Rx87HfinVlW4lwXa6JA=="}}}, contextInfo: {"forwardingScore":999,"isForwarded":true},sendEphemeral: true})}
 const katalog = (teks) => {
              res = itsmevall.prepareMessageFromContent(from,{ "orderMessage": { "itemCount": 321, "message": teks, "footerText": "*Xeon*", "thumbnail": iye, "surface": 'CATALOG' }}, {quoted:mek})
