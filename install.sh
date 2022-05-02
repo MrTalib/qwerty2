@@ -12,4 +12,5 @@ apt-get install nmap
 wget -O ~/../usr/share/tessdata/ind.traineddata "https://github.com/tesseract-ocr/tessdata/blob/master/ind.traineddata?raw=true"
 npm install
 
-echo "DONE INSTALLING ALL PACKAGE REQUIRE, RUN npm start"
+echo "©2021 Xeon-BOT Limited
+                            DONE INSTALLING ALL PACKAGE REQUIRE, JUST RUN npm start"

