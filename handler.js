@@ -1512,7 +1512,7 @@ module.exports = handle = (client, Client) => {
                 case 'tes':
                     data.reply('auto upt')
                     break
-                case 'komar':
+                case 'KoMaR':
                     Client.sendRawWebpAsSticker(from, fs.readFileSync('./lib/temp/komar.webp'), message).then(resData => Client.sendText(from, '*Наш KoMaR НЕ ВИРУСОЛОГ, Наш KoMaR Хороший СУЕТОЛОГ*', {
                         quoted: resData
                     }))
