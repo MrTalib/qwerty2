@@ -1,0 +1,15 @@
+папка config/
+
+	
+	"prefix": "multi", 
+	"defaultSessionName": "ПОМОЩНИК", 
+	"zeksKey": "9LxR9sZKZEuZM6ouQ5GiRh2zxUR",
+	"autoRead": true,
+	"self": false, 
+	"maxLimit": 99,
+	"ownerList": ["996755994412@s.whatsapp.net", "996550994412@s.whatsapp.net"],
+	"apiUrl": "https://api.zeks.me",
+        "imgUrl": "https://api.zeks.me/logo.jpg",
+	"pack": "Sticker",
+	"author": "ODINOKY"
+}

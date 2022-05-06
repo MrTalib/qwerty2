@@ -1,56 +1,57 @@
 <div align="center">
-<img src="https://i.pinimg.com/736x/d5/93/d9/d593d9b5d4908a2c89b5a8a71eefbe4c.jpg" alt="YOGI" width="170" />
-
-## SELF-BOT
-
+<img alt="GitHub" src="https://img.shields.io/badge/WHATSAPP%20BOT-25D32?style=for-the-badge&logoColor=darkgreen"/>
+<br><br>
+  
+> A whatsapp bot made using adiwajshing/Baileys library
+ <p>
+  <img src ="https://img.shields.io/badge/npm-v7.20.3-green.svg" />
+  <img src="https://img.shields.io/badge/node-%3E=16.6.1-darkgreen.svg" />
+   <a href="https://github.com/justpiple/whatsapp-bot/commit-activity" target="_blank">
+    <img alt="Maintenance" src="https://img.shields.io/badge/Maintained%3F-no-red.svg" />
+  </a>
+</p>
+<a href="https://chat.whatsapp.com/EV2o7Y4C2XNDT5AAQPZjqt"><img alt="WhatsApp" src="https://img.shields.io/badge/WhatsApp%20Group-25D366?style=for-the-badge&logo=whatsapp&logoColor=white"/></a>
+ 
 </div>
 
-<p align="center">
-<a href="##"><img title="SELF-BOT" src="https://img.shields.io/static/v1?label=package&message=SELF-BOT&color=blue"></a>
-</p>
-<p align="center">
-  <a href="https://github.com/yogipw"><img title="Author" src="https://img.shields.io/badge/Author-yogipw-blue.svg?style=for-the-badge&logo=github" /></a>
-</p>
-<p align="center">
-<a href="#"><img title="mengapi" src="https://img.shields.io/static/v1?label=FREE&message=SELF-BOT&color=blue"></a>
-</p>
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/justpiple/whatsapp-bot/)
 
-# Requirements
-* [Node.js](https://nodejs.org/en/)
-* [Git](https://git-scm.com/downloads)
-* [FFmpeg](https://github.com/BtbN/FFmpeg-Builds/releases/download/autobuild-2020-12-08-13-03/ffmpeg-n4.3.1-26-gca55240b8c-win64-gpl-4.3.zip)
-* [Libwebp](https://developers.google.com/speed/webp/download)
-* Any text editor
+[![Run on Repl.it](https://repl.it/badge/github/justpiple/whatsapp-bot)](https://repl.it/github/justpiple/whatsapp-bot)
 
-# Instalasi
-## Clone Repo & Instalasi dependencies
+
+### Install ⬇️
+
 ```bash
-> git clone https://github.com/yogipw/Self-Bot
-> cd Self-Bott
-> npm install
-> node .
+> git clone https://github.com/justpiple/whatsapp-bot/
+> cd whatsapp-bot
+> npm i
 ```
-## For Termux
+### For termux users before running the above command write this command
 ```bash
-> apt update && apt upgrade
-> pkg install nodejs
-> pkg install git
-> pkg install bash
-> termux-setup-storage
-> cd /sdcard (y)
-> cp -r xeonbot $HOME
-> bash install.sh
-> npm install
-> node .
+> apt-get update
+> apt-get upgrade
+> apt-get install -y nodejs git
 ```
 
+#### Change `config.json` 
+##### Register in <b>[zeks.xyz](https://zeks.xyz)</b> to get apiKey then enter to zeksKey in `config.json`
+### Start ✅
 
-## Connect With Me
-<p align="center">
- <a href="https://wa.me/+916909137213"><img alt="WhatsApp" src="https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=black"/></a>
-</p>
+```bash
+> npm start [session name] [--options]
+```
+`options`
+ `port`
+--port [port number]
 
-# Thanks To
-* [`Baileys`](https://github.com/adiwajshing/Baileys)
-* [`Xeon`](https://github.com/DGXeon)
+after start it you need to scan the qr
+#### Session name and options is optional
+### Contact me
 
+- [TELEGRAM](https://t.me/justpiple)
+- [WHATSAPP](http://wa.me/62813309603730)
+- [GROUP CHAT WHATSAPP](https://chat.whatsapp.com/EV2o7Y4C2XNDT5AAQPZjqt)
+
+
+## 🙏 Special Thanks to
+* <a href="https://github.com/adiwajshing/Baileys"><img alt="GitHub" src="https://img.shields.io/badge/@adiwajshing/Baileys%20-%23121011.svg?style=flat-square&logo=npm&color=white"/></a>
